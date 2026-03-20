@@ -1,0 +1,46 @@
+{
+  "id": "todd.bowen@enron.com",
+  "name": "Todd Bowen",
+  "email": "todd.bowen@enron.com",
+  "community_id": 5,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00015921673245862202,
+    "pagerank": 0.00021845042945472807
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0178
+  },
+  "dead_man_switch": {
+    "id": "todd.bowen@enron.com",
+    "name": "Todd Bowen",
+    "dms_score": -0.2985,
+    "betweenness": 0.0,
+    "eigenvector": 0.000159,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "todd.bowen@enron.com",
+    "name": "Todd Bowen",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "cooper.richey@enron.com",
+      "name": "Cooper Richey",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1616,
+      "sentiment": 0.0178
+    }
+  ]
+}

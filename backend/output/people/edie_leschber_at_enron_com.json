@@ -1,0 +1,70 @@
+{
+  "id": "edie.leschber@enron.com",
+  "name": "Edie Leschber",
+  "email": "edie.leschber@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.007313965608728172,
+    "pagerank": 0.0002465454884238887
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.2035
+  },
+  "dead_man_switch": {
+    "id": "edie.leschber@enron.com",
+    "name": "Edie Leschber",
+    "dms_score": -0.2913,
+    "betweenness": 0.0,
+    "eigenvector": 0.007314,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "edie.leschber@enron.com",
+    "name": "Edie Leschber",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.2083,
+      "sentiment": 0.4444
+    },
+    {
+      "id": "thomas.martin@enron.com",
+      "name": "Thomas Martin",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1781,
+      "sentiment": 0.3083
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.132,
+      "sentiment": 0.0611
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.132,
+      "sentiment": 0.0926
+    }
+  ]
+}

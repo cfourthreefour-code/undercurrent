@@ -1,0 +1,78 @@
+{
+  "id": "doug.sewell@enron.com",
+  "name": "Doug Sewell",
+  "email": "doug.sewell@enron.com",
+  "community_id": 7,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.006872216922235859,
+    "pagerank": 0.0002533272921971507
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0838
+  },
+  "dead_man_switch": {
+    "id": "doug.sewell@enron.com",
+    "name": "Doug Sewell",
+    "dms_score": -0.2918,
+    "betweenness": 0.0,
+    "eigenvector": 0.006872,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "doug.sewell@enron.com",
+    "name": "Doug Sewell",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 39,
+      "weight": 0.3013,
+      "sentiment": 0.0974
+    },
+    {
+      "id": "lisa.gang@enron.com",
+      "name": "Lisa Gang",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2744,
+      "sentiment": 0.0511
+    },
+    {
+      "id": "joe.parks@enron.com",
+      "name": "Joe Parks",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2189,
+      "sentiment": 0.016
+    },
+    {
+      "id": "mike.carson@enron.com",
+      "name": "Mike Carson",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.2046,
+      "sentiment": 0.1208
+    },
+    {
+      "id": "mark.whitt@enron.com",
+      "name": "Mark Whitt",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1679,
+      "sentiment": 0.0243
+    }
+  ]
+}

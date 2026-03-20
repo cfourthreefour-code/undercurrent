@@ -1,0 +1,46 @@
+{
+  "id": "move-team@enron.com",
+  "name": "Move Team",
+  "email": "move-team@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00111350395417093,
+    "pagerank": 0.0002106153304581363
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": -0.2225
+  },
+  "dead_man_switch": {
+    "id": "move-team@enron.com",
+    "name": "Move Team",
+    "dms_score": -0.2975,
+    "betweenness": 0.0,
+    "eigenvector": 0.001114,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "move-team@enron.com",
+    "name": "Move Team",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.0619,
+      "sentiment": -0.2225
+    }
+  ]
+}

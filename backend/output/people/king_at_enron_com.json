@@ -1,0 +1,46 @@
+{
+  "id": "king@enron.com",
+  "name": "King",
+  "email": "king@enron.com",
+  "community_id": 1,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00040293197106611097,
+    "pagerank": 0.00021750777440013804
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": -0.0228
+  },
+  "dead_man_switch": {
+    "id": "king@enron.com",
+    "name": "King",
+    "dms_score": -0.2982,
+    "betweenness": 0.0,
+    "eigenvector": 0.000403,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "king@enron.com",
+    "name": "King",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kim.ward@enron.com",
+      "name": "Kim Ward",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1109,
+      "sentiment": -0.0228
+    }
+  ]
+}

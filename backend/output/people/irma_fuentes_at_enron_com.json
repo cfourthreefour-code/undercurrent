@@ -1,0 +1,46 @@
+{
+  "id": "irma.fuentes@enron.com",
+  "name": "Irma Fuentes",
+  "email": "irma.fuentes@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.006068117154713738,
+    "pagerank": 0.00021053428026889982
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1439
+  },
+  "dead_man_switch": {
+    "id": "irma.fuentes@enron.com",
+    "name": "Irma Fuentes",
+    "dms_score": -0.2926,
+    "betweenness": 0.0,
+    "eigenvector": 0.006068,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "irma.fuentes@enron.com",
+    "name": "Irma Fuentes",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1841,
+      "sentiment": 0.1439
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "charles.jacobs@enron.com",
+  "name": "Charles Jacobs",
+  "email": "charles.jacobs@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00960328579570347,
+    "pagerank": 0.0002138813435331165
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0826
+  },
+  "dead_man_switch": {
+    "id": "charles.jacobs@enron.com",
+    "name": "Charles Jacobs",
+    "dms_score": -0.289,
+    "betweenness": 0.0,
+    "eigenvector": 0.009603,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "charles.jacobs@enron.com",
+    "name": "Charles Jacobs",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1191,
+      "sentiment": 0.0251
+    },
+    {
+      "id": "phillip.love@enron.com",
+      "name": "Phillip Love",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1144,
+      "sentiment": 0.0098
+    }
+  ]
+}

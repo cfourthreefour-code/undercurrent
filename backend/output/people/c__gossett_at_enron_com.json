@@ -1,0 +1,134 @@
+{
+  "id": "c..gossett@enron.com",
+  "name": "C Gossett",
+  "email": "c..gossett@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.002635046113306983,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.002635046113306983,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.03365252776218127,
+    "pagerank": 0.0002915808569651585
+  },
+  "sentiment": {
+    "avg_sent": 0.2126,
+    "avg_received": 0.1178
+  },
+  "dead_man_switch": {
+    "id": "c..gossett@enron.com",
+    "name": "C Gossett",
+    "dms_score": -0.265,
+    "betweenness": 0.0,
+    "eigenvector": 0.033653,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "c..gossett@enron.com",
+    "name": "C Gossett",
+    "waste_score": 0.0,
+    "overproduction": 0.0,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "w..white@enron.com",
+      "name": "W White",
+      "direction": "incoming",
+      "email_count": 17,
+      "weight": 0.225,
+      "sentiment": 0.193
+    },
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 58,
+      "weight": 0.2196,
+      "sentiment": 0.1009
+    },
+    {
+      "id": "kam.keiser@enron.com",
+      "name": "Kam Keiser",
+      "direction": "incoming",
+      "email_count": 44,
+      "weight": 0.219,
+      "sentiment": 0.1054
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.2159,
+      "sentiment": 0.1949
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2152,
+      "sentiment": 0.1563
+    },
+    {
+      "id": "c..giron@enron.com",
+      "name": "C Giron",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.2061,
+      "sentiment": 0.103
+    },
+    {
+      "id": "a..martin@enron.com",
+      "name": "A Martin",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1909,
+      "sentiment": 0.0978
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1846,
+      "sentiment": 0.0974
+    },
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1842,
+      "sentiment": 0.1144
+    },
+    {
+      "id": "errol.mclaughlin@enron.com",
+      "name": "Errol Mclaughlin",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1822,
+      "sentiment": 0.1392
+    },
+    {
+      "id": "k..allen@enron.com",
+      "name": "K Allen",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1772,
+      "sentiment": 0.0762
+    },
+    {
+      "id": "geoff.storey@enron.com",
+      "name": "Geoff Storey",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1554,
+      "sentiment": 0.0195
+    }
+  ]
+}

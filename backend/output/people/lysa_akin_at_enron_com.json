@@ -1,0 +1,62 @@
+{
+  "id": "lysa.akin@enron.com",
+  "name": "Lysa Akin",
+  "email": "lysa.akin@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00742718611430875,
+    "pagerank": 0.00021537685769237072
+  },
+  "sentiment": {
+    "avg_sent": -0.0031,
+    "avg_received": 0.0543
+  },
+  "dead_man_switch": {
+    "id": "lysa.akin@enron.com",
+    "name": "Lysa Akin",
+    "dms_score": -0.2912,
+    "betweenness": 0.0,
+    "eigenvector": 0.007427,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "lysa.akin@enron.com",
+    "name": "Lysa Akin",
+    "waste_score": 0.7,
+    "overproduction": 0.04,
+    "broadcast_ratio": 0.018,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 51,
+      "weight": 0.1414,
+      "sentiment": 0.0568
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 26,
+      "weight": 0.1322,
+      "sentiment": 0.0457
+    },
+    {
+      "id": "twanda.sweet@enron.com",
+      "name": "Twanda Sweet",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1203,
+      "sentiment": 0.0646
+    }
+  ]
+}

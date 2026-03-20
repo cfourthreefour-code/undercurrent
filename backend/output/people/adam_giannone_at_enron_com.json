@@ -1,0 +1,46 @@
+{
+  "id": "adam.giannone@enron.com",
+  "name": "Adam Giannone",
+  "email": "adam.giannone@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 3.2478309295761106e-06,
+    "pagerank": 0.00026812439646902114
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0917
+  },
+  "dead_man_switch": {
+    "id": "adam.giannone@enron.com",
+    "name": "Adam Giannone",
+    "dms_score": -0.2986,
+    "betweenness": 0.0,
+    "eigenvector": 3e-06,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "adam.giannone@enron.com",
+    "name": "Adam Giannone",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "e.taylor@enron.com",
+      "name": "E Taylor",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1745,
+      "sentiment": 0.0917
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "elizabeth.soto@enron.com",
+  "name": "Elizabeth Soto",
+  "email": "elizabeth.soto@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.009109474917975929,
+    "pagerank": 0.0002174400195101844
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1156
+  },
+  "dead_man_switch": {
+    "id": "elizabeth.soto@enron.com",
+    "name": "Elizabeth Soto",
+    "dms_score": -0.2895,
+    "betweenness": 0.0,
+    "eigenvector": 0.009109,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "elizabeth.soto@enron.com",
+    "name": "Elizabeth Soto",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "errol.mclaughlin@enron.com",
+      "name": "Errol Mclaughlin",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.181,
+      "sentiment": 0.1289
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "judy.hernandez@enron.com",
+      "name": "Judy Hernandez",
+      "direction": "incoming",
+      "email_count": 20,
+      "weight": 0.1287,
+      "sentiment": 0.1051
+    }
+  ]
+}

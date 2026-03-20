@@ -1,0 +1,54 @@
+{
+  "id": "chad.starnes@enron.com",
+  "name": "Chad Starnes",
+  "email": "chad.starnes@enron.com",
+  "community_id": 15,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0001646393534650824,
+    "pagerank": 0.0002201226931506432
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": -0.0171
+  },
+  "dead_man_switch": {
+    "id": "chad.starnes@enron.com",
+    "name": "Chad Starnes",
+    "dms_score": -0.2985,
+    "betweenness": 0.0,
+    "eigenvector": 0.000165,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "chad.starnes@enron.com",
+    "name": "Chad Starnes",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "juan.hernandez@enron.com",
+      "name": "Juan Hernandez",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.124,
+      "sentiment": 0.017
+    },
+    {
+      "id": "mike.carson@enron.com",
+      "name": "Mike Carson",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.0863,
+      "sentiment": -0.0938
+    }
+  ]
+}

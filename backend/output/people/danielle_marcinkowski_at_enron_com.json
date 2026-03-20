@@ -1,0 +1,54 @@
+{
+  "id": "danielle.marcinkowski@enron.com",
+  "name": "Danielle Marcinkowski",
+  "email": "danielle.marcinkowski@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0022163590732906958,
+    "pagerank": 0.00022846066995557433
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1339
+  },
+  "dead_man_switch": {
+    "id": "danielle.marcinkowski@enron.com",
+    "name": "Danielle Marcinkowski",
+    "dms_score": -0.2964,
+    "betweenness": 0.0,
+    "eigenvector": 0.002216,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "danielle.marcinkowski@enron.com",
+    "name": "Danielle Marcinkowski",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "j..sturm@enron.com",
+      "name": "J Sturm",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.2195,
+      "sentiment": 0.165
+    },
+    {
+      "id": "john.zufferli@enron.com",
+      "name": "John Zufferli",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1984,
+      "sentiment": 0.0826
+    }
+  ]
+}

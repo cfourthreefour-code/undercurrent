@@ -1,0 +1,70 @@
+{
+  "id": "michael.olsen@enron.com",
+  "name": "Michael Olsen",
+  "email": "michael.olsen@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0036095211524708754,
+    "pagerank": 0.00023229445340380918
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0998
+  },
+  "dead_man_switch": {
+    "id": "michael.olsen@enron.com",
+    "name": "Michael Olsen",
+    "dms_score": -0.295,
+    "betweenness": 0.0,
+    "eigenvector": 0.00361,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "michael.olsen@enron.com",
+    "name": "Michael Olsen",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "j..farmer@enron.com",
+      "name": "J Farmer",
+      "direction": "incoming",
+      "email_count": 28,
+      "weight": 0.2051,
+      "sentiment": 0.1174
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1888,
+      "sentiment": 0.0326
+    },
+    {
+      "id": "a..martin@enron.com",
+      "name": "A Martin",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.183,
+      "sentiment": 0.0028
+    },
+    {
+      "id": "daren.farmer@enron.com",
+      "name": "Daren Farmer",
+      "direction": "incoming",
+      "email_count": 36,
+      "weight": 0.1463,
+      "sentiment": 0.0976
+    }
+  ]
+}

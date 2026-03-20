@@ -1,0 +1,54 @@
+{
+  "id": "oscar.dalton@enron.com",
+  "name": "Oscar Dalton",
+  "email": "oscar.dalton@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0023207889837021504,
+    "pagerank": 0.00022050680077767698
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1395
+  },
+  "dead_man_switch": {
+    "id": "oscar.dalton@enron.com",
+    "name": "Oscar Dalton",
+    "dms_score": -0.2963,
+    "betweenness": 0.0,
+    "eigenvector": 0.002321,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "oscar.dalton@enron.com",
+    "name": "Oscar Dalton",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kevin.presto@enron.com",
+      "name": "Kevin Presto",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1914,
+      "sentiment": 0.3556
+    },
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "incoming",
+      "email_count": 22,
+      "weight": 0.1356,
+      "sentiment": 0.1319
+    }
+  ]
+}

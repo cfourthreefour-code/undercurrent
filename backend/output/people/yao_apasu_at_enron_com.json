@@ -1,0 +1,62 @@
+{
+  "id": "yao.apasu@enron.com",
+  "name": "Yao Apasu",
+  "email": "yao.apasu@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.010702758971327336,
+    "pagerank": 0.00021254310605018262
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.089
+  },
+  "dead_man_switch": {
+    "id": "yao.apasu@enron.com",
+    "name": "Yao Apasu",
+    "dms_score": -0.2879,
+    "betweenness": 0.0,
+    "eigenvector": 0.010703,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "yao.apasu@enron.com",
+    "name": "Yao Apasu",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1457,
+      "sentiment": 0.165
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.135,
+      "sentiment": 0.0741
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 35,
+      "weight": 0.1264,
+      "sentiment": 0.075
+    }
+  ]
+}

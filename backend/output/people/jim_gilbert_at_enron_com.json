@@ -1,0 +1,62 @@
+{
+  "id": "jim.gilbert@enron.com",
+  "name": "Jim Gilbert",
+  "email": "jim.gilbert@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.004476509592346154,
+    "pagerank": 0.00021432271630036058
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1066
+  },
+  "dead_man_switch": {
+    "id": "jim.gilbert@enron.com",
+    "name": "Jim Gilbert",
+    "dms_score": -0.2941,
+    "betweenness": 0.0,
+    "eigenvector": 0.004477,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jim.gilbert@enron.com",
+    "name": "Jim Gilbert",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.1509,
+      "sentiment": 0.1462
+    },
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1434,
+      "sentiment": 0.1885
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1152,
+      "sentiment": 0.0067
+    }
+  ]
+}

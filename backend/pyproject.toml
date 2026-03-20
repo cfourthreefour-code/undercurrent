@@ -1,0 +1,36 @@
+[project]
+name = "undercurrent-backend"
+version = "0.1.0"
+description = "Undercurrent — AI-Powered Organizational Intelligence Platform"
+requires-python = ">=3.12"
+dependencies = [
+    "networkx>=3.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "textblob>=0.18.0",
+    "chromadb>=0.5.0",
+    "openai>=1.50.0",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0.0",
+    "python-louvain>=0.16",  # community detection for networkx
+    "numpy>=1.26.0",
+    "scipy>=1.12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24.0",
+    "httpx>=0.27.0",  # for FastAPI test client
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

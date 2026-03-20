@@ -1,0 +1,86 @@
+{
+  "id": "mark.fisher@enron.com",
+  "name": "Mark Fisher",
+  "email": "mark.fisher@enron.com",
+  "community_id": 12,
+  "metrics": {
+    "in_degree_centrality": 0.0,
+    "out_degree_centrality": 0.0013175230566534915,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 5.299340635952103e-16,
+    "pagerank": 0.00020989089455738852
+  },
+  "sentiment": {
+    "avg_sent": 0.0353,
+    "avg_received": 0.2
+  },
+  "dead_man_switch": {
+    "id": "mark.fisher@enron.com",
+    "name": "Mark Fisher",
+    "dms_score": -0.2987,
+    "betweenness": 0.0,
+    "eigenvector": 0.0,
+    "redundancy": 0.9956,
+    "impact_pct": 0.4
+  },
+  "waste": {
+    "id": "mark.fisher@enron.com",
+    "name": "Mark Fisher",
+    "waste_score": 26.7,
+    "overproduction": 1.65,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.087,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "jeff.maurer@enron.com",
+      "name": "Jeff Maurer",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.3356,
+      "sentiment": 0.2082
+    },
+    {
+      "id": "denise.williams@enron.com",
+      "name": "Denise Williams",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.3215,
+      "sentiment": 0.1376
+    },
+    {
+      "id": "jeff.duff@enron.com",
+      "name": "Jeff Duff",
+      "direction": "outgoing",
+      "email_count": 40,
+      "weight": 0.3172,
+      "sentiment": 0.0243
+    },
+    {
+      "id": "hollis.kimbrough@enron.com",
+      "name": "Hollis Kimbrough",
+      "direction": "outgoing",
+      "email_count": 32,
+      "weight": 0.3161,
+      "sentiment": 0.0458
+    },
+    {
+      "id": "tom.nemila@enron.com",
+      "name": "Tom Nemila",
+      "direction": "outgoing",
+      "email_count": 22,
+      "weight": 0.3105,
+      "sentiment": 0.0186
+    },
+    {
+      "id": "mark.walker@enron.com",
+      "name": "Mark Walker",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.2963,
+      "sentiment": -0.0155
+    }
+  ]
+}

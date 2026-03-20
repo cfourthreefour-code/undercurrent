@@ -1,0 +1,46 @@
+{
+  "id": "nbondare@enron.com",
+  "name": "Nbondare",
+  "email": "nbondare@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0003826358570046332,
+    "pagerank": 0.00022243903439342138
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1526
+  },
+  "dead_man_switch": {
+    "id": "nbondare@enron.com",
+    "name": "Nbondare",
+    "dms_score": -0.2982,
+    "betweenness": 0.0,
+    "eigenvector": 0.000383,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "nbondare@enron.com",
+    "name": "Nbondare",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "vladi.pimenov@enron.com",
+      "name": "Vladi Pimenov",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1721,
+      "sentiment": 0.1526
+    }
+  ]
+}

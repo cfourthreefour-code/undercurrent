@@ -1,0 +1,46 @@
+{
+  "id": "dave.kristich@enron.com",
+  "name": "Dave Kristich",
+  "email": "dave.kristich@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00043755783631010975,
+    "pagerank": 0.00021205191385888423
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0425
+  },
+  "dead_man_switch": {
+    "id": "dave.kristich@enron.com",
+    "name": "Dave Kristich",
+    "dms_score": -0.2982,
+    "betweenness": 0.0,
+    "eigenvector": 0.000438,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "dave.kristich@enron.com",
+    "name": "Dave Kristich",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "incoming",
+      "email_count": 38,
+      "weight": 0.1263,
+      "sentiment": 0.0425
+    }
+  ]
+}

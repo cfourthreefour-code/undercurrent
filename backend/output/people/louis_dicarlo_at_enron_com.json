@@ -1,0 +1,78 @@
+{
+  "id": "louis.dicarlo@enron.com",
+  "name": "Louis Dicarlo",
+  "email": "louis.dicarlo@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.010334852911130779,
+    "pagerank": 0.00023548196108412911
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": -0.0698
+  },
+  "dead_man_switch": {
+    "id": "louis.dicarlo@enron.com",
+    "name": "Louis Dicarlo",
+    "dms_score": -0.2883,
+    "betweenness": 0.0,
+    "eigenvector": 0.010335,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "louis.dicarlo@enron.com",
+    "name": "Louis Dicarlo",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 20,
+      "weight": 0.284,
+      "sentiment": 0.032
+    },
+    {
+      "id": "joe.parks@enron.com",
+      "name": "Joe Parks",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2431,
+      "sentiment": 0.156
+    },
+    {
+      "id": "charles.weldon@enron.com",
+      "name": "Charles Weldon",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1759,
+      "sentiment": 0.2679
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 29,
+      "weight": 0.1696,
+      "sentiment": -0.2319
+    },
+    {
+      "id": "v.weldon@enron.com",
+      "name": "V Weldon",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1125,
+      "sentiment": 0.0
+    }
+  ]
+}

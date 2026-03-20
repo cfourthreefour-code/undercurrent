@@ -1,0 +1,70 @@
+{
+  "id": "paul.broderick@enron.com",
+  "name": "Paul Broderick",
+  "email": "paul.broderick@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0017266499839417992,
+    "pagerank": 0.00031026898138938105
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0137
+  },
+  "dead_man_switch": {
+    "id": "paul.broderick@enron.com",
+    "name": "Paul Broderick",
+    "dms_score": -0.2969,
+    "betweenness": 0.0,
+    "eigenvector": 0.001727,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "paul.broderick@enron.com",
+    "name": "Paul Broderick",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.dorland@enron.com",
+      "name": "Chris Dorland",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1275,
+      "sentiment": 0.0917
+    },
+    {
+      "id": "robert.benson@enron.com",
+      "name": "Robert Benson",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1204,
+      "sentiment": -0.0039
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1159,
+      "sentiment": 0.0309
+    },
+    {
+      "id": "mike.carson@enron.com",
+      "name": "Mike Carson",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.0712,
+      "sentiment": -0.1771
+    }
+  ]
+}

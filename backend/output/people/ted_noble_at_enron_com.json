@@ -1,0 +1,46 @@
+{
+  "id": "ted.noble@enron.com",
+  "name": "Ted Noble",
+  "email": "ted.noble@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0012598071849549283,
+    "pagerank": 0.0002118827007833222
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1399
+  },
+  "dead_man_switch": {
+    "id": "ted.noble@enron.com",
+    "name": "Ted Noble",
+    "dms_score": -0.2974,
+    "betweenness": 0.0,
+    "eigenvector": 0.00126,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "ted.noble@enron.com",
+    "name": "Ted Noble",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "susan.scott@enron.com",
+      "name": "Susan Scott",
+      "direction": "incoming",
+      "email_count": 74,
+      "weight": 0.167,
+      "sentiment": 0.1375
+    }
+  ]
+}

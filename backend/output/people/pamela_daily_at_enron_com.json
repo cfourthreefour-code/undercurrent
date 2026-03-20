@@ -1,0 +1,62 @@
+{
+  "id": "pamela.daily@enron.com",
+  "name": "Pamela Daily",
+  "email": "pamela.daily@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0023317770051135664,
+    "pagerank": 0.0002242075583470324
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0851
+  },
+  "dead_man_switch": {
+    "id": "pamela.daily@enron.com",
+    "name": "Pamela Daily",
+    "dms_score": -0.2963,
+    "betweenness": 0.0,
+    "eigenvector": 0.002332,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "pamela.daily@enron.com",
+    "name": "Pamela Daily",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "shelley.corman@enron.com",
+      "name": "Shelley Corman",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.216,
+      "sentiment": 0.1314
+    },
+    {
+      "id": "rod.hayslett@enron.com",
+      "name": "Rod Hayslett",
+      "direction": "incoming",
+      "email_count": 31,
+      "weight": 0.1808,
+      "sentiment": 0.0705
+    },
+    {
+      "id": "danny.mccarty@enron.com",
+      "name": "Danny Mccarty",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1681,
+      "sentiment": 0.0929
+    }
+  ]
+}

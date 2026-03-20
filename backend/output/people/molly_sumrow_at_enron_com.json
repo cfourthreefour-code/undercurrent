@@ -1,0 +1,54 @@
+{
+  "id": "molly.sumrow@enron.com",
+  "name": "Molly Sumrow",
+  "email": "molly.sumrow@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0098191519283589,
+    "pagerank": 0.00021082670508412913
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0456
+  },
+  "dead_man_switch": {
+    "id": "molly.sumrow@enron.com",
+    "name": "Molly Sumrow",
+    "dms_score": -0.2888,
+    "betweenness": 0.0,
+    "eigenvector": 0.009819,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "molly.sumrow@enron.com",
+    "name": "Molly Sumrow",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 37,
+      "weight": 0.1161,
+      "sentiment": 0.0014
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "marvia.jefferson@enron.com",
+  "name": "Marvia Jefferson",
+  "email": "marvia.jefferson@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.009302066170047465,
+    "pagerank": 0.00021236501853950728
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1693
+  },
+  "dead_man_switch": {
+    "id": "marvia.jefferson@enron.com",
+    "name": "Marvia Jefferson",
+    "dms_score": -0.2893,
+    "betweenness": 0.0,
+    "eigenvector": 0.009302,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "marvia.jefferson@enron.com",
+    "name": "Marvia Jefferson",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1629,
+      "sentiment": 0.2412
+    },
+    {
+      "id": "patti.thompson@enron.com",
+      "name": "Patti Thompson",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1344,
+      "sentiment": 0.0935
+    }
+  ]
+}

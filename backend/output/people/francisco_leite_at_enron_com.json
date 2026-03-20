@@ -1,0 +1,78 @@
+{
+  "id": "francisco.leite@enron.com",
+  "name": "Francisco Leite",
+  "email": "francisco.leite@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.01657158390501961,
+    "pagerank": 0.00021677056750158191
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0961
+  },
+  "dead_man_switch": {
+    "id": "francisco.leite@enron.com",
+    "name": "Francisco Leite",
+    "dms_score": -0.2821,
+    "betweenness": 0.0,
+    "eigenvector": 0.016572,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "francisco.leite@enron.com",
+    "name": "Francisco Leite",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1629,
+      "sentiment": 0.1976
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 29,
+      "weight": 0.1458,
+      "sentiment": 0.0756
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.1426,
+      "sentiment": 0.097
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.1403,
+      "sentiment": 0.0918
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1283,
+      "sentiment": 0.0957
+    }
+  ]
+}

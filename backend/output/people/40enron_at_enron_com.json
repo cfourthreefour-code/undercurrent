@@ -1,0 +1,54 @@
+{
+  "id": "40enron@enron.com",
+  "name": "40enron",
+  "email": "40enron@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0018239518401512362,
+    "pagerank": 0.00022285720741685314
+  },
+  "sentiment": {
+    "avg_sent": 0.0694,
+    "avg_received": 0.1806
+  },
+  "dead_man_switch": {
+    "id": "40enron@enron.com",
+    "name": "40enron",
+    "dms_score": -0.2968,
+    "betweenness": 0.0,
+    "eigenvector": 0.001824,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "40enron@enron.com",
+    "name": "40enron",
+    "waste_score": 0.0,
+    "overproduction": 0.0,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jim.schwieger@enron.com",
+      "name": "Jim Schwieger",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1822,
+      "sentiment": 0.3231
+    },
+    {
+      "id": ".ward@enron.com",
+      "name": "Ward",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1552,
+      "sentiment": 0.1231
+    }
+  ]
+}

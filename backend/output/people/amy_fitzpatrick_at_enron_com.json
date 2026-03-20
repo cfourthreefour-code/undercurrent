@@ -1,0 +1,158 @@
+{
+  "id": "amy.fitzpatrick@enron.com",
+  "name": "Amy Fitzpatrick",
+  "email": "amy.fitzpatrick@enron.com",
+  "community_id": 7,
+  "metrics": {
+    "in_degree_centrality": 0.003293807641633729,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.003293807641633729,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.024402054012017796,
+    "pagerank": 0.0003069838879309004
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1437
+  },
+  "dead_man_switch": {
+    "id": "amy.fitzpatrick@enron.com",
+    "name": "Amy Fitzpatrick",
+    "dms_score": -0.2743,
+    "betweenness": 0.0,
+    "eigenvector": 0.024402,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "amy.fitzpatrick@enron.com",
+    "name": "Amy Fitzpatrick",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "cara.semperger@enron.com",
+      "name": "Cara Semperger",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.2296,
+      "sentiment": 0.2113
+    },
+    {
+      "id": "bill.williams@enron.com",
+      "name": "Bill Williams",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.2164,
+      "sentiment": 0.152
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 19,
+      "weight": 0.2141,
+      "sentiment": 0.1217
+    },
+    {
+      "id": "holden.salisbury@enron.com",
+      "name": "Holden Salisbury",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.214,
+      "sentiment": 0.1391
+    },
+    {
+      "id": "m..forney@enron.com",
+      "name": "M Forney",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.2099,
+      "sentiment": 0.2162
+    },
+    {
+      "id": "diana.scholtes@enron.com",
+      "name": "Diana Scholtes",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.2064,
+      "sentiment": 0.1059
+    },
+    {
+      "id": "m..presto@enron.com",
+      "name": "M Presto",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.205,
+      "sentiment": 0.0955
+    },
+    {
+      "id": "w..white@enron.com",
+      "name": "W White",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2027,
+      "sentiment": 0.1198
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.2013,
+      "sentiment": 0.08
+    },
+    {
+      "id": "michelle.cash@enron.com",
+      "name": "Michelle Cash",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1832,
+      "sentiment": 0.0697
+    },
+    {
+      "id": "mike.swerzbin@enron.com",
+      "name": "Mike Swerzbin",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1764,
+      "sentiment": 0.2726
+    },
+    {
+      "id": "sean.crandall@enron.com",
+      "name": "Sean Crandall",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1627,
+      "sentiment": 0.1346
+    },
+    {
+      "id": "mark.guzman@enron.com",
+      "name": "Mark Guzman",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1615,
+      "sentiment": 0.2136
+    },
+    {
+      "id": "kate.symes@enron.com",
+      "name": "Kate Symes",
+      "direction": "incoming",
+      "email_count": 24,
+      "weight": 0.1594,
+      "sentiment": 0.1718
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1424,
+      "sentiment": 0.1346
+    }
+  ]
+}

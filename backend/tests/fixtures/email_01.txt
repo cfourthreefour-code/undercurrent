@@ -1,0 +1,23 @@
+Message-ID: <test001@enron.com>
+Date: Mon, 14 May 2001 16:39:00 -0700 (PDT)
+From: john.smith@enron.com
+To: jane.doe@enron.com, bob.jones@enron.com
+Subject: Q3 Budget Review
+Cc: alice.wong@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hi Jane and Bob,
+
+Please review the Q3 budget numbers I've attached. We need to finalize these by Friday.
+
+Key points:
+- Revenue target is $12M
+- Operating costs need to be reduced by 15%
+- Headcount freeze remains in effect
+
+Let me know your thoughts.
+
+Best,
+John

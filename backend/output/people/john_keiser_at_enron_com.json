@@ -1,0 +1,62 @@
+{
+  "id": "john.keiser@enron.com",
+  "name": "John Keiser",
+  "email": "john.keiser@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0029029365852860866,
+    "pagerank": 0.00021749823035480513
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0776
+  },
+  "dead_man_switch": {
+    "id": "john.keiser@enron.com",
+    "name": "John Keiser",
+    "dms_score": -0.2957,
+    "betweenness": 0.0,
+    "eigenvector": 0.002903,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "john.keiser@enron.com",
+    "name": "John Keiser",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tracy.geaccone@enron.com",
+      "name": "Tracy Geaccone",
+      "direction": "incoming",
+      "email_count": 48,
+      "weight": 0.1877,
+      "sentiment": 0.0786
+    },
+    {
+      "id": "rod.hayslett@enron.com",
+      "name": "Rod Hayslett",
+      "direction": "incoming",
+      "email_count": 28,
+      "weight": 0.182,
+      "sentiment": 0.0839
+    },
+    {
+      "id": "kam.keiser@enron.com",
+      "name": "Kam Keiser",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1791,
+      "sentiment": -0.0333
+    }
+  ]
+}

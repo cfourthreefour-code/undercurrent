@@ -1,0 +1,86 @@
+{
+  "id": "susan.mara@enron.com",
+  "name": "Susan Mara",
+  "email": "susan.mara@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.02838347960961576,
+    "pagerank": 0.00025674801103963297
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1198
+  },
+  "dead_man_switch": {
+    "id": "susan.mara@enron.com",
+    "name": "Susan Mara",
+    "dms_score": -0.2703,
+    "betweenness": 0.0,
+    "eigenvector": 0.028383,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "susan.mara@enron.com",
+    "name": "Susan Mara",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 1087,
+      "weight": 0.52,
+      "sentiment": 0.1303
+    },
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 103,
+      "weight": 0.2008,
+      "sentiment": 0.0697
+    },
+    {
+      "id": "maureen.mcvicker@enron.com",
+      "name": "Maureen Mcvicker",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1626,
+      "sentiment": 0.168
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 51,
+      "weight": 0.1595,
+      "sentiment": 0.0871
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 70,
+      "weight": 0.1452,
+      "sentiment": 0.0464
+    },
+    {
+      "id": "robert.badeer@enron.com",
+      "name": "Robert Badeer",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1248,
+      "sentiment": 0.1
+    }
+  ]
+}

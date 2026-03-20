@@ -1,0 +1,62 @@
+{
+  "id": "nella.cappelletto@enron.com",
+  "name": "Nella Cappelletto",
+  "email": "nella.cappelletto@enron.com",
+  "community_id": 5,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.006961441167879787,
+    "pagerank": 0.00022061102032440905
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1114
+  },
+  "dead_man_switch": {
+    "id": "nella.cappelletto@enron.com",
+    "name": "Nella Cappelletto",
+    "dms_score": -0.2917,
+    "betweenness": 0.0,
+    "eigenvector": 0.006961,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "nella.cappelletto@enron.com",
+    "name": "Nella Cappelletto",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "john.zufferli@enron.com",
+      "name": "John Zufferli",
+      "direction": "incoming",
+      "email_count": 15,
+      "weight": 0.2076,
+      "sentiment": 0.1539
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1269,
+      "sentiment": 0.0903
+    },
+    {
+      "id": "twanda.sweet@enron.com",
+      "name": "Twanda Sweet",
+      "direction": "incoming",
+      "email_count": 20,
+      "weight": 0.1219,
+      "sentiment": 0.0479
+    }
+  ]
+}

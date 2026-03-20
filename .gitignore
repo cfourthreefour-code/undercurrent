@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+.venv/
+venv/
+env/
+
+# uv
+.python-version
+
+# Node
+node_modules/
+.next/
+out/
+.turbo/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Data (large raw files)
+data/maildir/
+data/enron_mail_20150507.tar.gz
+
+# ChromaDB
+chroma_data/
+backend/chroma_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Misc
+*.log
+*.pid
+
+# Claude
+.claude/
+
+# Reference materials (not part of project)
+ideas_instructions/
+framework-docs/

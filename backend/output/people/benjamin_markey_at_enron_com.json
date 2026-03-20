@@ -1,0 +1,62 @@
+{
+  "id": "benjamin.markey@enron.com",
+  "name": "Benjamin Markey",
+  "email": "benjamin.markey@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0025499412379351256,
+    "pagerank": 0.00021748197183022483
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0334
+  },
+  "dead_man_switch": {
+    "id": "benjamin.markey@enron.com",
+    "name": "Benjamin Markey",
+    "dms_score": -0.2961,
+    "betweenness": 0.0,
+    "eigenvector": 0.00255,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "benjamin.markey@enron.com",
+    "name": "Benjamin Markey",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "susan.scott@enron.com",
+      "name": "Susan Scott",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1138,
+      "sentiment": 0.053
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1059,
+      "sentiment": -0.0137
+    },
+    {
+      "id": "hunter.shively@enron.com",
+      "name": "Hunter Shively",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1043,
+      "sentiment": 0.0
+    }
+  ]
+}

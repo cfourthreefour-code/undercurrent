@@ -1,0 +1,54 @@
+{
+  "id": "bruce.harris@enron.com",
+  "name": "Bruce Harris",
+  "email": "bruce.harris@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.006334778140622251,
+    "pagerank": 0.00021106775176460448
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0388
+  },
+  "dead_man_switch": {
+    "id": "bruce.harris@enron.com",
+    "name": "Bruce Harris",
+    "dms_score": -0.2923,
+    "betweenness": 0.0,
+    "eigenvector": 0.006335,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "bruce.harris@enron.com",
+    "name": "Bruce Harris",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1113,
+      "sentiment": 0.0283
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1075,
+      "sentiment": -0.0063
+    }
+  ]
+}

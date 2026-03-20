@@ -1,0 +1,78 @@
+{
+  "id": "zachary.mccarroll@enron.com",
+  "name": "Zachary Mccarroll",
+  "email": "zachary.mccarroll@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.007082864732163486,
+    "pagerank": 0.00025996898460216864
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1141
+  },
+  "dead_man_switch": {
+    "id": "zachary.mccarroll@enron.com",
+    "name": "Zachary Mccarroll",
+    "dms_score": -0.2915,
+    "betweenness": 0.0,
+    "eigenvector": 0.007083,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "zachary.mccarroll@enron.com",
+    "name": "Zachary Mccarroll",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kam.keiser@enron.com",
+      "name": "Kam Keiser",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1996,
+      "sentiment": 0.1427
+    },
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1957,
+      "sentiment": 0.1127
+    },
+    {
+      "id": "mark.mcconnell@enron.com",
+      "name": "Mark Mcconnell",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1875,
+      "sentiment": 0.1425
+    },
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.173,
+      "sentiment": 0.0718
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1297,
+      "sentiment": 0.0827
+    }
+  ]
+}

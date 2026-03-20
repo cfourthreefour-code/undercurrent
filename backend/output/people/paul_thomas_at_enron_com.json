@@ -1,0 +1,54 @@
+{
+  "id": "paul.thomas@enron.com",
+  "name": "Paul Thomas",
+  "email": "paul.thomas@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.00021958717610891525,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 5.256973906407152e-06,
+    "eigenvector_centrality": 0.0006021902638888553,
+    "pagerank": 0.00021174124878725137
+  },
+  "sentiment": {
+    "avg_sent": 0.0558,
+    "avg_received": -0.0212
+  },
+  "dead_man_switch": {
+    "id": "paul.thomas@enron.com",
+    "name": "Paul Thomas",
+    "dms_score": -0.298,
+    "betweenness": 0.0,
+    "eigenvector": 0.000602,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "paul.thomas@enron.com",
+    "name": "Paul Thomas",
+    "waste_score": 20.7,
+    "overproduction": 0.22,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "rika.imai@enron.com",
+      "name": "Rika Imai",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1394,
+      "sentiment": 0.0929
+    },
+    {
+      "id": "chris.dorland@enron.com",
+      "name": "Chris Dorland",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.0998,
+      "sentiment": -0.042
+    }
+  ]
+}

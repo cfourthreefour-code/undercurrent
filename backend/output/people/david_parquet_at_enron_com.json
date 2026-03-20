@@ -1,0 +1,110 @@
+{
+  "id": "david.parquet@enron.com",
+  "name": "David Parquet",
+  "email": "david.parquet@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.001976284584980237,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.001976284584980237,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.025596360059123965,
+    "pagerank": 0.00025216691799286105
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0989
+  },
+  "dead_man_switch": {
+    "id": "david.parquet@enron.com",
+    "name": "David Parquet",
+    "dms_score": -0.2731,
+    "betweenness": 0.0,
+    "eigenvector": 0.025596,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "david.parquet@enron.com",
+    "name": "David Parquet",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 96,
+      "weight": 0.2113,
+      "sentiment": 0.1095
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.168,
+      "sentiment": 0.1104
+    },
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1364,
+      "sentiment": 0.0858
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1333,
+      "sentiment": 0.0674
+    },
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1307,
+      "sentiment": 0.1154
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 20,
+      "weight": 0.1305,
+      "sentiment": 0.0823
+    },
+    {
+      "id": "maureen.mcvicker@enron.com",
+      "name": "Maureen Mcvicker",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1193,
+      "sentiment": 0.0583
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1185,
+      "sentiment": 0.0575
+    },
+    {
+      "id": "robert.badeer@enron.com",
+      "name": "Robert Badeer",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1067,
+      "sentiment": 0.0093
+    }
+  ]
+}

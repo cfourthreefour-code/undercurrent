@@ -1,0 +1,46 @@
+{
+  "id": "bevin.hunter@enron.com",
+  "name": "Bevin Hunter",
+  "email": "bevin.hunter@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.000741315880858477,
+    "pagerank": 0.0002120383654358988
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1031
+  },
+  "dead_man_switch": {
+    "id": "bevin.hunter@enron.com",
+    "name": "Bevin Hunter",
+    "dms_score": -0.2979,
+    "betweenness": 0.0,
+    "eigenvector": 0.000741,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "bevin.hunter@enron.com",
+    "name": "Bevin Hunter",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "matthew.lenhart@enron.com",
+      "name": "Matthew Lenhart",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1388,
+      "sentiment": 0.1045
+    }
+  ]
+}

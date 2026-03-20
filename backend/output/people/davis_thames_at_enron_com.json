@@ -1,0 +1,70 @@
+{
+  "id": "davis.thames@enron.com",
+  "name": "Davis Thames",
+  "email": "davis.thames@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0025842893197838925,
+    "pagerank": 0.0003071161843846101
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0735
+  },
+  "dead_man_switch": {
+    "id": "davis.thames@enron.com",
+    "name": "Davis Thames",
+    "dms_score": -0.296,
+    "betweenness": 0.0,
+    "eigenvector": 0.002584,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "davis.thames@enron.com",
+    "name": "Davis Thames",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "lindy.donoho@enron.com",
+      "name": "Lindy Donoho",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.237,
+      "sentiment": 0.1372
+    },
+    {
+      "id": "brad.mckay@enron.com",
+      "name": "Brad Mckay",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1766,
+      "sentiment": 0.0676
+    },
+    {
+      "id": "kevin.ruscitti@enron.com",
+      "name": "Kevin Ruscitti",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1525,
+      "sentiment": 0.25
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1032,
+      "sentiment": -0.0332
+    }
+  ]
+}

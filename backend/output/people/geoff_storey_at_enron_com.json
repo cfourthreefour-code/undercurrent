@@ -1,0 +1,174 @@
+{
+  "id": "geoff.storey@enron.com",
+  "name": "Geoff Storey",
+  "email": "geoff.storey@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0021958717610891525,
+    "out_degree_centrality": 0.0015371102327624067,
+    "degree_centrality": 0.003732981993851559,
+    "betweenness_centrality": 0.00017806190516013947,
+    "eigenvector_centrality": 0.026405255310028342,
+    "pagerank": 0.0002535749331482437
+  },
+  "sentiment": {
+    "avg_sent": 0.0914,
+    "avg_received": 0.0655
+  },
+  "dead_man_switch": {
+    "id": "geoff.storey@enron.com",
+    "name": "Geoff Storey",
+    "dms_score": -0.2522,
+    "betweenness": 0.000261,
+    "eigenvector": 0.026405,
+    "redundancy": 0.9952,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "geoff.storey@enron.com",
+    "name": "Geoff Storey",
+    "waste_score": 11.4,
+    "overproduction": 0.0,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0.571
+  },
+  "connections": [
+    {
+      "id": "richard.tomaski@enron.com",
+      "name": "Richard Tomaski",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1809,
+      "sentiment": 0.1768
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "outgoing",
+      "email_count": 9,
+      "weight": 0.1786,
+      "sentiment": 0.1221
+    },
+    {
+      "id": "zhiyong.wei@enron.com",
+      "name": "Zhiyong Wei",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.1718,
+      "sentiment": 0.1205
+    },
+    {
+      "id": "dutch.quigley@enron.com",
+      "name": "Dutch Quigley",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1712,
+      "sentiment": 0.1042
+    },
+    {
+      "id": "s..shively@enron.com",
+      "name": "S Shively",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1685,
+      "sentiment": 0.0863
+    },
+    {
+      "id": "c..gossett@enron.com",
+      "name": "C Gossett",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1554,
+      "sentiment": 0.0195
+    },
+    {
+      "id": "'fulghum@enron.com",
+      "name": "'fulghum",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1544,
+      "sentiment": 0.0204
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1909,
+      "sentiment": 0.1189
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1794,
+      "sentiment": 0.1544
+    },
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1719,
+      "sentiment": 0.113
+    },
+    {
+      "id": "chris.dorland@enron.com",
+      "name": "Chris Dorland",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1718,
+      "sentiment": 0.1769
+    },
+    {
+      "id": "dutch.quigley@enron.com",
+      "name": "Dutch Quigley",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1704,
+      "sentiment": 0.0904
+    },
+    {
+      "id": "s..shively@enron.com",
+      "name": "S Shively",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1647,
+      "sentiment": 0.0347
+    },
+    {
+      "id": "hunter.shively@enron.com",
+      "name": "Hunter Shively",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1214,
+      "sentiment": 0.0355
+    },
+    {
+      "id": "phillip.love@enron.com",
+      "name": "Phillip Love",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1178,
+      "sentiment": 0.0208
+    },
+    {
+      "id": "v.weldon@enron.com",
+      "name": "V Weldon",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1164,
+      "sentiment": -0.0062
+    },
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1123,
+      "sentiment": -0.0494
+    }
+  ]
+}

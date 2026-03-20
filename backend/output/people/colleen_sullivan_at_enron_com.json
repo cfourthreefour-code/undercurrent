@@ -1,0 +1,94 @@
+{
+  "id": "colleen.sullivan@enron.com",
+  "name": "Colleen Sullivan",
+  "email": "colleen.sullivan@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0015371102327624067,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.013919091676210154,
+    "pagerank": 0.00023140881290271224
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0865
+  },
+  "dead_man_switch": {
+    "id": "colleen.sullivan@enron.com",
+    "name": "Colleen Sullivan",
+    "dms_score": -0.2847,
+    "betweenness": 0.0,
+    "eigenvector": 0.013919,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "colleen.sullivan@enron.com",
+    "name": "Colleen Sullivan",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 175,
+      "weight": 0.1829,
+      "sentiment": 0.0836
+    },
+    {
+      "id": "phillip.allen@enron.com",
+      "name": "Phillip Allen",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1438,
+      "sentiment": 0.1488
+    },
+    {
+      "id": "jane.tholt@enron.com",
+      "name": "Jane Tholt",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1408,
+      "sentiment": 0.1757
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1316,
+      "sentiment": 0.0998
+    },
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1298,
+      "sentiment": 0.0821
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1273,
+      "sentiment": 0.0891
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1224,
+      "sentiment": 0.0511
+    }
+  ]
+}

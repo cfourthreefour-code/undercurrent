@@ -1,0 +1,70 @@
+{
+  "id": "victoria.versen@enron.com",
+  "name": "Victoria Versen",
+  "email": "victoria.versen@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.019776725717781364,
+    "pagerank": 0.00021677759305702073
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0876
+  },
+  "dead_man_switch": {
+    "id": "victoria.versen@enron.com",
+    "name": "Victoria Versen",
+    "dms_score": -0.2789,
+    "betweenness": 0.0,
+    "eigenvector": 0.019777,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "victoria.versen@enron.com",
+    "name": "Victoria Versen",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 271,
+      "weight": 0.3309,
+      "sentiment": 0.0661
+    },
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2407,
+      "sentiment": 0.4
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 29,
+      "weight": 0.2275,
+      "sentiment": 0.1829
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1455,
+      "sentiment": 0.1909
+    }
+  ]
+}

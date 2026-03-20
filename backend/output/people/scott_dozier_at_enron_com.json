@@ -1,0 +1,70 @@
+{
+  "id": "scott.dozier@enron.com",
+  "name": "Scott Dozier",
+  "email": "scott.dozier@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0039629124681011384,
+    "pagerank": 0.00033486885297464523
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0703
+  },
+  "dead_man_switch": {
+    "id": "scott.dozier@enron.com",
+    "name": "Scott Dozier",
+    "dms_score": -0.2947,
+    "betweenness": 0.0,
+    "eigenvector": 0.003963,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "scott.dozier@enron.com",
+    "name": "Scott Dozier",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1975,
+      "sentiment": 0.126
+    },
+    {
+      "id": "kam.keiser@enron.com",
+      "name": "Kam Keiser",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1947,
+      "sentiment": 0.1089
+    },
+    {
+      "id": "tom.donohoe@enron.com",
+      "name": "Tom Donohoe",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1614,
+      "sentiment": 0.0672
+    },
+    {
+      "id": "l..mims@enron.com",
+      "name": "L Mims",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1525,
+      "sentiment": 0.1516
+    }
+  ]
+}

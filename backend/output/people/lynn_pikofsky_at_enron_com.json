@@ -1,0 +1,62 @@
+{
+  "id": "lynn.pikofsky@enron.com",
+  "name": "Lynn Pikofsky",
+  "email": "lynn.pikofsky@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0040562089912725,
+    "pagerank": 0.00021770034572110903
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1061
+  },
+  "dead_man_switch": {
+    "id": "lynn.pikofsky@enron.com",
+    "name": "Lynn Pikofsky",
+    "dms_score": -0.2946,
+    "betweenness": 0.0,
+    "eigenvector": 0.004056,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "lynn.pikofsky@enron.com",
+    "name": "Lynn Pikofsky",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "robin.rodrigue@enron.com",
+      "name": "Robin Rodrigue",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.156,
+      "sentiment": 0.1868
+    },
+    {
+      "id": "beverly.stephens@enron.com",
+      "name": "Beverly Stephens",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1555,
+      "sentiment": 0.25
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 32,
+      "weight": 0.129,
+      "sentiment": 0.0564
+    }
+  ]
+}

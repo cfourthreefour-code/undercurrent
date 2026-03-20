@@ -1,0 +1,94 @@
+{
+  "id": "w.duran@enron.com",
+  "name": "W Duran",
+  "email": "w.duran@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0015371102327624067,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.01502678108998854,
+    "pagerank": 0.0002263371160323049
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1004
+  },
+  "dead_man_switch": {
+    "id": "w.duran@enron.com",
+    "name": "W Duran",
+    "dms_score": -0.2836,
+    "betweenness": 0.0,
+    "eigenvector": 0.015027,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "w.duran@enron.com",
+    "name": "W Duran",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kevin.presto@enron.com",
+      "name": "Kevin Presto",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.157,
+      "sentiment": 0.1754
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 52,
+      "weight": 0.1497,
+      "sentiment": 0.1297
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 54,
+      "weight": 0.1439,
+      "sentiment": 0.0857
+    },
+    {
+      "id": "beverly.stephens@enron.com",
+      "name": "Beverly Stephens",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1417,
+      "sentiment": 0.181
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1371,
+      "sentiment": 0.0684
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1318,
+      "sentiment": 0.1252
+    },
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1055,
+      "sentiment": -0.0086
+    }
+  ]
+}

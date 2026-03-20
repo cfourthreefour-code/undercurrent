@@ -1,0 +1,54 @@
+{
+  "id": "maria.valdes@enron.com",
+  "name": "Maria Valdes",
+  "email": "maria.valdes@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0012185367660482694,
+    "pagerank": 0.00022602352982787455
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1207
+  },
+  "dead_man_switch": {
+    "id": "maria.valdes@enron.com",
+    "name": "Maria Valdes",
+    "dms_score": -0.2974,
+    "betweenness": 0.0,
+    "eigenvector": 0.001219,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "maria.valdes@enron.com",
+    "name": "Maria Valdes",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "mike.carson@enron.com",
+      "name": "Mike Carson",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1981,
+      "sentiment": 0.0671
+    },
+    {
+      "id": "chris.dorland@enron.com",
+      "name": "Chris Dorland",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1901,
+      "sentiment": 0.1173
+    }
+  ]
+}

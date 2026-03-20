@@ -1,0 +1,62 @@
+{
+  "id": "cynthia.harkness@enron.com",
+  "name": "Cynthia Harkness",
+  "email": "cynthia.harkness@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.01152649531089512,
+    "pagerank": 0.00021286516823133185
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1226
+  },
+  "dead_man_switch": {
+    "id": "cynthia.harkness@enron.com",
+    "name": "Cynthia Harkness",
+    "dms_score": -0.2871,
+    "betweenness": 0.0,
+    "eigenvector": 0.011526,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "cynthia.harkness@enron.com",
+    "name": "Cynthia Harkness",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1856,
+      "sentiment": 0.0442
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1343,
+      "sentiment": 0.1537
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1247,
+      "sentiment": 0.0618
+    }
+  ]
+}

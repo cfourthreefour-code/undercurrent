@@ -1,0 +1,78 @@
+{
+  "id": "mary.ruffer@enron.com",
+  "name": "Mary Ruffer",
+  "email": "mary.ruffer@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.01911490722871034,
+    "pagerank": 0.0002141803518038337
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.118
+  },
+  "dead_man_switch": {
+    "id": "mary.ruffer@enron.com",
+    "name": "Mary Ruffer",
+    "dms_score": -0.2795,
+    "betweenness": 0.0,
+    "eigenvector": 0.019115,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "mary.ruffer@enron.com",
+    "name": "Mary Ruffer",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1665,
+      "sentiment": 0.1913
+    },
+    {
+      "id": "darron.giron@enron.com",
+      "name": "Darron Giron",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1516,
+      "sentiment": 0.1885
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.136,
+      "sentiment": 0.1609
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1194,
+      "sentiment": 0.0624
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.0987,
+      "sentiment": -0.0403
+    }
+  ]
+}

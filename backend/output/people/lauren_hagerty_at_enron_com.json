@@ -1,0 +1,46 @@
+{
+  "id": "lauren.hagerty@enron.com",
+  "name": "Lauren Hagerty",
+  "email": "lauren.hagerty@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0027673677887681655,
+    "pagerank": 0.00021068498138534112
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.041
+  },
+  "dead_man_switch": {
+    "id": "lauren.hagerty@enron.com",
+    "name": "Lauren Hagerty",
+    "dms_score": -0.2959,
+    "betweenness": 0.0,
+    "eigenvector": 0.002767,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "lauren.hagerty@enron.com",
+    "name": "Lauren Hagerty",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1103,
+      "sentiment": 0.041
+    }
+  ]
+}

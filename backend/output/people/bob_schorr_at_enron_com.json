@@ -1,0 +1,46 @@
+{
+  "id": "bob.schorr@enron.com",
+  "name": "Bob Schorr",
+  "email": "bob.schorr@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0020182438896316247,
+    "pagerank": 0.00021709977002065794
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.288
+  },
+  "dead_man_switch": {
+    "id": "bob.schorr@enron.com",
+    "name": "Bob Schorr",
+    "dms_score": -0.2966,
+    "betweenness": 0.0,
+    "eigenvector": 0.002018,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "bob.schorr@enron.com",
+    "name": "Bob Schorr",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "phillip.allen@enron.com",
+      "name": "Phillip Allen",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2133,
+      "sentiment": 0.525
+    }
+  ]
+}

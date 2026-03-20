@@ -1,0 +1,94 @@
+{
+  "id": "kristin.albrecht@enron.com",
+  "name": "Kristin Albrecht",
+  "email": "kristin.albrecht@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0015371102327624067,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.02160086697670281,
+    "pagerank": 0.0002253368432359748
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1042
+  },
+  "dead_man_switch": {
+    "id": "kristin.albrecht@enron.com",
+    "name": "Kristin Albrecht",
+    "dms_score": -0.2771,
+    "betweenness": 0.0,
+    "eigenvector": 0.021601,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "kristin.albrecht@enron.com",
+    "name": "Kristin Albrecht",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "w..white@enron.com",
+      "name": "W White",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.206,
+      "sentiment": 0.0913
+    },
+    {
+      "id": "m..presto@enron.com",
+      "name": "M Presto",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2031,
+      "sentiment": 0.1018
+    },
+    {
+      "id": "kam.keiser@enron.com",
+      "name": "Kam Keiser",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.1957,
+      "sentiment": 0.0505
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 52,
+      "weight": 0.1534,
+      "sentiment": 0.1322
+    },
+    {
+      "id": "patti.thompson@enron.com",
+      "name": "Patti Thompson",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1338,
+      "sentiment": 0.1344
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1113,
+      "sentiment": 0.032
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1062,
+      "sentiment": 0.0005
+    }
+  ]
+}

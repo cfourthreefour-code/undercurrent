@@ -1,0 +1,134 @@
+{
+  "id": "monique.sanchez@enron.com",
+  "name": "Monique Sanchez",
+  "email": "monique.sanchez@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0013175230566534915,
+    "degree_centrality": 0.002635046113306983,
+    "betweenness_centrality": 3.9692564449294364e-05,
+    "eigenvector_centrality": 0.007046699297242095,
+    "pagerank": 0.00024139261034991074
+  },
+  "sentiment": {
+    "avg_sent": 0.1312,
+    "avg_received": 0.1113
+  },
+  "dead_man_switch": {
+    "id": "monique.sanchez@enron.com",
+    "name": "Monique Sanchez",
+    "dms_score": -0.2893,
+    "betweenness": 2.8e-05,
+    "eigenvector": 0.007047,
+    "redundancy": 0.9949,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "monique.sanchez@enron.com",
+    "name": "Monique Sanchez",
+    "waste_score": 14.7,
+    "overproduction": 0.18,
+    "broadcast_ratio": 0.02,
+    "reply_all_ratio": 0.01,
+    "orphan_ratio": 0.667
+  },
+  "connections": [
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "direction": "outgoing",
+      "email_count": 9,
+      "weight": 0.1758,
+      "sentiment": 0.145
+    },
+    {
+      "id": "anne.bike@enron.com",
+      "name": "Anne Bike",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1752,
+      "sentiment": 0.1511
+    },
+    {
+      "id": "sscott5@enron.com",
+      "name": "Sscott5",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1459,
+      "sentiment": 0.1229
+    },
+    {
+      "id": "sanchez@enron.com",
+      "name": "Sanchez",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1386,
+      "sentiment": 0.0949
+    },
+    {
+      "id": "susan.scott@enron.com",
+      "name": "Susan Scott",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1365,
+      "sentiment": 0.0795
+    },
+    {
+      "id": "'@enron.com",
+      "name": "'",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.129,
+      "sentiment": 0.0401
+    },
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "direction": "incoming",
+      "email_count": 89,
+      "weight": 0.1984,
+      "sentiment": 0.1136
+    },
+    {
+      "id": "tori.kuykendall@enron.com",
+      "name": "Tori Kuykendall",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1864,
+      "sentiment": 0.2076
+    },
+    {
+      "id": "m..scott@enron.com",
+      "name": "M Scott",
+      "direction": "incoming",
+      "email_count": 37,
+      "weight": 0.1733,
+      "sentiment": 0.1158
+    },
+    {
+      "id": "susan.scott@enron.com",
+      "name": "Susan Scott",
+      "direction": "incoming",
+      "email_count": 99,
+      "weight": 0.168,
+      "sentiment": 0.1045
+    },
+    {
+      "id": "phillip.allen@enron.com",
+      "name": "Phillip Allen",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1288,
+      "sentiment": 0.0597
+    },
+    {
+      "id": "m..tholt@enron.com",
+      "name": "M Tholt",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1131,
+      "sentiment": -0.1056
+    }
+  ]
+}

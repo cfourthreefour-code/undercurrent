@@ -1,0 +1,62 @@
+{
+  "id": "erica.braden@enron.com",
+  "name": "Erica Braden",
+  "email": "erica.braden@enron.com",
+  "community_id": 15,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0043252506952679,
+    "pagerank": 0.00021961335850755688
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0673
+  },
+  "dead_man_switch": {
+    "id": "erica.braden@enron.com",
+    "name": "Erica Braden",
+    "dms_score": -0.2943,
+    "betweenness": 0.0,
+    "eigenvector": 0.004325,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "erica.braden@enron.com",
+    "name": "Erica Braden",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "dana.davis@enron.com",
+      "name": "Dana Davis",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1641,
+      "sentiment": 0.0793
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1237,
+      "sentiment": 0.0932
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.0908,
+      "sentiment": -0.0679
+    }
+  ]
+}

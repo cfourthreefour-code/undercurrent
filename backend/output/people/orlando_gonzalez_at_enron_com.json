@@ -1,0 +1,54 @@
+{
+  "id": "orlando.gonzalez@enron.com",
+  "name": "Orlando Gonzalez",
+  "email": "orlando.gonzalez@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.004541663905114543,
+    "pagerank": 0.00021322889389328278
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0473
+  },
+  "dead_man_switch": {
+    "id": "orlando.gonzalez@enron.com",
+    "name": "Orlando Gonzalez",
+    "dms_score": -0.2941,
+    "betweenness": 0.0,
+    "eigenvector": 0.004542,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "orlando.gonzalez@enron.com",
+    "name": "Orlando Gonzalez",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.129,
+      "sentiment": 0.0468
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1117,
+      "sentiment": -0.0092
+    }
+  ]
+}

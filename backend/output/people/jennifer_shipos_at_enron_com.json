@@ -1,0 +1,54 @@
+{
+  "id": "jennifer.shipos@enron.com",
+  "name": "Jennifer Shipos",
+  "email": "jennifer.shipos@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00377150115360093,
+    "pagerank": 0.00021482468871213752
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0945
+  },
+  "dead_man_switch": {
+    "id": "jennifer.shipos@enron.com",
+    "name": "Jennifer Shipos",
+    "dms_score": -0.2949,
+    "betweenness": 0.0,
+    "eigenvector": 0.003772,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jennifer.shipos@enron.com",
+    "name": "Jennifer Shipos",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1562,
+      "sentiment": 0.1768
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1299,
+      "sentiment": 0.0625
+    }
+  ]
+}

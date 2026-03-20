@@ -1,0 +1,70 @@
+{
+  "id": "janelle.scheuer@enron.com",
+  "name": "Janelle Scheuer",
+  "email": "janelle.scheuer@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.01337158386368909,
+    "pagerank": 0.00021302865992021695
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.125
+  },
+  "dead_man_switch": {
+    "id": "janelle.scheuer@enron.com",
+    "name": "Janelle Scheuer",
+    "dms_score": -0.2853,
+    "betweenness": 0.0,
+    "eigenvector": 0.013372,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "janelle.scheuer@enron.com",
+    "name": "Janelle Scheuer",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 17,
+      "weight": 0.1613,
+      "sentiment": 0.1721
+    },
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.144,
+      "sentiment": 0.0593
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.1367,
+      "sentiment": 0.0735
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1303,
+      "sentiment": 0.0978
+    }
+  ]
+}

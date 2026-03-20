@@ -1,0 +1,86 @@
+{
+  "id": "dan.fancler@enron.com",
+  "name": "Dan Fancler",
+  "email": "dan.fancler@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.004152400072683461,
+    "pagerank": 0.00022605480807776947
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1375
+  },
+  "dead_man_switch": {
+    "id": "dan.fancler@enron.com",
+    "name": "Dan Fancler",
+    "dms_score": -0.2945,
+    "betweenness": 0.0,
+    "eigenvector": 0.004152,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "dan.fancler@enron.com",
+    "name": "Dan Fancler",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "rod.hayslett@enron.com",
+      "name": "Rod Hayslett",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1951,
+      "sentiment": 0.1854
+    },
+    {
+      "id": "lindy.donoho@enron.com",
+      "name": "Lindy Donoho",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1939,
+      "sentiment": 0.1808
+    },
+    {
+      "id": "bill.rapp@enron.com",
+      "name": "Bill Rapp",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1937,
+      "sentiment": 0.1491
+    },
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.1848,
+      "sentiment": 0.1458
+    },
+    {
+      "id": "tracy.geaccone@enron.com",
+      "name": "Tracy Geaccone",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1748,
+      "sentiment": 0.1057
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 17,
+      "weight": 0.1432,
+      "sentiment": 0.1227
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "tracee.bersani@enron.com",
+  "name": "Tracee Bersani",
+  "email": "tracee.bersani@enron.com",
+  "community_id": 0,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 7.41235203777272e-05,
+    "pagerank": 0.0002144858340847757
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0866
+  },
+  "dead_man_switch": {
+    "id": "tracee.bersani@enron.com",
+    "name": "Tracee Bersani",
+    "dms_score": -0.2985,
+    "betweenness": 0.0,
+    "eigenvector": 7.4e-05,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "tracee.bersani@enron.com",
+    "name": "Tracee Bersani",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "rob.gay@enron.com",
+      "name": "Rob Gay",
+      "direction": "incoming",
+      "email_count": 37,
+      "weight": 0.1416,
+      "sentiment": 0.0906
+    }
+  ]
+}

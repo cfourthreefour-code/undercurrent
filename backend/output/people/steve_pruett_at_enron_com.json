@@ -1,0 +1,70 @@
+{
+  "id": "steve.pruett@enron.com",
+  "name": "Steve Pruett",
+  "email": "steve.pruett@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.007464767168399814,
+    "pagerank": 0.0002158384890074639
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0709
+  },
+  "dead_man_switch": {
+    "id": "steve.pruett@enron.com",
+    "name": "Steve Pruett",
+    "dms_score": -0.2912,
+    "betweenness": 0.0,
+    "eigenvector": 0.007465,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "steve.pruett@enron.com",
+    "name": "Steve Pruett",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.1419,
+      "sentiment": 0.0784
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1243,
+      "sentiment": 0.0802
+    },
+    {
+      "id": "beverly.stephens@enron.com",
+      "name": "Beverly Stephens",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1167,
+      "sentiment": 0.056
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.107,
+      "sentiment": 0.0071
+    }
+  ]
+}

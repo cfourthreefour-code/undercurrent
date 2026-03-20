@@ -1,0 +1,150 @@
+{
+  "id": "john.griffith@enron.com",
+  "name": "John Griffith",
+  "email": "john.griffith@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.001756697408871322,
+    "out_degree_centrality": 0.0013175230566534915,
+    "degree_centrality": 0.0030742204655248135,
+    "betweenness_centrality": 0.0001248651875567717,
+    "eigenvector_centrality": 0.01197875015394148,
+    "pagerank": 0.00027281083196983543
+  },
+  "sentiment": {
+    "avg_sent": 0.1937,
+    "avg_received": 0.1449
+  },
+  "dead_man_switch": {
+    "id": "john.griffith@enron.com",
+    "name": "John Griffith",
+    "dms_score": -0.2719,
+    "betweenness": 0.000192,
+    "eigenvector": 0.011979,
+    "redundancy": 0.9952,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "john.griffith@enron.com",
+    "name": "John Griffith",
+    "waste_score": 16.9,
+    "overproduction": 0.7,
+    "broadcast_ratio": 0.05,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0.667
+  },
+  "connections": [
+    {
+      "id": "larry.may@enron.com",
+      "name": "Larry May",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.2165,
+      "sentiment": 0.1569
+    },
+    {
+      "id": "andy.zipper@enron.com",
+      "name": "Andy Zipper",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.2163,
+      "sentiment": 0.1493
+    },
+    {
+      "id": "paige.cox@enron.com",
+      "name": "Paige Cox",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.208,
+      "sentiment": 0.1126
+    },
+    {
+      "id": "frank.coles@enron.com",
+      "name": "Frank Coles",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.2071,
+      "sentiment": 0.1092
+    },
+    {
+      "id": "mike.maggi@enron.com",
+      "name": "Mike Maggi",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.2064,
+      "sentiment": 0.1045
+    },
+    {
+      "id": "dutch.quigley@enron.com",
+      "name": "Dutch Quigley",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.2063,
+      "sentiment": 0.1012
+    },
+    {
+      "id": "errol.mclaughlin@enron.com",
+      "name": "Errol Mclaughlin",
+      "direction": "incoming",
+      "email_count": 42,
+      "weight": 0.2199,
+      "sentiment": 0.2516
+    },
+    {
+      "id": "vladi.pimenov@enron.com",
+      "name": "Vladi Pimenov",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.2017,
+      "sentiment": 0.0515
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "incoming",
+      "email_count": 37,
+      "weight": 0.194,
+      "sentiment": 0.1072
+    },
+    {
+      "id": "dutch.quigley@enron.com",
+      "name": "Dutch Quigley",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1882,
+      "sentiment": 0.06
+    },
+    {
+      "id": "larry.may@enron.com",
+      "name": "Larry May",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.177,
+      "sentiment": 0.0901
+    },
+    {
+      "id": "v.weldon@enron.com",
+      "name": "V Weldon",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.147,
+      "sentiment": 0.1451
+    },
+    {
+      "id": "daren.farmer@enron.com",
+      "name": "Daren Farmer",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1275,
+      "sentiment": 0.1042
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.111,
+      "sentiment": -0.0117
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ragan.bond@enron.com",
+  "name": "Ragan Bond",
+  "email": "ragan.bond@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0003986301088891998,
+    "pagerank": 0.000273060227843708
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1577
+  },
+  "dead_man_switch": {
+    "id": "ragan.bond@enron.com",
+    "name": "Ragan Bond",
+    "dms_score": -0.2982,
+    "betweenness": 0.0,
+    "eigenvector": 0.000399,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "ragan.bond@enron.com",
+    "name": "Ragan Bond",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "w..pereira@enron.com",
+      "name": "W Pereira",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1802,
+      "sentiment": 0.1014
+    },
+    {
+      "id": "sandra.brawner@enron.com",
+      "name": "Sandra Brawner",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.163,
+      "sentiment": 0.2139
+    }
+  ]
+}

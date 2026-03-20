@@ -1,0 +1,54 @@
+{
+  "id": "melissa.jones@enron.com",
+  "name": "Melissa Jones",
+  "email": "melissa.jones@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0033324124801708856,
+    "pagerank": 0.00021392998270736092
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0932
+  },
+  "dead_man_switch": {
+    "id": "melissa.jones@enron.com",
+    "name": "Melissa Jones",
+    "dms_score": -0.2953,
+    "betweenness": 0.0,
+    "eigenvector": 0.003332,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "melissa.jones@enron.com",
+    "name": "Melissa Jones",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 38,
+      "weight": 0.1401,
+      "sentiment": 0.1022
+    },
+    {
+      "id": "beverly.stephens@enron.com",
+      "name": "Beverly Stephens",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1255,
+      "sentiment": 0.1
+    }
+  ]
+}

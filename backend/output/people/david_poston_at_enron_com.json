@@ -1,0 +1,78 @@
+{
+  "id": "david.poston@enron.com",
+  "name": "David Poston",
+  "email": "david.poston@enron.com",
+  "community_id": 7,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0016817326885624547,
+    "pagerank": 0.00025013346954406177
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1447
+  },
+  "dead_man_switch": {
+    "id": "david.poston@enron.com",
+    "name": "David Poston",
+    "dms_score": -0.2969,
+    "betweenness": 0.0,
+    "eigenvector": 0.001682,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "david.poston@enron.com",
+    "name": "David Poston",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "bill.williams@enron.com",
+      "name": "Bill Williams",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2053,
+      "sentiment": 0.158
+    },
+    {
+      "id": "holden.salisbury@enron.com",
+      "name": "Holden Salisbury",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1884,
+      "sentiment": 0.1435
+    },
+    {
+      "id": "cara.semperger@enron.com",
+      "name": "Cara Semperger",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1852,
+      "sentiment": 0.1327
+    },
+    {
+      "id": "phillip.platter@enron.com",
+      "name": "Phillip Platter",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1609,
+      "sentiment": 0.1311
+    },
+    {
+      "id": "kate.symes@enron.com",
+      "name": "Kate Symes",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1483,
+      "sentiment": 0.149
+    }
+  ]
+}

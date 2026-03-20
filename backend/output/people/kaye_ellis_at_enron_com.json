@@ -1,0 +1,118 @@
+{
+  "id": "kaye.ellis@enron.com",
+  "name": "Kaye Ellis",
+  "email": "kaye.ellis@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.000878348704435661,
+    "degree_centrality": 0.0021958717610891525,
+    "betweenness_centrality": 0.00012052456690010524,
+    "eigenvector_centrality": 0.01618942494369799,
+    "pagerank": 0.00021859262416490648
+  },
+  "sentiment": {
+    "avg_sent": 0.0319,
+    "avg_received": 0.0635
+  },
+  "dead_man_switch": {
+    "id": "kaye.ellis@enron.com",
+    "name": "Kaye Ellis",
+    "dms_score": -0.2814,
+    "betweenness": 1.4e-05,
+    "eigenvector": 0.016189,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "kaye.ellis@enron.com",
+    "name": "Kaye Ellis",
+    "waste_score": 16.3,
+    "overproduction": 0.63,
+    "broadcast_ratio": 0.146,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0.5
+  },
+  "connections": [
+    {
+      "id": "tanya.rohauer@enron.com",
+      "name": "Tanya Rohauer",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1396,
+      "sentiment": 0.1667
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "outgoing",
+      "email_count": 9,
+      "weight": 0.1256,
+      "sentiment": 0.0444
+    },
+    {
+      "id": "ryan.siurek@enron.com",
+      "name": "Ryan Siurek",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1227,
+      "sentiment": 0.0667
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1065,
+      "sentiment": 0.0
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 210,
+      "weight": 0.1966,
+      "sentiment": 0.0545
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 41,
+      "weight": 0.1533,
+      "sentiment": 0.1181
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1296,
+      "sentiment": 0.0755
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1263,
+      "sentiment": 0.009
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1251,
+      "sentiment": 0.0806
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1103,
+      "sentiment": 0.0102
+    }
+  ]
+}

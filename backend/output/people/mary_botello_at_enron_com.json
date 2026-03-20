@@ -1,0 +1,46 @@
+{
+  "id": "mary.botello@enron.com",
+  "name": "Mary Botello",
+  "email": "mary.botello@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0004040586020904412,
+    "pagerank": 0.0002124517157463388
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0779
+  },
+  "dead_man_switch": {
+    "id": "mary.botello@enron.com",
+    "name": "Mary Botello",
+    "dms_score": -0.2982,
+    "betweenness": 0.0,
+    "eigenvector": 0.000404,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "mary.botello@enron.com",
+    "name": "Mary Botello",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tracy.geaccone@enron.com",
+      "name": "Tracy Geaccone",
+      "direction": "incoming",
+      "email_count": 36,
+      "weight": 0.1839,
+      "sentiment": 0.0801
+    }
+  ]
+}

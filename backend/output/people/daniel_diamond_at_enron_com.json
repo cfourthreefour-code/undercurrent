@@ -1,0 +1,102 @@
+{
+  "id": "daniel.diamond@enron.com",
+  "name": "Daniel Diamond",
+  "email": "daniel.diamond@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.001756697408871322,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.001756697408871322,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.02300377818293055,
+    "pagerank": 0.0002488461326166972
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0492
+  },
+  "dead_man_switch": {
+    "id": "daniel.diamond@enron.com",
+    "name": "Daniel Diamond",
+    "dms_score": -0.2757,
+    "betweenness": 0.0,
+    "eigenvector": 0.023004,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "daniel.diamond@enron.com",
+    "name": "Daniel Diamond",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2052,
+      "sentiment": 0.129
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 83,
+      "weight": 0.1797,
+      "sentiment": 0.004
+    },
+    {
+      "id": "greg.whalley@enron.com",
+      "name": "Greg Whalley",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1752,
+      "sentiment": 0.2033
+    },
+    {
+      "id": "tori.kuykendall@enron.com",
+      "name": "Tori Kuykendall",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1594,
+      "sentiment": 0.2054
+    },
+    {
+      "id": "martin.cuilla@enron.com",
+      "name": "Martin Cuilla",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1562,
+      "sentiment": 0.0303
+    },
+    {
+      "id": "andy.zipper@enron.com",
+      "name": "Andy Zipper",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.138,
+      "sentiment": 0.075
+    },
+    {
+      "id": "jeffrey.shankman@enron.com",
+      "name": "Jeffrey Shankman",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1245,
+      "sentiment": 0.0523
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1185,
+      "sentiment": 0.047
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "steve.neal@enron.com",
+  "name": "Steve Neal",
+  "email": "steve.neal@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0026062067231349827,
+    "pagerank": 0.00021158646978003328
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1184
+  },
+  "dead_man_switch": {
+    "id": "steve.neal@enron.com",
+    "name": "Steve Neal",
+    "dms_score": -0.296,
+    "betweenness": 0.0,
+    "eigenvector": 0.002606,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "steve.neal@enron.com",
+    "name": "Steve Neal",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1448,
+      "sentiment": 0.1184
+    }
+  ]
+}

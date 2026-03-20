@@ -1,0 +1,46 @@
+{
+  "id": "danilo.juvane@enron.com",
+  "name": "Danilo Juvane",
+  "email": "danilo.juvane@enron.com",
+  "community_id": 16,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 8.303381523404301e-05,
+    "pagerank": 0.0002131286774170381
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0982
+  },
+  "dead_man_switch": {
+    "id": "danilo.juvane@enron.com",
+    "name": "Danilo Juvane",
+    "dms_score": -0.2985,
+    "betweenness": 0.0,
+    "eigenvector": 8.3e-05,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "danilo.juvane@enron.com",
+    "name": "Danilo Juvane",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "monika.causholli@enron.com",
+      "name": "Monika Causholli",
+      "direction": "incoming",
+      "email_count": 26,
+      "weight": 0.1811,
+      "sentiment": 0.0922
+    }
+  ]
+}

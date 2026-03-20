@@ -1,0 +1,16 @@
+Message-ID: <test003@enron.com>
+Date: Wed, 16 May 2001 14:30:00 -0700 (PDT)
+From: bob.jones@enron.com
+To: john.smith@enron.com, jane.doe@enron.com, alice.wong@enron.com, mike.chen@enron.com, sara.lee@enron.com, tom.baker@enron.com
+Subject: Team Lunch Friday
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hey everyone,
+
+Let's do a team lunch this Friday at noon. I'm thinking Italian — there's a new place on Main Street.
+
+RSVP by Thursday.
+
+Bob

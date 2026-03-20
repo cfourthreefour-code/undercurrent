@@ -1,0 +1,54 @@
+{
+  "id": "scott.bolton@enron.com",
+  "name": "Scott Bolton",
+  "email": "scott.bolton@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.008390798732977607,
+    "pagerank": 0.00021172359663363245
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1826
+  },
+  "dead_man_switch": {
+    "id": "scott.bolton@enron.com",
+    "name": "Scott Bolton",
+    "dms_score": -0.2902,
+    "betweenness": 0.0,
+    "eigenvector": 0.008391,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "scott.bolton@enron.com",
+    "name": "Scott Bolton",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 28,
+      "weight": 0.1655,
+      "sentiment": 0.1927
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1422,
+      "sentiment": 0.1481
+    }
+  ]
+}

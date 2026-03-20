@@ -1,0 +1,54 @@
+{
+  "id": "tom.riley@enron.com",
+  "name": "Tom Riley",
+  "email": "tom.riley@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00959005411664781,
+    "pagerank": 0.00021409360871994256
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1259
+  },
+  "dead_man_switch": {
+    "id": "tom.riley@enron.com",
+    "name": "Tom Riley",
+    "dms_score": -0.289,
+    "betweenness": 0.0,
+    "eigenvector": 0.00959,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "tom.riley@enron.com",
+    "name": "Tom Riley",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 22,
+      "weight": 0.1912,
+      "sentiment": 0.1373
+    },
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1631,
+      "sentiment": 0.0634
+    }
+  ]
+}

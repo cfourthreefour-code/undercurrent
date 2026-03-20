@@ -1,0 +1,94 @@
+{
+  "id": "carl.tricoli@enron.com",
+  "name": "Carl Tricoli",
+  "email": "carl.tricoli@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0015371102327624067,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.019215052377507712,
+    "pagerank": 0.00022488760404481585
+  },
+  "sentiment": {
+    "avg_sent": 0.0347,
+    "avg_received": 0.1157
+  },
+  "dead_man_switch": {
+    "id": "carl.tricoli@enron.com",
+    "name": "Carl Tricoli",
+    "dms_score": -0.2794,
+    "betweenness": 0.0,
+    "eigenvector": 0.019215,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "carl.tricoli@enron.com",
+    "name": "Carl Tricoli",
+    "waste_score": 0.0,
+    "overproduction": 0.0,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2144,
+      "sentiment": 0.2577
+    },
+    {
+      "id": "kam.keiser@enron.com",
+      "name": "Kam Keiser",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1879,
+      "sentiment": 0.0426
+    },
+    {
+      "id": "m..presto@enron.com",
+      "name": "M Presto",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1819,
+      "sentiment": 0.0788
+    },
+    {
+      "id": "beverly.stephens@enron.com",
+      "name": "Beverly Stephens",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1417,
+      "sentiment": 0.181
+    },
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1364,
+      "sentiment": 0.0858
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1196,
+      "sentiment": 0.0577
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1098,
+      "sentiment": 0.023
+    }
+  ]
+}

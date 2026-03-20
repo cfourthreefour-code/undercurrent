@@ -1,0 +1,78 @@
+"""Master pipeline: extract -> parse -> build -> compute -> export."""
+
+import json
+import time
+from datetime import datetime
+from pathlib import Path
+
+from src.analysis.role_inference import infer_role_snapshots
+from src.graph.builder import build_graph
+from src.graph.weights import compute_weights
+from src.metrics.centrality import compute_centrality
+from src.metrics.community import detect_communities
+from src.metrics.dead_man_switch import compute_dead_man_switch
+from src.metrics.health import compute_health
+from src.metrics.waste import compute_waste
+from src.parser.email_parser import parse_all_emails
+from src.parser.enron_extractor import extract_enron, DEFAULT_ARCHIVE, DEFAULT_OUTPUT
+from src.sentiment.analyzer import enrich_graph_with_sentiment, get_sentiment_summary
+
+
+OUT_DIR = Path(__file__).resolve().parent.parent / "output"
+
+
+def _json_serial(obj):
+    """JSON fallback serializer."""
+    if isinstance(obj, datetime):
+        return obj.isoformat()
+    raise TypeError(f"Type {type(obj)} not serializable")
+
+
+def run_pipeline(
+    archive_path: Path = DEFAULT_ARCHIVE,
+    maildir_path: Path = DEFAULT_OUTPUT,
+    output_dir: Path = OUT_DIR,
+    min_emails: int = 3,
+):
+    """Run the full pipeline end-to-end."""
+    t0 = time.time()
+
+    # step 1: extract
+    print("=" * 60)
+    print("STEP 1: Extracting Enron dataset...")
+    print("=" * 60)
+    maildir = extract_enron(archive_path, maildir_path.parent)
+
+    # step 2: parse
+    print("
+" + "=" * 60)
+    print("STEP 2: Parsing emails...")
+    print("=" * 60)
+    emails = parse_all_emails(maildir)
+    print(f"  Total emails: {len(emails)}")
+
+    # step 3: build graph
+    print("
+" + "=" * 60)
+    print("STEP 3: Building communication graph...")
+    print("=" * 60)
+    G = build_graph(emails, min_emails=min_emails)
+    print(f"  Nodes: {G.number_of_nodes()}")
+    print(f"  Edges: {G.number_of_edges()}")
+
+    # step 4: edge weights
+    print("
+  Computing edge weights...")
+    G = compute_weights(G)
+
+    # step 5: sentiment
+    print("
+" + "=" * 60)
+    print("STEP 4: Running sentiment analysis...")
+    print("=" * 60)
+    G = enrich_graph_with_sentiment(G, emails)
+    sent_summary = get_sentiment_summary(G)
+    print(f"  Avg sentiment: {sent_summary[chr(39)+avg_sentiment+chr(39)]}")
+
+    # recompute weights with sentiment
+    G = compute_weights(G)

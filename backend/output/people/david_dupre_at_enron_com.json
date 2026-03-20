@@ -1,0 +1,102 @@
+{
+  "id": "david.dupre@enron.com",
+  "name": "David Dupre",
+  "email": "david.dupre@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.001756697408871322,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.001756697408871322,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.022434051791675038,
+    "pagerank": 0.0002195560970223513
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0804
+  },
+  "dead_man_switch": {
+    "id": "david.dupre@enron.com",
+    "name": "David Dupre",
+    "dms_score": -0.2762,
+    "betweenness": 0.0,
+    "eigenvector": 0.022434,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "david.dupre@enron.com",
+    "name": "David Dupre",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 60,
+      "weight": 0.1449,
+      "sentiment": 0.0895
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1427,
+      "sentiment": 0.1662
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1398,
+      "sentiment": 0.1686
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 26,
+      "weight": 0.1285,
+      "sentiment": 0.0852
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 17,
+      "weight": 0.1152,
+      "sentiment": 0.0329
+    },
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1113,
+      "sentiment": 0.0353
+    },
+    {
+      "id": "errol.mclaughlin@enron.com",
+      "name": "Errol Mclaughlin",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1041,
+      "sentiment": -0.0278
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.0795,
+      "sentiment": -0.125
+    }
+  ]
+}

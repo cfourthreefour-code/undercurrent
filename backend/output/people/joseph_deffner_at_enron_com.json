@@ -1,0 +1,126 @@
+{
+  "id": "joseph.deffner@enron.com",
+  "name": "Joseph Deffner",
+  "email": "joseph.deffner@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.002415458937198068,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.002415458937198068,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.03665825211454193,
+    "pagerank": 0.00023859655899993975
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1177
+  },
+  "dead_man_switch": {
+    "id": "joseph.deffner@enron.com",
+    "name": "Joseph Deffner",
+    "dms_score": -0.262,
+    "betweenness": 0.0,
+    "eigenvector": 0.036658,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "joseph.deffner@enron.com",
+    "name": "Joseph Deffner",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "rick.buy@enron.com",
+      "name": "Rick Buy",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.191,
+      "sentiment": 0.1817
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 27,
+      "weight": 0.1895,
+      "sentiment": 0.1229
+    },
+    {
+      "id": "kenneth.lay@enron.com",
+      "name": "Kenneth Lay",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1737,
+      "sentiment": 0.1938
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1732,
+      "sentiment": 0.0988
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.167,
+      "sentiment": 0.0897
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 24,
+      "weight": 0.1589,
+      "sentiment": 0.2181
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 48,
+      "weight": 0.1371,
+      "sentiment": 0.0649
+    },
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1364,
+      "sentiment": 0.0858
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1356,
+      "sentiment": 0.1598
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1338,
+      "sentiment": 0.0488
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1318,
+      "sentiment": 0.1252
+    }
+  ]
+}

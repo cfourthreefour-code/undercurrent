@@ -1,0 +1,126 @@
+{
+  "id": "harry.arora@enron.com",
+  "name": "Harry Arora",
+  "email": "harry.arora@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.000878348704435661,
+    "degree_centrality": 0.002415458937198068,
+    "betweenness_centrality": 2.228185270422114e-05,
+    "eigenvector_centrality": 0.0211589327551351,
+    "pagerank": 0.00022509456399915273
+  },
+  "sentiment": {
+    "avg_sent": 0.1317,
+    "avg_received": 0.151
+  },
+  "dead_man_switch": {
+    "id": "harry.arora@enron.com",
+    "name": "Harry Arora",
+    "dms_score": -0.2732,
+    "betweenness": 5.5e-05,
+    "eigenvector": 0.021159,
+    "redundancy": 0.9952,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "harry.arora@enron.com",
+    "name": "Harry Arora",
+    "waste_score": 15.0,
+    "overproduction": 0.0,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0.75
+  },
+  "connections": [
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.189,
+      "sentiment": 0.1304
+    },
+    {
+      "id": "greg.blair@enron.com",
+      "name": "Greg Blair",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.1864,
+      "sentiment": 0.1325
+    },
+    {
+      "id": "iris.mack@enron.com",
+      "name": "Iris Mack",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1758,
+      "sentiment": 0.1183
+    },
+    {
+      "id": "karen.buckley@enron.com",
+      "name": "Karen Buckley",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1697,
+      "sentiment": 0.0977
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2148,
+      "sentiment": 0.208
+    },
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2061,
+      "sentiment": 0.2257
+    },
+    {
+      "id": "m..presto@enron.com",
+      "name": "M Presto",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1878,
+      "sentiment": 0.0231
+    },
+    {
+      "id": "liz.taylor@enron.com",
+      "name": "Liz Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1596,
+      "sentiment": 0.2714
+    },
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1442,
+      "sentiment": 0.138
+    },
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1407,
+      "sentiment": 0.0977
+    },
+    {
+      "id": "mike.mcconnell@enron.com",
+      "name": "Mike Mcconnell",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1361,
+      "sentiment": 0.1575
+    }
+  ]
+}

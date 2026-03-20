@@ -1,0 +1,62 @@
+{
+  "id": "jorge.garcia@enron.com",
+  "name": "Jorge Garcia",
+  "email": "jorge.garcia@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.015567452259035601,
+    "pagerank": 0.000211762275729577
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0968
+  },
+  "dead_man_switch": {
+    "id": "jorge.garcia@enron.com",
+    "name": "Jorge Garcia",
+    "dms_score": -0.2831,
+    "betweenness": 0.0,
+    "eigenvector": 0.015567,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jorge.garcia@enron.com",
+    "name": "Jorge Garcia",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1564,
+      "sentiment": 0.1808
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 31,
+      "weight": 0.1478,
+      "sentiment": 0.0834
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1296,
+      "sentiment": 0.0681
+    }
+  ]
+}

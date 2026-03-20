@@ -1,0 +1,46 @@
+{
+  "id": "molly.sample@enron.com",
+  "name": "Molly Sample",
+  "email": "molly.sample@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0009181699216464636,
+    "pagerank": 0.00021263059467732697
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0177
+  },
+  "dead_man_switch": {
+    "id": "molly.sample@enron.com",
+    "name": "Molly Sample",
+    "dms_score": -0.2977,
+    "betweenness": 0.0,
+    "eigenvector": 0.000918,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "molly.sample@enron.com",
+    "name": "Molly Sample",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "stanley.horton@enron.com",
+      "name": "Stanley Horton",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1514,
+      "sentiment": -0.0109
+    }
+  ]
+}

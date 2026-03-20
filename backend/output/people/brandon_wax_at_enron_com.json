@@ -1,0 +1,54 @@
+{
+  "id": "brandon.wax@enron.com",
+  "name": "Brandon Wax",
+  "email": "brandon.wax@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.007419696116961453,
+    "pagerank": 0.00021146984815613912
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0615
+  },
+  "dead_man_switch": {
+    "id": "brandon.wax@enron.com",
+    "name": "Brandon Wax",
+    "dms_score": -0.2912,
+    "betweenness": 0.0,
+    "eigenvector": 0.00742,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "brandon.wax@enron.com",
+    "name": "Brandon Wax",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1522,
+      "sentiment": 0.0381
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1169,
+      "sentiment": 0.0778
+    }
+  ]
+}

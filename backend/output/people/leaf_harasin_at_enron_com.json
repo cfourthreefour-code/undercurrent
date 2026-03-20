@@ -1,0 +1,62 @@
+{
+  "id": "leaf.harasin@enron.com",
+  "name": "Leaf Harasin",
+  "email": "leaf.harasin@enron.com",
+  "community_id": 7,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0011628186810224545,
+    "pagerank": 0.00023263263741332932
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1109
+  },
+  "dead_man_switch": {
+    "id": "leaf.harasin@enron.com",
+    "name": "Leaf Harasin",
+    "dms_score": -0.2975,
+    "betweenness": 0.0,
+    "eigenvector": 0.001163,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "leaf.harasin@enron.com",
+    "name": "Leaf Harasin",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "bill.williams@enron.com",
+      "name": "Bill Williams",
+      "direction": "incoming",
+      "email_count": 97,
+      "weight": 0.2222,
+      "sentiment": 0.1139
+    },
+    {
+      "id": "ryan.slinger@enron.com",
+      "name": "Ryan Slinger",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1832,
+      "sentiment": 0.1759
+    },
+    {
+      "id": "kate.symes@enron.com",
+      "name": "Kate Symes",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1334,
+      "sentiment": 0.0949
+    }
+  ]
+}

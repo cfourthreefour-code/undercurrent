@@ -1,0 +1,70 @@
+{
+  "id": "marilyn.colbert@enron.com",
+  "name": "Marilyn Colbert",
+  "email": "marilyn.colbert@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.02003976120443555,
+    "pagerank": 0.0002130588115969639
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1301
+  },
+  "dead_man_switch": {
+    "id": "marilyn.colbert@enron.com",
+    "name": "Marilyn Colbert",
+    "dms_score": -0.2786,
+    "betweenness": 0.0,
+    "eigenvector": 0.02004,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "marilyn.colbert@enron.com",
+    "name": "Marilyn Colbert",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 59,
+      "weight": 0.187,
+      "sentiment": 0.1261
+    },
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1671,
+      "sentiment": 0.0978
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1568,
+      "sentiment": 0.2536
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1278,
+      "sentiment": 0.0513
+    }
+  ]
+}

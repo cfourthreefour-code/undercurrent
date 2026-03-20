@@ -1,0 +1,62 @@
+{
+  "id": "kristin.gandy@enron.com",
+  "name": "Kristin Gandy",
+  "email": "kristin.gandy@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.007226963738917441,
+    "pagerank": 0.00021750013872084278
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1212
+  },
+  "dead_man_switch": {
+    "id": "kristin.gandy@enron.com",
+    "name": "Kristin Gandy",
+    "dms_score": -0.2914,
+    "betweenness": 0.0,
+    "eigenvector": 0.007227,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "kristin.gandy@enron.com",
+    "name": "Kristin Gandy",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1626,
+      "sentiment": 0.0324
+    },
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 65,
+      "weight": 0.1622,
+      "sentiment": 0.1217
+    },
+    {
+      "id": "jeffrey.shankman@enron.com",
+      "name": "Jeffrey Shankman",
+      "direction": "incoming",
+      "email_count": 29,
+      "weight": 0.1409,
+      "sentiment": 0.1082
+    }
+  ]
+}

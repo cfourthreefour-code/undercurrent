@@ -1,0 +1,62 @@
+{
+  "id": "steve.schneider@enron.com",
+  "name": "Steve Schneider",
+  "email": "steve.schneider@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.004403770088149206,
+    "pagerank": 0.00021495756519692908
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0238
+  },
+  "dead_man_switch": {
+    "id": "steve.schneider@enron.com",
+    "name": "Steve Schneider",
+    "dms_score": -0.2942,
+    "betweenness": 0.0,
+    "eigenvector": 0.004404,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "steve.schneider@enron.com",
+    "name": "Steve Schneider",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.128,
+      "sentiment": 0.0285
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1154,
+      "sentiment": 0.0208
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1149,
+      "sentiment": 0.0271
+    }
+  ]
+}

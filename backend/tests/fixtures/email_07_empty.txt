@@ -1,0 +1,9 @@
+Message-ID: <test007@enron.com>
+Date: Fri, 18 May 2001 09:00:00 -0700 (PDT)
+From: john.smith@enron.com
+To: jane.doe@enron.com
+Subject: (empty)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+

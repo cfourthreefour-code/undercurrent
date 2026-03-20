@@ -1,0 +1,94 @@
+{
+  "id": "susan.elledge@enron.com",
+  "name": "Susan Elledge",
+  "email": "susan.elledge@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0015371102327624067,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.014379570187181171,
+    "pagerank": 0.00024034914559926848
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1101
+  },
+  "dead_man_switch": {
+    "id": "susan.elledge@enron.com",
+    "name": "Susan Elledge",
+    "dms_score": -0.2843,
+    "betweenness": 0.0,
+    "eigenvector": 0.01438,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "susan.elledge@enron.com",
+    "name": "Susan Elledge",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1796,
+      "sentiment": 0.0513
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1787,
+      "sentiment": 0.2777
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "stacy.dickson@enron.com",
+      "name": "Stacy Dickson",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1473,
+      "sentiment": 0.1202
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1327,
+      "sentiment": 0.0899
+    },
+    {
+      "id": "kevin.ruscitti@enron.com",
+      "name": "Kevin Ruscitti",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1241,
+      "sentiment": 0.0889
+    },
+    {
+      "id": "jane.tholt@enron.com",
+      "name": "Jane Tholt",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1119,
+      "sentiment": -0.0167
+    }
+  ]
+}

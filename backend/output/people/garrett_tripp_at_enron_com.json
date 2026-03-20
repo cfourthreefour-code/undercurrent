@@ -1,0 +1,62 @@
+{
+  "id": "garrett.tripp@enron.com",
+  "name": "Garrett Tripp",
+  "email": "garrett.tripp@enron.com",
+  "community_id": 5,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0050200550872952715,
+    "pagerank": 0.00022129965320949195
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0607
+  },
+  "dead_man_switch": {
+    "id": "garrett.tripp@enron.com",
+    "name": "Garrett Tripp",
+    "dms_score": -0.2936,
+    "betweenness": 0.0,
+    "eigenvector": 0.00502,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "garrett.tripp@enron.com",
+    "name": "Garrett Tripp",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "john.zufferli@enron.com",
+      "name": "John Zufferli",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1974,
+      "sentiment": 0.0817
+    },
+    {
+      "id": "matthew.lenhart@enron.com",
+      "name": "Matthew Lenhart",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1247,
+      "sentiment": 0.0942
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.113,
+      "sentiment": 0.0354
+    }
+  ]
+}

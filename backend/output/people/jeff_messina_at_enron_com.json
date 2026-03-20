@@ -1,0 +1,46 @@
+{
+  "id": "jeff.messina@enron.com",
+  "name": "Jeff Messina",
+  "email": "jeff.messina@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.007434557906147598,
+    "pagerank": 0.0002106093498280481
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0516
+  },
+  "dead_man_switch": {
+    "id": "jeff.messina@enron.com",
+    "name": "Jeff Messina",
+    "dms_score": -0.2912,
+    "betweenness": 0.0,
+    "eigenvector": 0.007435,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jeff.messina@enron.com",
+    "name": "Jeff Messina",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 214,
+      "weight": 0.2149,
+      "sentiment": 0.0516
+    }
+  ]
+}

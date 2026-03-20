@@ -1,0 +1,54 @@
+{
+  "id": "dee.madole@enron.com",
+  "name": "Dee Madole",
+  "email": "dee.madole@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0024984984320075513,
+    "pagerank": 0.00021334422276690488
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1496
+  },
+  "dead_man_switch": {
+    "id": "dee.madole@enron.com",
+    "name": "Dee Madole",
+    "dms_score": -0.2961,
+    "betweenness": 0.0,
+    "eigenvector": 0.002498,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "dee.madole@enron.com",
+    "name": "Dee Madole",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1459,
+      "sentiment": 0.1873
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1063,
+      "sentiment": -0.0517
+    }
+  ]
+}

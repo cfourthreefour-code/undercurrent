@@ -1,0 +1,54 @@
+{
+  "id": "angela.barnett@enron.com",
+  "name": "Angela Barnett",
+  "email": "angela.barnett@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.008126947332492822,
+    "pagerank": 0.00021585771432118032
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.113
+  },
+  "dead_man_switch": {
+    "id": "angela.barnett@enron.com",
+    "name": "Angela Barnett",
+    "dms_score": -0.2905,
+    "betweenness": 0.0,
+    "eigenvector": 0.008127,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "angela.barnett@enron.com",
+    "name": "Angela Barnett",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "judy.hernandez@enron.com",
+      "name": "Judy Hernandez",
+      "direction": "incoming",
+      "email_count": 126,
+      "weight": 0.1685,
+      "sentiment": 0.1067
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    }
+  ]
+}

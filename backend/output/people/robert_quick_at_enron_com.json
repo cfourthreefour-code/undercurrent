@@ -1,0 +1,70 @@
+{
+  "id": "robert.quick@enron.com",
+  "name": "Robert Quick",
+  "email": "robert.quick@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.013978877089336489,
+    "pagerank": 0.000220160682751516
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1408
+  },
+  "dead_man_switch": {
+    "id": "robert.quick@enron.com",
+    "name": "Robert Quick",
+    "dms_score": -0.2847,
+    "betweenness": 0.0,
+    "eigenvector": 0.013979,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "robert.quick@enron.com",
+    "name": "Robert Quick",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "mark.haedicke@enron.com",
+      "name": "Mark Haedicke",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1943,
+      "sentiment": 0.4543
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1489,
+      "sentiment": 0.1628
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.137,
+      "sentiment": 0.0535
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1279,
+      "sentiment": 0.0949
+    }
+  ]
+}

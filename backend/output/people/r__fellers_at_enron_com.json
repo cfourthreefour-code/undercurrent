@@ -1,0 +1,54 @@
+{
+  "id": "r..fellers@enron.com",
+  "name": "R Fellers",
+  "email": "r..fellers@enron.com",
+  "community_id": 13,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0007880012588082577,
+    "pagerank": 0.00022344976862891564
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0488
+  },
+  "dead_man_switch": {
+    "id": "r..fellers@enron.com",
+    "name": "R Fellers",
+    "dms_score": -0.2978,
+    "betweenness": 0.0,
+    "eigenvector": 0.000788,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "r..fellers@enron.com",
+    "name": "R Fellers",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kaminski@enron.com",
+      "name": "Kaminski",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1588,
+      "sentiment": 0.185
+    },
+    {
+      "id": "j.kaminski@enron.com",
+      "name": "J Kaminski",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1251,
+      "sentiment": -0.0533
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "edward.baughman@enron.com",
+  "name": "Edward Baughman",
+  "email": "edward.baughman@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.014372653034323129,
+    "pagerank": 0.00022793956226578152
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1141
+  },
+  "dead_man_switch": {
+    "id": "edward.baughman@enron.com",
+    "name": "Edward Baughman",
+    "dms_score": -0.2843,
+    "betweenness": 0.0,
+    "eigenvector": 0.014373,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "edward.baughman@enron.com",
+    "name": "Edward Baughman",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kevin.presto@enron.com",
+      "name": "Kevin Presto",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1601,
+      "sentiment": 0.1932
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.1401,
+      "sentiment": 0.1407
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1355,
+      "sentiment": 0.1399
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1329,
+      "sentiment": 0.0711
+    },
+    {
+      "id": "beverly.stephens@enron.com",
+      "name": "Beverly Stephens",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1223,
+      "sentiment": 0.078
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.122,
+      "sentiment": 0.0616
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "lauri.allen@enron.com",
+  "name": "Lauri Allen",
+  "email": "lauri.allen@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.002791228119890335,
+    "pagerank": 0.00021418600285578047
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0023
+  },
+  "dead_man_switch": {
+    "id": "lauri.allen@enron.com",
+    "name": "Lauri Allen",
+    "dms_score": -0.2958,
+    "betweenness": 0.0,
+    "eigenvector": 0.002791,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "lauri.allen@enron.com",
+    "name": "Lauri Allen",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1231,
+      "sentiment": 0.0841
+    },
+    {
+      "id": "daren.farmer@enron.com",
+      "name": "Daren Farmer",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1085,
+      "sentiment": -0.0248
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1058,
+      "sentiment": -0.024
+    }
+  ]
+}

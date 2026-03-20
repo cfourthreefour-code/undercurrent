@@ -1,0 +1,46 @@
+{
+  "id": "becky.pitre@enron.com",
+  "name": "Becky Pitre",
+  "email": "becky.pitre@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0007623619967958115,
+    "pagerank": 0.0002130184170950178
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0282
+  },
+  "dead_man_switch": {
+    "id": "becky.pitre@enron.com",
+    "name": "Becky Pitre",
+    "dms_score": -0.2979,
+    "betweenness": 0.0,
+    "eigenvector": 0.000762,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "becky.pitre@enron.com",
+    "name": "Becky Pitre",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "robin.rodrigue@enron.com",
+      "name": "Robin Rodrigue",
+      "direction": "incoming",
+      "email_count": 120,
+      "weight": 0.1557,
+      "sentiment": 0.0282
+    }
+  ]
+}

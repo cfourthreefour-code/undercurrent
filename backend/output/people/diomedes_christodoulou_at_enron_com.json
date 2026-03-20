@@ -1,0 +1,62 @@
+{
+  "id": "diomedes.christodoulou@enron.com",
+  "name": "Diomedes Christodoulou",
+  "email": "diomedes.christodoulou@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0054555787406905315,
+    "pagerank": 0.00021520340535524166
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0642
+  },
+  "dead_man_switch": {
+    "id": "diomedes.christodoulou@enron.com",
+    "name": "Diomedes Christodoulou",
+    "dms_score": -0.2932,
+    "betweenness": 0.0,
+    "eigenvector": 0.005456,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "diomedes.christodoulou@enron.com",
+    "name": "Diomedes Christodoulou",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1308,
+      "sentiment": 0.1253
+    },
+    {
+      "id": "maureen.mcvicker@enron.com",
+      "name": "Maureen Mcvicker",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1223,
+      "sentiment": 0.0716
+    },
+    {
+      "id": "liz.taylor@enron.com",
+      "name": "Liz Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.108,
+      "sentiment": 0.0
+    }
+  ]
+}

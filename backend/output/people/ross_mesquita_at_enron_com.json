@@ -1,0 +1,54 @@
+{
+  "id": "ross.mesquita@enron.com",
+  "name": "Ross Mesquita",
+  "email": "ross.mesquita@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.007491016305597692,
+    "pagerank": 0.00021126124735562383
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0223
+  },
+  "dead_man_switch": {
+    "id": "ross.mesquita@enron.com",
+    "name": "Ross Mesquita",
+    "dms_score": -0.2911,
+    "betweenness": 0.0,
+    "eigenvector": 0.007491,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "ross.mesquita@enron.com",
+    "name": "Ross Mesquita",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1514,
+      "sentiment": -0.0169
+    },
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1333,
+      "sentiment": 0.0
+    }
+  ]
+}

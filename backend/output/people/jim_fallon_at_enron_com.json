@@ -1,0 +1,110 @@
+{
+  "id": "jim.fallon@enron.com",
+  "name": "Jim Fallon",
+  "email": "jim.fallon@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.001976284584980237,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.001976284584980237,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.03473845936968817,
+    "pagerank": 0.00023934279080180175
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1291
+  },
+  "dead_man_switch": {
+    "id": "jim.fallon@enron.com",
+    "name": "Jim Fallon",
+    "dms_score": -0.2639,
+    "betweenness": 0.0,
+    "eigenvector": 0.034738,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jim.fallon@enron.com",
+    "name": "Jim Fallon",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.2177,
+      "sentiment": 0.1768
+    },
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2018,
+      "sentiment": 0.4867
+    },
+    {
+      "id": "rick.buy@enron.com",
+      "name": "Rick Buy",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1989,
+      "sentiment": 0.1112
+    },
+    {
+      "id": "greg.whalley@enron.com",
+      "name": "Greg Whalley",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1973,
+      "sentiment": 0.2085
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1959,
+      "sentiment": 0.1044
+    },
+    {
+      "id": "james.derrick@enron.com",
+      "name": "James Derrick",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1782,
+      "sentiment": 0.0621
+    },
+    {
+      "id": "j..kean@enron.com",
+      "name": "J Kean",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1634,
+      "sentiment": 0.0328
+    },
+    {
+      "id": "sherri.sera@enron.com",
+      "name": "Sherri Sera",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1184,
+      "sentiment": 0.0193
+    },
+    {
+      "id": "liz.taylor@enron.com",
+      "name": "Liz Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1066,
+      "sentiment": 0.0167
+    }
+  ]
+}

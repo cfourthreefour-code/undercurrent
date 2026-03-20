@@ -1,0 +1,46 @@
+{
+  "id": "no.address@enron.com",
+  "name": "No Address",
+  "email": "no.address@enron.com",
+  "community_id": 4,
+  "metrics": {
+    "in_degree_centrality": 0.0,
+    "out_degree_centrality": 0.00021958717610891525,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 7.403576826463509e-21,
+    "pagerank": 0.00020989089455738852
+  },
+  "sentiment": {
+    "avg_sent": 0.0681,
+    "avg_received": 0
+  },
+  "dead_man_switch": {
+    "id": "no.address@enron.com",
+    "name": "No Address",
+    "dms_score": -0.2987,
+    "betweenness": 0.0,
+    "eigenvector": 0.0,
+    "redundancy": 0.9956,
+    "impact_pct": 0.4
+  },
+  "waste": {
+    "id": "no.address@enron.com",
+    "name": "No Address",
+    "waste_score": 20.0,
+    "overproduction": 0.0,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "na-incoming@enron.com",
+      "name": "Na Incoming",
+      "direction": "outgoing",
+      "email_count": 14,
+      "weight": 0.1397,
+      "sentiment": 0.0693
+    }
+  ]
+}

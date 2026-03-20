@@ -1,0 +1,54 @@
+{
+  "id": "stephanie.gardner@enron.com",
+  "name": "Stephanie Gardner",
+  "email": "stephanie.gardner@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.005452609822537386,
+    "pagerank": 0.0002128358294893242
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1418
+  },
+  "dead_man_switch": {
+    "id": "stephanie.gardner@enron.com",
+    "name": "Stephanie Gardner",
+    "dms_score": -0.2932,
+    "betweenness": 0.0,
+    "eigenvector": 0.005453,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "stephanie.gardner@enron.com",
+    "name": "Stephanie Gardner",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1732,
+      "sentiment": 0.331
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1242,
+      "sentiment": 0.0662
+    }
+  ]
+}

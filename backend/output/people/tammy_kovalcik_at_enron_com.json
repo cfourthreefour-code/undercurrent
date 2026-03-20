@@ -1,0 +1,54 @@
+{
+  "id": "tammy.kovalcik@enron.com",
+  "name": "Tammy Kovalcik",
+  "email": "tammy.kovalcik@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0006469614553053027,
+    "pagerank": 0.00021672799771539422
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.095
+  },
+  "dead_man_switch": {
+    "id": "tammy.kovalcik@enron.com",
+    "name": "Tammy Kovalcik",
+    "dms_score": -0.298,
+    "betweenness": 0.0,
+    "eigenvector": 0.000647,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "tammy.kovalcik@enron.com",
+    "name": "Tammy Kovalcik",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tracy.geaccone@enron.com",
+      "name": "Tracy Geaccone",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1751,
+      "sentiment": 0.1294
+    },
+    {
+      "id": "cindy.stark@enron.com",
+      "name": "Cindy Stark",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1425,
+      "sentiment": 0.1035
+    }
+  ]
+}

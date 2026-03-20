@@ -1,0 +1,46 @@
+{
+  "id": "lisa.jones@enron.com",
+  "name": "Lisa Jones",
+  "email": "lisa.jones@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0011188142489286408,
+    "pagerank": 0.00021388713734474065
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0317
+  },
+  "dead_man_switch": {
+    "id": "lisa.jones@enron.com",
+    "name": "Lisa Jones",
+    "dms_score": -0.2975,
+    "betweenness": 0.0,
+    "eigenvector": 0.001119,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "lisa.jones@enron.com",
+    "name": "Lisa Jones",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "phillip.allen@enron.com",
+      "name": "Phillip Allen",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1182,
+      "sentiment": 0.0
+    }
+  ]
+}

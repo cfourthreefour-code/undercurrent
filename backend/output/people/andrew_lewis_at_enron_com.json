@@ -1,0 +1,86 @@
+{
+  "id": "andrew.lewis@enron.com",
+  "name": "Andrew Lewis",
+  "email": "andrew.lewis@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0006587615283267457,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 5.04958869725531e-05,
+    "eigenvector_centrality": 0.0054403657651665655,
+    "pagerank": 0.00021778794983423974
+  },
+  "sentiment": {
+    "avg_sent": 0.0593,
+    "avg_received": 0.0257
+  },
+  "dead_man_switch": {
+    "id": "andrew.lewis@enron.com",
+    "name": "Andrew Lewis",
+    "dms_score": -0.2927,
+    "betweenness": 6e-06,
+    "eigenvector": 0.00544,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "andrew.lewis@enron.com",
+    "name": "Andrew Lewis",
+    "waste_score": 20.2,
+    "overproduction": 0.05,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "parking.transportation@enron.com",
+      "name": "Parking Transportation",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1437,
+      "sentiment": 0.1364
+    },
+    {
+      "id": "phillip.allen@enron.com",
+      "name": "Phillip Allen",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1042,
+      "sentiment": 0.0
+    },
+    {
+      "id": "robyn.zivic@enron.com",
+      "name": "Robyn Zivic",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1032,
+      "sentiment": -0.0625
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 20,
+      "weight": 0.1309,
+      "sentiment": 0.0378
+    },
+    {
+      "id": "phillip.love@enron.com",
+      "name": "Phillip Love",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1184,
+      "sentiment": 0.055
+    },
+    {
+      "id": "hunter.shively@enron.com",
+      "name": "Hunter Shively",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1165,
+      "sentiment": -0.0052
+    }
+  ]
+}

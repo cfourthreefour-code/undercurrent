@@ -1,0 +1,46 @@
+{
+  "id": "bob.thurber@enron.com",
+  "name": "Bob Thurber",
+  "email": "bob.thurber@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0009725463265680736,
+    "pagerank": 0.00021074895760624912
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0355
+  },
+  "dead_man_switch": {
+    "id": "bob.thurber@enron.com",
+    "name": "Bob Thurber",
+    "dms_score": -0.2976,
+    "betweenness": 0.0,
+    "eigenvector": 0.000973,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "bob.thurber@enron.com",
+    "name": "Bob Thurber",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1099,
+      "sentiment": 0.0355
+    }
+  ]
+}

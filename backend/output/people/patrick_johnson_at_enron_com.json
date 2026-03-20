@@ -1,0 +1,54 @@
+{
+  "id": "patrick.johnson@enron.com",
+  "name": "Patrick Johnson",
+  "email": "patrick.johnson@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.003631190679909996,
+    "pagerank": 0.00021245051320808303
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0953
+  },
+  "dead_man_switch": {
+    "id": "patrick.johnson@enron.com",
+    "name": "Patrick Johnson",
+    "dms_score": -0.295,
+    "betweenness": 0.0,
+    "eigenvector": 0.003631,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "patrick.johnson@enron.com",
+    "name": "Patrick Johnson",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1707,
+      "sentiment": 0.1399
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.0934,
+      "sentiment": -0.0448
+    }
+  ]
+}

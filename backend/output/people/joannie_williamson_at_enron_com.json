@@ -1,0 +1,94 @@
+{
+  "id": "joannie.williamson@enron.com",
+  "name": "Joannie Williamson",
+  "email": "joannie.williamson@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.000878348704435661,
+    "degree_centrality": 0.0015371102327624067,
+    "betweenness_centrality": 4.822911840740506e-08,
+    "eigenvector_centrality": 0.007032474835515585,
+    "pagerank": 0.00022300210581938643
+  },
+  "sentiment": {
+    "avg_sent": 0.1107,
+    "avg_received": 0.1557
+  },
+  "dead_man_switch": {
+    "id": "joannie.williamson@enron.com",
+    "name": "Joannie Williamson",
+    "dms_score": -0.2916,
+    "betweenness": 0.0,
+    "eigenvector": 0.007032,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "joannie.williamson@enron.com",
+    "name": "Joannie Williamson",
+    "waste_score": 16.9,
+    "overproduction": 0.2,
+    "broadcast_ratio": 0.025,
+    "reply_all_ratio": 0.025,
+    "orphan_ratio": 0.75
+  },
+  "connections": [
+    {
+      "id": "kelly.johnson@enron.com",
+      "name": "Kelly Johnson",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1704,
+      "sentiment": 0.25
+    },
+    {
+      "id": "sherri.sera@enron.com",
+      "name": "Sherri Sera",
+      "direction": "outgoing",
+      "email_count": 16,
+      "weight": 0.1571,
+      "sentiment": 0.1647
+    },
+    {
+      "id": "amelia.alder@enron.com",
+      "name": "Amelia Alder",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1489,
+      "sentiment": 0.1618
+    },
+    {
+      "id": "christie.patrick@enron.com",
+      "name": "Christie Patrick",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1483,
+      "sentiment": 0.1456
+    },
+    {
+      "id": "jeff.skilling@enron.com",
+      "name": "Jeff Skilling",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.1688,
+      "sentiment": 0.2281
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1614,
+      "sentiment": 0.2006
+    },
+    {
+      "id": "sherri.sera@enron.com",
+      "name": "Sherri Sera",
+      "direction": "incoming",
+      "email_count": 44,
+      "weight": 0.1613,
+      "sentiment": 0.1435
+    }
+  ]
+}

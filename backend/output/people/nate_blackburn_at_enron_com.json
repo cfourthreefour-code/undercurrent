@@ -1,0 +1,46 @@
+{
+  "id": "nate.blackburn@enron.com",
+  "name": "Nate Blackburn",
+  "email": "nate.blackburn@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00035599550372546375,
+    "pagerank": 0.00021391045589535675
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0444
+  },
+  "dead_man_switch": {
+    "id": "nate.blackburn@enron.com",
+    "name": "Nate Blackburn",
+    "dms_score": -0.2983,
+    "betweenness": 0.0,
+    "eigenvector": 0.000356,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "nate.blackburn@enron.com",
+    "name": "Nate Blackburn",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "matt.smith@enron.com",
+      "name": "Matt Smith",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1321,
+      "sentiment": 0.0555
+    }
+  ]
+}

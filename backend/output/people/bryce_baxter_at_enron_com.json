@@ -1,0 +1,110 @@
+{
+  "id": "bryce.baxter@enron.com",
+  "name": "Bryce Baxter",
+  "email": "bryce.baxter@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.001976284584980237,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.001976284584980237,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.02191014968706061,
+    "pagerank": 0.00022675176835401764
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1044
+  },
+  "dead_man_switch": {
+    "id": "bryce.baxter@enron.com",
+    "name": "Bryce Baxter",
+    "dms_score": -0.2767,
+    "betweenness": 0.0,
+    "eigenvector": 0.02191,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "bryce.baxter@enron.com",
+    "name": "Bryce Baxter",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 33,
+      "weight": 0.2198,
+      "sentiment": 0.1285
+    },
+    {
+      "id": "kam.keiser@enron.com",
+      "name": "Kam Keiser",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1904,
+      "sentiment": 0.0394
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1516,
+      "sentiment": 0.2125
+    },
+    {
+      "id": ".ward@enron.com",
+      "name": "Ward",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1508,
+      "sentiment": 0.025
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1458,
+      "sentiment": 0.1663
+    },
+    {
+      "id": "darron.giron@enron.com",
+      "name": "Darron Giron",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1336,
+      "sentiment": 0.096
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1284,
+      "sentiment": 0.0409
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1088,
+      "sentiment": 0.0215
+    },
+    {
+      "id": "randall.gay@enron.com",
+      "name": "Randall Gay",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1048,
+      "sentiment": 0.0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "pam.metoyer@enron.com",
+  "name": "Pam Metoyer",
+  "email": "pam.metoyer@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0061770190894679024,
+    "pagerank": 0.00022657633900688683
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.2301
+  },
+  "dead_man_switch": {
+    "id": "pam.metoyer@enron.com",
+    "name": "Pam Metoyer",
+    "dms_score": -0.2924,
+    "betweenness": 0.0,
+    "eigenvector": 0.006177,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "pam.metoyer@enron.com",
+    "name": "Pam Metoyer",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "karen.heathman@enron.com",
+      "name": "Karen Heathman",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1728,
+      "sentiment": 0.3169
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1688,
+      "sentiment": 0.3
+    },
+    {
+      "id": "rick.buy@enron.com",
+      "name": "Rick Buy",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1582,
+      "sentiment": 0.1448
+    }
+  ]
+}

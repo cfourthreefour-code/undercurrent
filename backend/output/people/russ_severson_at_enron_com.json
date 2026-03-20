@@ -1,0 +1,94 @@
+{
+  "id": "russ.severson@enron.com",
+  "name": "Russ Severson",
+  "email": "russ.severson@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0015371102327624067,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.016835978196404394,
+    "pagerank": 0.0002210803828764845
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.083
+  },
+  "dead_man_switch": {
+    "id": "russ.severson@enron.com",
+    "name": "Russ Severson",
+    "dms_score": -0.2818,
+    "betweenness": 0.0,
+    "eigenvector": 0.016836,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "russ.severson@enron.com",
+    "name": "Russ Severson",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.2182,
+      "sentiment": 0.1671
+    },
+    {
+      "id": "kam.keiser@enron.com",
+      "name": "Kam Keiser",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1815,
+      "sentiment": -0.0078
+    },
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.1746,
+      "sentiment": 0.1098
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "phillip.love@enron.com",
+      "name": "Phillip Love",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1366,
+      "sentiment": 0.0722
+    },
+    {
+      "id": "darron.giron@enron.com",
+      "name": "Darron Giron",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.116,
+      "sentiment": 0.016
+    },
+    {
+      "id": "daren.farmer@enron.com",
+      "name": "Daren Farmer",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.106,
+      "sentiment": -0.0009
+    }
+  ]
+}

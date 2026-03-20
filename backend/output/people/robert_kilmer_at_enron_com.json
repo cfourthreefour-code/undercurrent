@@ -1,0 +1,118 @@
+{
+  "id": "robert.kilmer@enron.com",
+  "name": "Robert Kilmer",
+  "email": "robert.kilmer@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.006120746320422162,
+    "pagerank": 0.0002472586220429589
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0852
+  },
+  "dead_man_switch": {
+    "id": "robert.kilmer@enron.com",
+    "name": "Robert Kilmer",
+    "dms_score": -0.2925,
+    "betweenness": 0.0,
+    "eigenvector": 0.006121,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "robert.kilmer@enron.com",
+    "name": "Robert Kilmer",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "teb.lokey@enron.com",
+      "name": "Teb Lokey",
+      "direction": "incoming",
+      "email_count": 35,
+      "weight": 0.229,
+      "sentiment": 0.0585
+    },
+    {
+      "id": "lindy.donoho@enron.com",
+      "name": "Lindy Donoho",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.2052,
+      "sentiment": 0.036
+    },
+    {
+      "id": "danny.mccarty@enron.com",
+      "name": "Danny Mccarty",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.2047,
+      "sentiment": 0.1946
+    },
+    {
+      "id": "shelley.corman@enron.com",
+      "name": "Shelley Corman",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.2011,
+      "sentiment": 0.1269
+    },
+    {
+      "id": "bill.rapp@enron.com",
+      "name": "Bill Rapp",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1847,
+      "sentiment": 0.1036
+    },
+    {
+      "id": "tracy.geaccone@enron.com",
+      "name": "Tracy Geaccone",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1837,
+      "sentiment": 0.1782
+    },
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1804,
+      "sentiment": 0.1022
+    },
+    {
+      "id": "rod.hayslett@enron.com",
+      "name": "Rod Hayslett",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1647,
+      "sentiment": 0.0662
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 26,
+      "weight": 0.1352,
+      "sentiment": 0.0644
+    },
+    {
+      "id": "larry.campbell@enron.com",
+      "name": "Larry Campbell",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1293,
+      "sentiment": -0.0604
+    }
+  ]
+}

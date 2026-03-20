@@ -1,0 +1,142 @@
+{
+  "id": "karen.buckley@enron.com",
+  "name": "Karen Buckley",
+  "email": "karen.buckley@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.002854633289415898,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.002854633289415898,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.024665711773874062,
+    "pagerank": 0.0003783312170122362
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0986
+  },
+  "dead_man_switch": {
+    "id": "karen.buckley@enron.com",
+    "name": "Karen Buckley",
+    "dms_score": -0.274,
+    "betweenness": 0.0,
+    "eigenvector": 0.024666,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "karen.buckley@enron.com",
+    "name": "Karen Buckley",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.2033,
+      "sentiment": 0.0696
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1925,
+      "sentiment": 0.0407
+    },
+    {
+      "id": "michelle.cash@enron.com",
+      "name": "Michelle Cash",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1866,
+      "sentiment": 0.1318
+    },
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "direction": "incoming",
+      "email_count": 19,
+      "weight": 0.1839,
+      "sentiment": 0.095
+    },
+    {
+      "id": "k..allen@enron.com",
+      "name": "K Allen",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.175,
+      "sentiment": 0.1445
+    },
+    {
+      "id": "a..martin@enron.com",
+      "name": "A Martin",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1736,
+      "sentiment": 0.1104
+    },
+    {
+      "id": "matt.smith@enron.com",
+      "name": "Matt Smith",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1714,
+      "sentiment": 0.1073
+    },
+    {
+      "id": "s..shively@enron.com",
+      "name": "S Shively",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1705,
+      "sentiment": 0.082
+    },
+    {
+      "id": "harry.arora@enron.com",
+      "name": "Harry Arora",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1697,
+      "sentiment": 0.0977
+    },
+    {
+      "id": "keith.holst@enron.com",
+      "name": "Keith Holst",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1586,
+      "sentiment": 0.0623
+    },
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 15,
+      "weight": 0.153,
+      "sentiment": 0.1326
+    },
+    {
+      "id": "jason.wolfe@enron.com",
+      "name": "Jason Wolfe",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1252,
+      "sentiment": 0.0139
+    },
+    {
+      "id": "phillip.allen@enron.com",
+      "name": "Phillip Allen",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1248,
+      "sentiment": 0.0286
+    }
+  ]
+}

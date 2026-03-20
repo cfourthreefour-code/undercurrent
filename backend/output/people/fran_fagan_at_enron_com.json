@@ -1,0 +1,78 @@
+{
+  "id": "fran.fagan@enron.com",
+  "name": "Fran Fagan",
+  "email": "fran.fagan@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.005018571530247876,
+    "pagerank": 0.0002247883107933722
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1523
+  },
+  "dead_man_switch": {
+    "id": "fran.fagan@enron.com",
+    "name": "Fran Fagan",
+    "dms_score": -0.2936,
+    "betweenness": 0.0,
+    "eigenvector": 0.005019,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "fran.fagan@enron.com",
+    "name": "Fran Fagan",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "lindy.donoho@enron.com",
+      "name": "Lindy Donoho",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.2589,
+      "sentiment": 0.3191
+    },
+    {
+      "id": "kimberly.watson@enron.com",
+      "name": "Kimberly Watson",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2409,
+      "sentiment": 0.1632
+    },
+    {
+      "id": "shelley.corman@enron.com",
+      "name": "Shelley Corman",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.2084,
+      "sentiment": 0.1513
+    },
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.2075,
+      "sentiment": 0.1782
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.1278,
+      "sentiment": 0.0477
+    }
+  ]
+}

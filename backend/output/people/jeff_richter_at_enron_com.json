@@ -1,0 +1,126 @@
+{
+  "id": "jeff.richter@enron.com",
+  "name": "Jeff Richter",
+  "email": "jeff.richter@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.002415458937198068,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.002415458937198068,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.015414196698171007,
+    "pagerank": 0.00030427775842301443
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1013
+  },
+  "dead_man_switch": {
+    "id": "jeff.richter@enron.com",
+    "name": "Jeff Richter",
+    "dms_score": -0.2832,
+    "betweenness": 0.0,
+    "eigenvector": 0.015414,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jeff.richter@enron.com",
+    "name": "Jeff Richter",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 40,
+      "weight": 0.1997,
+      "sentiment": 0.1947
+    },
+    {
+      "id": "bill.williams@enron.com",
+      "name": "Bill Williams",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1986,
+      "sentiment": 0.1275
+    },
+    {
+      "id": "phillip.platter@enron.com",
+      "name": "Phillip Platter",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.177,
+      "sentiment": 0.0009
+    },
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1758,
+      "sentiment": 0.0861
+    },
+    {
+      "id": "sean.crandall@enron.com",
+      "name": "Sean Crandall",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1543,
+      "sentiment": 0.0556
+    },
+    {
+      "id": "kate.symes@enron.com",
+      "name": "Kate Symes",
+      "direction": "incoming",
+      "email_count": 48,
+      "weight": 0.1418,
+      "sentiment": 0.0488
+    },
+    {
+      "id": "cooper.richey@enron.com",
+      "name": "Cooper Richey",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1408,
+      "sentiment": 0.093
+    },
+    {
+      "id": "robert.badeer@enron.com",
+      "name": "Robert Badeer",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1348,
+      "sentiment": 0.1473
+    },
+    {
+      "id": "phillip.allen@enron.com",
+      "name": "Phillip Allen",
+      "direction": "incoming",
+      "email_count": 20,
+      "weight": 0.1339,
+      "sentiment": 0.0593
+    },
+    {
+      "id": "matthew.lenhart@enron.com",
+      "name": "Matthew Lenhart",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1315,
+      "sentiment": 0.1074
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1306,
+      "sentiment": 0.0574
+    }
+  ]
+}

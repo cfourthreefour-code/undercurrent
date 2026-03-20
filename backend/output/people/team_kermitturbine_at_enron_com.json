@@ -1,0 +1,46 @@
+{
+  "id": "team.kermitturbine@enron.com",
+  "name": "Team Kermitturbine",
+  "email": "team.kermitturbine@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00015974165238442104,
+    "pagerank": 0.00021124459372029623
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1176
+  },
+  "dead_man_switch": {
+    "id": "team.kermitturbine@enron.com",
+    "name": "Team Kermitturbine",
+    "dms_score": -0.2985,
+    "betweenness": 0.0,
+    "eigenvector": 0.00016,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "team.kermitturbine@enron.com",
+    "name": "Team Kermitturbine",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "larry.campbell@enron.com",
+      "name": "Larry Campbell",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1615,
+      "sentiment": 0.1176
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "bruce.sukaly@enron.com",
+  "name": "Bruce Sukaly",
+  "email": "bruce.sukaly@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.005894983974333463,
+    "pagerank": 0.0002153512761069969
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.058
+  },
+  "dead_man_switch": {
+    "id": "bruce.sukaly@enron.com",
+    "name": "Bruce Sukaly",
+    "dms_score": -0.2927,
+    "betweenness": 0.0,
+    "eigenvector": 0.005895,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "bruce.sukaly@enron.com",
+    "name": "Bruce Sukaly",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "beverly.stephens@enron.com",
+      "name": "Beverly Stephens",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1417,
+      "sentiment": 0.181
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1241,
+      "sentiment": 0.0564
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1094,
+      "sentiment": -0.002
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "a..soo@enron.com",
+  "name": "A Soo",
+  "email": "a..soo@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00254812734738619,
+    "pagerank": 0.00021205143619691728
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1187
+  },
+  "dead_man_switch": {
+    "id": "a..soo@enron.com",
+    "name": "A Soo",
+    "dms_score": -0.2961,
+    "betweenness": 0.0,
+    "eigenvector": 0.002548,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "a..soo@enron.com",
+    "name": "A Soo",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "rick.buy@enron.com",
+      "name": "Rick Buy",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1527,
+      "sentiment": 0.1187
+    }
+  ]
+}

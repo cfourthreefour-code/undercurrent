@@ -1,0 +1,110 @@
+{
+  "id": "becky.spencer@enron.com",
+  "name": "Becky Spencer",
+  "email": "becky.spencer@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.001976284584980237,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.001976284584980237,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.02716273502861032,
+    "pagerank": 0.0002237969397487885
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0303
+  },
+  "dead_man_switch": {
+    "id": "becky.spencer@enron.com",
+    "name": "Becky Spencer",
+    "dms_score": -0.2715,
+    "betweenness": 0.0,
+    "eigenvector": 0.027163,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "becky.spencer@enron.com",
+    "name": "Becky Spencer",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1875,
+      "sentiment": -0.1041
+    },
+    {
+      "id": ".taylor@enron.com",
+      "name": "Taylor",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1766,
+      "sentiment": 0.102
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1729,
+      "sentiment": 0.0828
+    },
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.163,
+      "sentiment": 0.0337
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1628,
+      "sentiment": 0.1971
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 35,
+      "weight": 0.1385,
+      "sentiment": 0.0249
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1346,
+      "sentiment": -0.0656
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1326,
+      "sentiment": 0.109
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1156,
+      "sentiment": -0.0317
+    }
+  ]
+}

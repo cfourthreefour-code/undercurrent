@@ -1,0 +1,78 @@
+{
+  "id": "phil.lowry@enron.com",
+  "name": "Phil Lowry",
+  "email": "phil.lowry@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0037764127249801786,
+    "pagerank": 0.00022013902781492544
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0733
+  },
+  "dead_man_switch": {
+    "id": "phil.lowry@enron.com",
+    "name": "Phil Lowry",
+    "dms_score": -0.2948,
+    "betweenness": 0.0,
+    "eigenvector": 0.003776,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "phil.lowry@enron.com",
+    "name": "Phil Lowry",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2021,
+      "sentiment": 0.1713
+    },
+    {
+      "id": "rod.hayslett@enron.com",
+      "name": "Rod Hayslett",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.182,
+      "sentiment": 0.1137
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 15,
+      "weight": 0.1404,
+      "sentiment": 0.1047
+    },
+    {
+      "id": "stanley.horton@enron.com",
+      "name": "Stanley Horton",
+      "direction": "incoming",
+      "email_count": 22,
+      "weight": 0.1362,
+      "sentiment": 0.0592
+    },
+    {
+      "id": "cindy.stark@enron.com",
+      "name": "Cindy Stark",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1149,
+      "sentiment": -0.0473
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "greg.martin@enron.com",
+  "name": "Greg Martin",
+  "email": "greg.martin@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0013739499968085985,
+    "pagerank": 0.00022635601033336514
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1779
+  },
+  "dead_man_switch": {
+    "id": "greg.martin@enron.com",
+    "name": "Greg Martin",
+    "dms_score": -0.2972,
+    "betweenness": 0.0,
+    "eigenvector": 0.001374,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "greg.martin@enron.com",
+    "name": "Greg Martin",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "martin.cuilla@enron.com",
+      "name": "Martin Cuilla",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1993,
+      "sentiment": 0.2424
+    },
+    {
+      "id": "matthew.lenhart@enron.com",
+      "name": "Matthew Lenhart",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1391,
+      "sentiment": 0.1584
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "mary.solmonson@enron.com",
+  "name": "Mary Solmonson",
+  "email": "mary.solmonson@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.016398626979333853,
+    "pagerank": 0.00021399191160105576
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1122
+  },
+  "dead_man_switch": {
+    "id": "mary.solmonson@enron.com",
+    "name": "Mary Solmonson",
+    "dms_score": -0.2822,
+    "betweenness": 0.0,
+    "eigenvector": 0.016399,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "mary.solmonson@enron.com",
+    "name": "Mary Solmonson",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 74,
+      "weight": 0.1589,
+      "sentiment": 0.125
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 51,
+      "weight": 0.1439,
+      "sentiment": 0.1078
+    },
+    {
+      "id": "patti.thompson@enron.com",
+      "name": "Patti Thompson",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1356,
+      "sentiment": 0.0995
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1243,
+      "sentiment": 0.0494
+    }
+  ]
+}

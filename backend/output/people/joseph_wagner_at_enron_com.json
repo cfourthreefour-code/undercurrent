@@ -1,0 +1,70 @@
+{
+  "id": "joseph.wagner@enron.com",
+  "name": "Joseph Wagner",
+  "email": "joseph.wagner@enron.com",
+  "community_id": 7,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.006765696343608573,
+    "pagerank": 0.00022980845589301607
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1325
+  },
+  "dead_man_switch": {
+    "id": "joseph.wagner@enron.com",
+    "name": "Joseph Wagner",
+    "dms_score": -0.2919,
+    "betweenness": 0.0,
+    "eigenvector": 0.006766,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "joseph.wagner@enron.com",
+    "name": "Joseph Wagner",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "m..forney@enron.com",
+      "name": "M Forney",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.2257,
+      "sentiment": 0.3816
+    },
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1876,
+      "sentiment": 0.1231
+    },
+    {
+      "id": "matt.smith@enron.com",
+      "name": "Matt Smith",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1389,
+      "sentiment": 0.1317
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1278,
+      "sentiment": 0.0326
+    }
+  ]
+}

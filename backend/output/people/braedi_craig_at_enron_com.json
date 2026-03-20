@@ -1,0 +1,54 @@
+{
+  "id": "braedi.craig@enron.com",
+  "name": "Braedi Craig",
+  "email": "braedi.craig@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.009602093421110012,
+    "pagerank": 0.0002123112904758845
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1026
+  },
+  "dead_man_switch": {
+    "id": "braedi.craig@enron.com",
+    "name": "Braedi Craig",
+    "dms_score": -0.289,
+    "betweenness": 0.0,
+    "eigenvector": 0.009602,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "braedi.craig@enron.com",
+    "name": "Braedi Craig",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1693,
+      "sentiment": 0.105
+    },
+    {
+      "id": "patti.thompson@enron.com",
+      "name": "Patti Thompson",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1302,
+      "sentiment": 0.0971
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "fred.mitro@enron.com",
+  "name": "Fred Mitro",
+  "email": "fred.mitro@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.008148481792712926,
+    "pagerank": 0.00021480332884108043
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0848
+  },
+  "dead_man_switch": {
+    "id": "fred.mitro@enron.com",
+    "name": "Fred Mitro",
+    "dms_score": -0.2905,
+    "betweenness": 0.0,
+    "eigenvector": 0.008148,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "fred.mitro@enron.com",
+    "name": "Fred Mitro",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 332,
+      "weight": 0.2406,
+      "sentiment": 0.0811
+    },
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "incoming",
+      "email_count": 34,
+      "weight": 0.1388,
+      "sentiment": 0.1094
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1292,
+      "sentiment": 0.1258
+    }
+  ]
+}

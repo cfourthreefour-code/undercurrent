@@ -1,0 +1,46 @@
+{
+  "id": "bryce.schneider@enron.com",
+  "name": "Bryce Schneider",
+  "email": "bryce.schneider@enron.com",
+  "community_id": 15,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00010515287146493068,
+    "pagerank": 0.00022370997807159227
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0977
+  },
+  "dead_man_switch": {
+    "id": "bryce.schneider@enron.com",
+    "name": "Bryce Schneider",
+    "dms_score": -0.2985,
+    "betweenness": 0.0,
+    "eigenvector": 0.000105,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "bryce.schneider@enron.com",
+    "name": "Bryce Schneider",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "d..thomas@enron.com",
+      "name": "D Thomas",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1964,
+      "sentiment": 0.0985
+    }
+  ]
+}

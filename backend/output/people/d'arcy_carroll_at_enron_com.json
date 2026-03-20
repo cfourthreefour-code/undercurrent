@@ -1,0 +1,62 @@
+{
+  "id": "d'arcy.carroll@enron.com",
+  "name": "D'arcy Carroll",
+  "email": "d'arcy.carroll@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0050661561463407985,
+    "pagerank": 0.0002179312665878268
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0374
+  },
+  "dead_man_switch": {
+    "id": "d'arcy.carroll@enron.com",
+    "name": "D'arcy Carroll",
+    "dms_score": -0.2936,
+    "betweenness": 0.0,
+    "eigenvector": 0.005066,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "d'arcy.carroll@enron.com",
+    "name": "D'arcy Carroll",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "cathy.phillips@enron.com",
+      "name": "Cathy Phillips",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1196,
+      "sentiment": 0.0628
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1174,
+      "sentiment": 0.0463
+    },
+    {
+      "id": "mike.mcconnell@enron.com",
+      "name": "Mike Mcconnell",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1095,
+      "sentiment": 0.0194
+    }
+  ]
+}

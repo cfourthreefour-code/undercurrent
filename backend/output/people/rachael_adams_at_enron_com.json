@@ -1,0 +1,46 @@
+{
+  "id": "rachael.adams@enron.com",
+  "name": "Rachael Adams",
+  "email": "rachael.adams@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.001012083614043193,
+    "pagerank": 0.0002376667191658811
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0398
+  },
+  "dead_man_switch": {
+    "id": "rachael.adams@enron.com",
+    "name": "Rachael Adams",
+    "dms_score": -0.2976,
+    "betweenness": 0.0,
+    "eigenvector": 0.001012,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "rachael.adams@enron.com",
+    "name": "Rachael Adams",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kimberly.hillis@enron.com",
+      "name": "Kimberly Hillis",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.117,
+      "sentiment": 0.0597
+    }
+  ]
+}

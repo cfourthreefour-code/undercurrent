@@ -1,0 +1,54 @@
+{
+  "id": "laura.bacon@enron.com",
+  "name": "Laura Bacon",
+  "email": "laura.bacon@enron.com",
+  "community_id": 5,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.000142416930237976,
+    "pagerank": 0.00021806197222369142
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": -0.1203
+  },
+  "dead_man_switch": {
+    "id": "laura.bacon@enron.com",
+    "name": "Laura Bacon",
+    "dms_score": -0.2985,
+    "betweenness": 0.0,
+    "eigenvector": 0.000142,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "laura.bacon@enron.com",
+    "name": "Laura Bacon",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "cooper.richey@enron.com",
+      "name": "Cooper Richey",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1272,
+      "sentiment": 0.0275
+    },
+    {
+      "id": "juan.hernandez@enron.com",
+      "name": "Juan Hernandez",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.0376,
+      "sentiment": -0.3377
+    }
+  ]
+}

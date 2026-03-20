@@ -1,0 +1,70 @@
+{
+  "id": "souad.mahmassani@enron.com",
+  "name": "Souad Mahmassani",
+  "email": "souad.mahmassani@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0159887366291224,
+    "pagerank": 0.00021310780500953904
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0849
+  },
+  "dead_man_switch": {
+    "id": "souad.mahmassani@enron.com",
+    "name": "Souad Mahmassani",
+    "dms_score": -0.2827,
+    "betweenness": 0.0,
+    "eigenvector": 0.015989,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "souad.mahmassani@enron.com",
+    "name": "Souad Mahmassani",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "phillip.love@enron.com",
+      "name": "Phillip Love",
+      "direction": "incoming",
+      "email_count": 76,
+      "weight": 0.1558,
+      "sentiment": 0.0832
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 29,
+      "weight": 0.1323,
+      "sentiment": 0.0938
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1102,
+      "sentiment": 0.0172
+    }
+  ]
+}

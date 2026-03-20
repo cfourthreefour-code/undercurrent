@@ -1,0 +1,19 @@
+Message-ID: <test004@enron.com>
+Date: Thu, 17 May 2001 08:00:00 -0700 (PDT)
+From: alice.wong@enron.com
+To: john.smith@enron.com
+Subject: Confidential - Performance Issues
+Bcc: hr.department@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+John,
+
+I wanted to flag some performance concerns with the analytics team. Their deliverables have been consistently late and quality has been declining over the past quarter.
+
+I think we need to have a serious conversation about restructuring the team. This is really frustrating and I'm worried about the impact on our clients.
+
+Can we meet privately to discuss?
+
+Alice

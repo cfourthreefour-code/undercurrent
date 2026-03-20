@@ -1,0 +1,21 @@
+Message-ID: <test009@enron.com>
+Date: Tue, 22 May 2001 15:45:00 -0700 (PDT)
+From: tom.baker@enron.com
+To: john.smith@enron.com, jane.doe@enron.com
+Cc: bob.jones@enron.com, alice.wong@enron.com
+Subject: Quarterly Review Preparation
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Team,
+
+The quarterly review is next Tuesday. Please prepare the following:
+1. Revenue vs. target comparison
+2. Cost analysis by department
+3. Customer satisfaction metrics
+4. Headcount summary
+
+I'll compile the final deck by Monday.
+
+Tom

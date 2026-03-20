@@ -1,0 +1,62 @@
+{
+  "id": "l..hernandez@enron.com",
+  "name": "L Hernandez",
+  "email": "l..hernandez@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.003510650698739457,
+    "pagerank": 0.00023804757372970935
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1432
+  },
+  "dead_man_switch": {
+    "id": "l..hernandez@enron.com",
+    "name": "L Hernandez",
+    "dms_score": -0.2951,
+    "betweenness": 0.0,
+    "eigenvector": 0.003511,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "l..hernandez@enron.com",
+    "name": "L Hernandez",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "l..mims@enron.com",
+      "name": "L Mims",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1918,
+      "sentiment": 0.2315
+    },
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1627,
+      "sentiment": 0.1078
+    },
+    {
+      "id": "m..tholt@enron.com",
+      "name": "M Tholt",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1433,
+      "sentiment": 0.0389
+    }
+  ]
+}

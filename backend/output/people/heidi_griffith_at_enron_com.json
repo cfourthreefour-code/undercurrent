@@ -1,0 +1,46 @@
+{
+  "id": "heidi.griffith@enron.com",
+  "name": "Heidi Griffith",
+  "email": "heidi.griffith@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.002464308402959003,
+    "pagerank": 0.00021064563505971678
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0752
+  },
+  "dead_man_switch": {
+    "id": "heidi.griffith@enron.com",
+    "name": "Heidi Griffith",
+    "dms_score": -0.2962,
+    "betweenness": 0.0,
+    "eigenvector": 0.002464,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "heidi.griffith@enron.com",
+    "name": "Heidi Griffith",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 37,
+      "weight": 0.1381,
+      "sentiment": 0.0752
+    }
+  ]
+}

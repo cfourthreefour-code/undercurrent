@@ -1,0 +1,62 @@
+{
+  "id": "sarah.taylor@enron.com",
+  "name": "Sarah Taylor",
+  "email": "sarah.taylor@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0022282628825253488,
+    "pagerank": 0.00021764775242494224
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1144
+  },
+  "dead_man_switch": {
+    "id": "sarah.taylor@enron.com",
+    "name": "Sarah Taylor",
+    "dms_score": -0.2964,
+    "betweenness": 0.0,
+    "eigenvector": 0.002228,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "sarah.taylor@enron.com",
+    "name": "Sarah Taylor",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tracy.geaccone@enron.com",
+      "name": "Tracy Geaccone",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.2077,
+      "sentiment": 0.2457
+    },
+    {
+      "id": "matthew.lenhart@enron.com",
+      "name": "Matthew Lenhart",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1952,
+      "sentiment": 0.2195
+    },
+    {
+      "id": "rod.hayslett@enron.com",
+      "name": "Rod Hayslett",
+      "direction": "incoming",
+      "email_count": 19,
+      "weight": 0.1757,
+      "sentiment": 0.0646
+    }
+  ]
+}

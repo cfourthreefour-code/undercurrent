@@ -1,0 +1,78 @@
+{
+  "id": "nelson.ferries@enron.com",
+  "name": "Nelson Ferries",
+  "email": "nelson.ferries@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.010138784341331664,
+    "pagerank": 0.00021853617426679107
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1223
+  },
+  "dead_man_switch": {
+    "id": "nelson.ferries@enron.com",
+    "name": "Nelson Ferries",
+    "dms_score": -0.2885,
+    "betweenness": 0.0,
+    "eigenvector": 0.010139,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "nelson.ferries@enron.com",
+    "name": "Nelson Ferries",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1865,
+      "sentiment": 0.3156
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1731,
+      "sentiment": 0.0704
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1365,
+      "sentiment": 0.0645
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1235,
+      "sentiment": 0.0822
+    },
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1177,
+      "sentiment": 0.0439
+    }
+  ]
+}

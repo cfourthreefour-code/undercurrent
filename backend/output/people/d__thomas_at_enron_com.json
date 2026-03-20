@@ -1,0 +1,166 @@
+{
+  "id": "d..thomas@enron.com",
+  "name": "D Thomas",
+  "email": "d..thomas@enron.com",
+  "community_id": 15,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.003293807641633729,
+    "degree_centrality": 0.003513394817742644,
+    "betweenness_centrality": 0.00048807867828293917,
+    "eigenvector_centrality": 0.003110680499087916,
+    "pagerank": 0.00021311518021979758
+  },
+  "sentiment": {
+    "avg_sent": 0.1161,
+    "avg_received": 0.1533
+  },
+  "dead_man_switch": {
+    "id": "d..thomas@enron.com",
+    "name": "D Thomas",
+    "dms_score": -0.2579,
+    "betweenness": 0.000489,
+    "eigenvector": 0.003111,
+    "redundancy": 0.9945,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "d..thomas@enron.com",
+    "name": "D Thomas",
+    "waste_score": 20.6,
+    "overproduction": 0.08,
+    "broadcast_ratio": 0.013,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "bryce.schneider@enron.com",
+      "name": "Bryce Schneider",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.1964,
+      "sentiment": 0.0985
+    },
+    {
+      "id": "david.ingram@enron.com",
+      "name": "David Ingram",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1903,
+      "sentiment": 0.1487
+    },
+    {
+      "id": "brian.terp@enron.com",
+      "name": "Brian Terp",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1886,
+      "sentiment": 0.162
+    },
+    {
+      "id": "peter.makkai@enron.com",
+      "name": "Peter Makkai",
+      "direction": "outgoing",
+      "email_count": 13,
+      "weight": 0.1879,
+      "sentiment": 0.049
+    },
+    {
+      "id": "reagan.mathews@enron.com",
+      "name": "Reagan Mathews",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1865,
+      "sentiment": 0.1726
+    },
+    {
+      "id": "j..broderick@enron.com",
+      "name": "J Broderick",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1791,
+      "sentiment": 0.0282
+    },
+    {
+      "id": "lloyd.will@enron.com",
+      "name": "Lloyd Will",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1723,
+      "sentiment": 0.1339
+    },
+    {
+      "id": "dana.davis@enron.com",
+      "name": "Dana Davis",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1715,
+      "sentiment": 0.13
+    },
+    {
+      "id": "jae.black@enron.com",
+      "name": "Jae Black",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1703,
+      "sentiment": 0.1254
+    },
+    {
+      "id": "patrick.hanse@enron.com",
+      "name": "Patrick Hanse",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1619,
+      "sentiment": 0.1473
+    },
+    {
+      "id": "willis.philip@enron.com",
+      "name": "Willis Philip",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1597,
+      "sentiment": 0.0662
+    },
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1579,
+      "sentiment": 0.0699
+    },
+    {
+      "id": "f..campbell@enron.com",
+      "name": "F Campbell",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1559,
+      "sentiment": 0.092
+    },
+    {
+      "id": "casey.evans@enron.com",
+      "name": "Casey Evans",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1554,
+      "sentiment": 0.0645
+    },
+    {
+      "id": "narsimha.misra@enron.com",
+      "name": "Narsimha Misra",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1429,
+      "sentiment": 0.0777
+    },
+    {
+      "id": "don.baughman@enron.com",
+      "name": "Don Baughman",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1973,
+      "sentiment": 0.2208
+    }
+  ]
+}

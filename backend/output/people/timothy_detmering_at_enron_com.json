@@ -1,0 +1,54 @@
+{
+  "id": "timothy.detmering@enron.com",
+  "name": "Timothy Detmering",
+  "email": "timothy.detmering@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.005243146947423439,
+    "pagerank": 0.00021201736333833143
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0355
+  },
+  "dead_man_switch": {
+    "id": "timothy.detmering@enron.com",
+    "name": "Timothy Detmering",
+    "dms_score": -0.2934,
+    "betweenness": 0.0,
+    "eigenvector": 0.005243,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "timothy.detmering@enron.com",
+    "name": "Timothy Detmering",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.119,
+      "sentiment": 0.02
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1184,
+      "sentiment": 0.0658
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "jan.cooley@enron.com",
+  "name": "Jan Cooley",
+  "email": "jan.cooley@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.010021288971163745,
+    "pagerank": 0.0002122251771983998
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1806
+  },
+  "dead_man_switch": {
+    "id": "jan.cooley@enron.com",
+    "name": "Jan Cooley",
+    "dms_score": -0.2886,
+    "betweenness": 0.0,
+    "eigenvector": 0.010021,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jan.cooley@enron.com",
+    "name": "Jan Cooley",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2345,
+      "sentiment": 0.4247
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1182,
+      "sentiment": -0.0102
+    }
+  ]
+}

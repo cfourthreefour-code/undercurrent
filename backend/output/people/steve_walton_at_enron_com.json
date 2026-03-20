@@ -1,0 +1,78 @@
+{
+  "id": "steve.walton@enron.com",
+  "name": "Steve Walton",
+  "email": "steve.walton@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.015377659642478525,
+    "pagerank": 0.00022528072771248764
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1483
+  },
+  "dead_man_switch": {
+    "id": "steve.walton@enron.com",
+    "name": "Steve Walton",
+    "dms_score": -0.2833,
+    "betweenness": 0.0,
+    "eigenvector": 0.015378,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "steve.walton@enron.com",
+    "name": "Steve Walton",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.2088,
+      "sentiment": 0.3079
+    },
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 53,
+      "weight": 0.2087,
+      "sentiment": 0.1404
+    },
+    {
+      "id": "mark.whitt@enron.com",
+      "name": "Mark Whitt",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1868,
+      "sentiment": 0.1773
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 24,
+      "weight": 0.1392,
+      "sentiment": 0.088
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1248,
+      "sentiment": 0.0841
+    }
+  ]
+}

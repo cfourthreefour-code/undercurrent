@@ -1,0 +1,70 @@
+{
+  "id": "robert.benson@enron.com",
+  "name": "Robert Benson",
+  "email": "robert.benson@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0004391743522178305,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 2.0256229731110125e-06,
+    "eigenvector_centrality": 0.004681908595254571,
+    "pagerank": 0.00021556593879604484
+  },
+  "sentiment": {
+    "avg_sent": 0.0746,
+    "avg_received": 0.0707
+  },
+  "dead_man_switch": {
+    "id": "robert.benson@enron.com",
+    "name": "Robert Benson",
+    "dms_score": -0.2939,
+    "betweenness": 1e-06,
+    "eigenvector": 0.004682,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "robert.benson@enron.com",
+    "name": "Robert Benson",
+    "waste_score": 21.5,
+    "overproduction": 0.5,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "paul.broderick@enron.com",
+      "name": "Paul Broderick",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.1204,
+      "sentiment": -0.0039
+    },
+    {
+      "id": "kevin.presto@enron.com",
+      "name": "Kevin Presto",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.1204,
+      "sentiment": -0.0039
+    },
+    {
+      "id": "m..presto@enron.com",
+      "name": "M Presto",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.1975,
+      "sentiment": 0.0479
+    },
+    {
+      "id": "chris.dorland@enron.com",
+      "name": "Chris Dorland",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1606,
+      "sentiment": 0.0602
+    }
+  ]
+}

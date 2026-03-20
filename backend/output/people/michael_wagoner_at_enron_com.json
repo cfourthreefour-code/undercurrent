@@ -1,0 +1,46 @@
+{
+  "id": "michael.wagoner@enron.com",
+  "name": "Michael Wagoner",
+  "email": "michael.wagoner@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0007501639609515617,
+    "pagerank": 0.00021113581023674347
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.3116
+  },
+  "dead_man_switch": {
+    "id": "michael.wagoner@enron.com",
+    "name": "Michael Wagoner",
+    "dms_score": -0.2979,
+    "betweenness": 0.0,
+    "eigenvector": 0.00075,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "michael.wagoner@enron.com",
+    "name": "Michael Wagoner",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.2048,
+      "sentiment": 0.2515
+    }
+  ]
+}

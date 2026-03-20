@@ -1,0 +1,46 @@
+{
+  "id": "rcausey@enron.com",
+  "name": "Rcausey",
+  "email": "rcausey@enron.com",
+  "community_id": 13,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0018805866839903766,
+    "pagerank": 0.0002104227535265362
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": -0.0091
+  },
+  "dead_man_switch": {
+    "id": "rcausey@enron.com",
+    "name": "Rcausey",
+    "dms_score": -0.2967,
+    "betweenness": 0.0,
+    "eigenvector": 0.001881,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "rcausey@enron.com",
+    "name": "Rcausey",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1058,
+      "sentiment": -0.0091
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "rebecca.griffin@enron.com",
+  "name": "Rebecca Griffin",
+  "email": "rebecca.griffin@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.008623449488732678,
+    "pagerank": 0.0002179376524649012
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.096
+  },
+  "dead_man_switch": {
+    "id": "rebecca.griffin@enron.com",
+    "name": "Rebecca Griffin",
+    "dms_score": -0.29,
+    "betweenness": 0.0,
+    "eigenvector": 0.008623,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "rebecca.griffin@enron.com",
+    "name": "Rebecca Griffin",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "j..farmer@enron.com",
+      "name": "J Farmer",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1423,
+      "sentiment": 0.1002
+    },
+    {
+      "id": "daren.farmer@enron.com",
+      "name": "Daren Farmer",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.1317,
+      "sentiment": 0.0553
+    }
+  ]
+}

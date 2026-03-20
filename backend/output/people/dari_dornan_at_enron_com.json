@@ -1,0 +1,70 @@
+{
+  "id": "dari.dornan@enron.com",
+  "name": "Dari Dornan",
+  "email": "dari.dornan@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0035853858893337017,
+    "pagerank": 0.0002187411180905268
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1067
+  },
+  "dead_man_switch": {
+    "id": "dari.dornan@enron.com",
+    "name": "Dari Dornan",
+    "dms_score": -0.295,
+    "betweenness": 0.0,
+    "eigenvector": 0.003585,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "dari.dornan@enron.com",
+    "name": "Dari Dornan",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.1941,
+      "sentiment": 0.1072
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 132,
+      "weight": 0.1768,
+      "sentiment": 0.1084
+    },
+    {
+      "id": "bill.rapp@enron.com",
+      "name": "Bill Rapp",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1759,
+      "sentiment": 0.0985
+    },
+    {
+      "id": "susan.scott@enron.com",
+      "name": "Susan Scott",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1238,
+      "sentiment": 0.0846
+    }
+  ]
+}

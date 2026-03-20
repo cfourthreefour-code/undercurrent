@@ -1,0 +1,46 @@
+{
+  "id": "monique.phillips@enron.com",
+  "name": "Monique Phillips",
+  "email": "monique.phillips@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0002556062046942992,
+    "pagerank": 0.00021900480158663774
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.3169
+  },
+  "dead_man_switch": {
+    "id": "monique.phillips@enron.com",
+    "name": "Monique Phillips",
+    "dms_score": -0.2984,
+    "betweenness": 0.0,
+    "eigenvector": 0.000256,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "monique.phillips@enron.com",
+    "name": "Monique Phillips",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "patrice.mims@enron.com",
+      "name": "Patrice Mims",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1851,
+      "sentiment": 0.369
+    }
+  ]
+}

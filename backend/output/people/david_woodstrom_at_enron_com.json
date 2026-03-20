@@ -1,0 +1,46 @@
+{
+  "id": "david.woodstrom@enron.com",
+  "name": "David Woodstrom",
+  "email": "david.woodstrom@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0005014751642961676,
+    "pagerank": 0.00021555307332442883
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1642
+  },
+  "dead_man_switch": {
+    "id": "david.woodstrom@enron.com",
+    "name": "David Woodstrom",
+    "dms_score": -0.2981,
+    "betweenness": 0.0,
+    "eigenvector": 0.000501,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "david.woodstrom@enron.com",
+    "name": "David Woodstrom",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "matt.smith@enron.com",
+      "name": "Matt Smith",
+      "direction": "incoming",
+      "email_count": 20,
+      "weight": 0.1861,
+      "sentiment": 0.1642
+    }
+  ]
+}

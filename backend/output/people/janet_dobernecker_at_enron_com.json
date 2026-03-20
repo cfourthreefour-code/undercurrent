@@ -1,0 +1,46 @@
+{
+  "id": "janet.dobernecker@enron.com",
+  "name": "Janet Dobernecker",
+  "email": "janet.dobernecker@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00278172340043981,
+    "pagerank": 0.00021110280258581108
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1507
+  },
+  "dead_man_switch": {
+    "id": "janet.dobernecker@enron.com",
+    "name": "Janet Dobernecker",
+    "dms_score": -0.2958,
+    "betweenness": 0.0,
+    "eigenvector": 0.002782,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "janet.dobernecker@enron.com",
+    "name": "Janet Dobernecker",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1353,
+      "sentiment": 0.1507
+    }
+  ]
+}

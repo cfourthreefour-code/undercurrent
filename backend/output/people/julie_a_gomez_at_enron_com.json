@@ -1,0 +1,46 @@
+{
+  "id": "julie.a.gomez@enron.com",
+  "name": "Julie A Gomez",
+  "email": "julie.a.gomez@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00014280839314929165,
+    "pagerank": 0.00023493313869671866
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0861
+  },
+  "dead_man_switch": {
+    "id": "julie.a.gomez@enron.com",
+    "name": "Julie A Gomez",
+    "dms_score": -0.2985,
+    "betweenness": 0.0,
+    "eigenvector": 0.000143,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "julie.a.gomez@enron.com",
+    "name": "Julie A Gomez",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "scott.hendrickson@enron.com",
+      "name": "Scott Hendrickson",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1381,
+      "sentiment": 0.0861
+    }
+  ]
+}

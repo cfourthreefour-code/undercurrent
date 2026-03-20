@@ -1,0 +1,46 @@
+{
+  "id": "katrina.burton@enron.com",
+  "name": "Katrina Burton",
+  "email": "katrina.burton@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0023542699840021527,
+    "pagerank": 0.00021102091412230484
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1303
+  },
+  "dead_man_switch": {
+    "id": "katrina.burton@enron.com",
+    "name": "Katrina Burton",
+    "dms_score": -0.2963,
+    "betweenness": 0.0,
+    "eigenvector": 0.002354,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "katrina.burton@enron.com",
+    "name": "Katrina Burton",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1256,
+      "sentiment": 0.0505
+    }
+  ]
+}

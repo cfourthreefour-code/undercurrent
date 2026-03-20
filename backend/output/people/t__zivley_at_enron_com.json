@@ -1,0 +1,54 @@
+{
+  "id": "t..zivley@enron.com",
+  "name": "T Zivley",
+  "email": "t..zivley@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.003776205498774689,
+    "pagerank": 0.0002133028521383624
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0843
+  },
+  "dead_man_switch": {
+    "id": "t..zivley@enron.com",
+    "name": "T Zivley",
+    "dms_score": -0.2948,
+    "betweenness": 0.0,
+    "eigenvector": 0.003776,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "t..zivley@enron.com",
+    "name": "T Zivley",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1624,
+      "sentiment": 0.078
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1617,
+      "sentiment": 0.0497
+    }
+  ]
+}

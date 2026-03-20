@@ -1,0 +1,86 @@
+{
+  "id": "lou.stoler@enron.com",
+  "name": "Lou Stoler",
+  "email": "lou.stoler@enron.com",
+  "community_id": 16,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.01754636223460924,
+    "pagerank": 0.00021797216154367991
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.098
+  },
+  "dead_man_switch": {
+    "id": "lou.stoler@enron.com",
+    "name": "Lou Stoler",
+    "dms_score": -0.2811,
+    "betweenness": 0.0,
+    "eigenvector": 0.017546,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "lou.stoler@enron.com",
+    "name": "Lou Stoler",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "michelle.cash@enron.com",
+      "name": "Michelle Cash",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1673,
+      "sentiment": 0.1667
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.159,
+      "sentiment": 0.1701
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.134,
+      "sentiment": 0.0544
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1235,
+      "sentiment": 0.1017
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1234,
+      "sentiment": 0.0568
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1176,
+      "sentiment": 0.0682
+    }
+  ]
+}

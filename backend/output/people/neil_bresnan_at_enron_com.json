@@ -1,0 +1,70 @@
+{
+  "id": "neil.bresnan@enron.com",
+  "name": "Neil Bresnan",
+  "email": "neil.bresnan@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.008909724484728552,
+    "pagerank": 0.00023053627503984777
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0475
+  },
+  "dead_man_switch": {
+    "id": "neil.bresnan@enron.com",
+    "name": "Neil Bresnan",
+    "dms_score": -0.2897,
+    "betweenness": 0.0,
+    "eigenvector": 0.00891,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "neil.bresnan@enron.com",
+    "name": "Neil Bresnan",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 223,
+      "weight": 0.2055,
+      "sentiment": 0.0524
+    },
+    {
+      "id": "phillip.platter@enron.com",
+      "name": "Phillip Platter",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1465,
+      "sentiment": 0.0821
+    },
+    {
+      "id": "kate.symes@enron.com",
+      "name": "Kate Symes",
+      "direction": "incoming",
+      "email_count": 36,
+      "weight": 0.1299,
+      "sentiment": 0.0047
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1205,
+      "sentiment": 0.0543
+    }
+  ]
+}

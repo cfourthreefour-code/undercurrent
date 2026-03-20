@@ -1,0 +1,54 @@
+{
+  "id": "carolyn.gilley@enron.com",
+  "name": "Carolyn Gilley",
+  "email": "carolyn.gilley@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.007913205493886421,
+    "pagerank": 0.00021406919540992479
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0815
+  },
+  "dead_man_switch": {
+    "id": "carolyn.gilley@enron.com",
+    "name": "Carolyn Gilley",
+    "dms_score": -0.2907,
+    "betweenness": 0.0,
+    "eigenvector": 0.007913,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "carolyn.gilley@enron.com",
+    "name": "Carolyn Gilley",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1479,
+      "sentiment": 0.206
+    },
+    {
+      "id": "judy.hernandez@enron.com",
+      "name": "Judy Hernandez",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.1154,
+      "sentiment": 0.0153
+    }
+  ]
+}

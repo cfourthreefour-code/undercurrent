@@ -1,0 +1,54 @@
+{
+  "id": "howard.sangwine@enron.com",
+  "name": "Howard Sangwine",
+  "email": "howard.sangwine@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0029023130817396694,
+    "pagerank": 0.00021790641601643476
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.15
+  },
+  "dead_man_switch": {
+    "id": "howard.sangwine@enron.com",
+    "name": "Howard Sangwine",
+    "dms_score": -0.2957,
+    "betweenness": 0.0,
+    "eigenvector": 0.002902,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "howard.sangwine@enron.com",
+    "name": "Howard Sangwine",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jonathan.mckay@enron.com",
+      "name": "Jonathan Mckay",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1944,
+      "sentiment": 0.2759
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1555,
+      "sentiment": 0.2
+    }
+  ]
+}

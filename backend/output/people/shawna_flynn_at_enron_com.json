@@ -1,0 +1,70 @@
+{
+  "id": "shawna.flynn@enron.com",
+  "name": "Shawna Flynn",
+  "email": "shawna.flynn@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.013082364918125778,
+    "pagerank": 0.00021413389369270565
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1127
+  },
+  "dead_man_switch": {
+    "id": "shawna.flynn@enron.com",
+    "name": "Shawna Flynn",
+    "dms_score": -0.2856,
+    "betweenness": 0.0,
+    "eigenvector": 0.013082,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "shawna.flynn@enron.com",
+    "name": "Shawna Flynn",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1622,
+      "sentiment": 0.1914
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1335,
+      "sentiment": 0.1174
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1306,
+      "sentiment": 0.1005
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1014,
+      "sentiment": -0.0364
+    }
+  ]
+}

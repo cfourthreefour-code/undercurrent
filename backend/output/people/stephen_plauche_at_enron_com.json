@@ -1,0 +1,86 @@
+{
+  "id": "stephen.plauche@enron.com",
+  "name": "Stephen Plauche",
+  "email": "stephen.plauche@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.009888189622053829,
+    "pagerank": 0.0002188321382191346
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.054
+  },
+  "dead_man_switch": {
+    "id": "stephen.plauche@enron.com",
+    "name": "Stephen Plauche",
+    "dms_score": -0.2887,
+    "betweenness": 0.0,
+    "eigenvector": 0.009888,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "stephen.plauche@enron.com",
+    "name": "Stephen Plauche",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.2571,
+      "sentiment": 0.1096
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 75,
+      "weight": 0.1544,
+      "sentiment": 0.08
+    },
+    {
+      "id": "matthew.lenhart@enron.com",
+      "name": "Matthew Lenhart",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.1539,
+      "sentiment": 0.031
+    },
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.131,
+      "sentiment": 0.1333
+    },
+    {
+      "id": "susan.scott@enron.com",
+      "name": "Susan Scott",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.0875,
+      "sentiment": -0.0809
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.0708,
+      "sentiment": -0.1733
+    }
+  ]
+}

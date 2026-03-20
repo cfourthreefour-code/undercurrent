@@ -1,0 +1,262 @@
+{
+  "id": "bill.williams@enron.com",
+  "name": "Bill Williams",
+  "email": "bill.williams@enron.com",
+  "community_id": 7,
+  "metrics": {
+    "in_degree_centrality": 0.001756697408871322,
+    "out_degree_centrality": 0.01339481774264383,
+    "degree_centrality": 0.015151515151515152,
+    "betweenness_centrality": 0.0007700261044926292,
+    "eigenvector_centrality": 0.016253564205327597,
+    "pagerank": 0.0004588326094422775
+  },
+  "sentiment": {
+    "avg_sent": 0.1287,
+    "avg_received": 0.0888
+  },
+  "dead_man_switch": {
+    "id": "bill.williams@enron.com",
+    "name": "Bill Williams",
+    "dms_score": -0.1642,
+    "betweenness": 0.001536,
+    "eigenvector": 0.016254,
+    "redundancy": 0.993,
+    "impact_pct": 0.7
+  },
+  "waste": {
+    "id": "bill.williams@enron.com",
+    "name": "Bill Williams",
+    "waste_score": 26.1,
+    "overproduction": 0.44,
+    "broadcast_ratio": 0.218,
+    "reply_all_ratio": 0.012,
+    "orphan_ratio": 0.902
+  },
+  "connections": [
+    {
+      "id": "kate.symes@enron.com",
+      "name": "Kate Symes",
+      "direction": "outgoing",
+      "email_count": 208,
+      "weight": 0.2559,
+      "sentiment": 0.1106
+    },
+    {
+      "id": "geir.solberg@enron.com",
+      "name": "Geir Solberg",
+      "direction": "outgoing",
+      "email_count": 105,
+      "weight": 0.2383,
+      "sentiment": 0.1229
+    },
+    {
+      "id": "ryan.slinger@enron.com",
+      "name": "Ryan Slinger",
+      "direction": "outgoing",
+      "email_count": 105,
+      "weight": 0.2359,
+      "sentiment": 0.1109
+    },
+    {
+      "id": "mark.guzman@enron.com",
+      "name": "Mark Guzman",
+      "direction": "outgoing",
+      "email_count": 103,
+      "weight": 0.2354,
+      "sentiment": 0.1117
+    },
+    {
+      "id": "craig.dean@enron.com",
+      "name": "Craig Dean",
+      "direction": "outgoing",
+      "email_count": 102,
+      "weight": 0.2352,
+      "sentiment": 0.1123
+    },
+    {
+      "id": "john.anderson@enron.com",
+      "name": "John Anderson",
+      "direction": "outgoing",
+      "email_count": 69,
+      "weight": 0.2276,
+      "sentiment": 0.1254
+    },
+    {
+      "id": "todd.bland@enron.com",
+      "name": "Todd Bland",
+      "direction": "outgoing",
+      "email_count": 96,
+      "weight": 0.2239,
+      "sentiment": 0.1098
+    },
+    {
+      "id": "michael.mier@enron.com",
+      "name": "Michael Mier",
+      "direction": "outgoing",
+      "email_count": 48,
+      "weight": 0.2224,
+      "sentiment": 0.1301
+    },
+    {
+      "id": "leaf.harasin@enron.com",
+      "name": "Leaf Harasin",
+      "direction": "outgoing",
+      "email_count": 97,
+      "weight": 0.2222,
+      "sentiment": 0.1139
+    },
+    {
+      "id": "v..porter@enron.com",
+      "name": "V Porter",
+      "direction": "outgoing",
+      "email_count": 96,
+      "weight": 0.2216,
+      "sentiment": 0.1126
+    },
+    {
+      "id": "holden.salisbury@enron.com",
+      "name": "Holden Salisbury",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.218,
+      "sentiment": 0.1778
+    },
+    {
+      "id": "amy.fitzpatrick@enron.com",
+      "name": "Amy Fitzpatrick",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.2164,
+      "sentiment": 0.152
+    },
+    {
+      "id": "darin.presto@enron.com",
+      "name": "Darin Presto",
+      "direction": "outgoing",
+      "email_count": 44,
+      "weight": 0.2086,
+      "sentiment": 0.1277
+    },
+    {
+      "id": "eric.linder@enron.com",
+      "name": "Eric Linder",
+      "direction": "outgoing",
+      "email_count": 97,
+      "weight": 0.2069,
+      "sentiment": 0.1124
+    },
+    {
+      "id": "albert.meyers@enron.com",
+      "name": "Albert Meyers",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.2066,
+      "sentiment": 0.1146
+    },
+    {
+      "id": "tim.belden@enron.com",
+      "name": "Tim Belden",
+      "direction": "outgoing",
+      "email_count": 11,
+      "weight": 0.2063,
+      "sentiment": 0.0949
+    },
+    {
+      "id": "david.poston@enron.com",
+      "name": "David Poston",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.2053,
+      "sentiment": 0.158
+    },
+    {
+      "id": "bert.meyers@enron.com",
+      "name": "Bert Meyers",
+      "direction": "outgoing",
+      "email_count": 97,
+      "weight": 0.2045,
+      "sentiment": 0.109
+    },
+    {
+      "id": "susan.amador@enron.com",
+      "name": "Susan Amador",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.2033,
+      "sentiment": 0.1511
+    },
+    {
+      "id": "chris.stokley@enron.com",
+      "name": "Chris Stokley",
+      "direction": "outgoing",
+      "email_count": 9,
+      "weight": 0.2026,
+      "sentiment": 0.0961
+    },
+    {
+      "id": "cara.semperger@enron.com",
+      "name": "Cara Semperger",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.2043,
+      "sentiment": 0.1087
+    },
+    {
+      "id": "albert.meyers@enron.com",
+      "name": "Albert Meyers",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.192,
+      "sentiment": 0.0397
+    },
+    {
+      "id": "geir.solberg@enron.com",
+      "name": "Geir Solberg",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.184,
+      "sentiment": -0.0102
+    },
+    {
+      "id": "diana.scholtes@enron.com",
+      "name": "Diana Scholtes",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1824,
+      "sentiment": 0.1233
+    },
+    {
+      "id": "ryan.slinger@enron.com",
+      "name": "Ryan Slinger",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1698,
+      "sentiment": 0.1056
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 70,
+      "weight": 0.1601,
+      "sentiment": 0.0846
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1341,
+      "sentiment": 0.0932
+    },
+    {
+      "id": "kate.symes@enron.com",
+      "name": "Kate Symes",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1325,
+      "sentiment": 0.067
+    }
+  ]
+}

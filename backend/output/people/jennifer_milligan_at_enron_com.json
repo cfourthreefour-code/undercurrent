@@ -1,0 +1,70 @@
+{
+  "id": "jennifer.milligan@enron.com",
+  "name": "Jennifer Milligan",
+  "email": "jennifer.milligan@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.005916626535725357,
+    "pagerank": 0.00021939801451768658
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0519
+  },
+  "dead_man_switch": {
+    "id": "jennifer.milligan@enron.com",
+    "name": "Jennifer Milligan",
+    "dms_score": -0.2927,
+    "betweenness": 0.0,
+    "eigenvector": 0.005917,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jennifer.milligan@enron.com",
+    "name": "Jennifer Milligan",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1338,
+      "sentiment": 0.1282
+    },
+    {
+      "id": "michelle.cash@enron.com",
+      "name": "Michelle Cash",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1273,
+      "sentiment": 0.1122
+    },
+    {
+      "id": "chris.dorland@enron.com",
+      "name": "Chris Dorland",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1137,
+      "sentiment": 0.0109
+    },
+    {
+      "id": "hunter.shively@enron.com",
+      "name": "Hunter Shively",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1063,
+      "sentiment": 0.0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "susie.wilson@enron.com",
+  "name": "Susie Wilson",
+  "email": "susie.wilson@enron.com",
+  "community_id": 7,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0003854943462829915,
+    "pagerank": 0.00021429152637743702
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.094
+  },
+  "dead_man_switch": {
+    "id": "susie.wilson@enron.com",
+    "name": "Susie Wilson",
+    "dms_score": -0.2982,
+    "betweenness": 0.0,
+    "eigenvector": 0.000385,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "susie.wilson@enron.com",
+    "name": "Susie Wilson",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "cara.semperger@enron.com",
+      "name": "Cara Semperger",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1882,
+      "sentiment": 0.1199
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "martin.wenzel@enron.com",
+  "name": "Martin Wenzel",
+  "email": "martin.wenzel@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.008398994596019076,
+    "pagerank": 0.0002115373870212674
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0492
+  },
+  "dead_man_switch": {
+    "id": "martin.wenzel@enron.com",
+    "name": "Martin Wenzel",
+    "dms_score": -0.2902,
+    "betweenness": 0.0,
+    "eigenvector": 0.008399,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "martin.wenzel@enron.com",
+    "name": "Martin Wenzel",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 142,
+      "weight": 0.1798,
+      "sentiment": 0.0491
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1162,
+      "sentiment": 0.0525
+    }
+  ]
+}

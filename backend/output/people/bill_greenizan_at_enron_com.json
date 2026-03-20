@@ -1,0 +1,54 @@
+{
+  "id": "bill.greenizan@enron.com",
+  "name": "Bill Greenizan",
+  "email": "bill.greenizan@enron.com",
+  "community_id": 5,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.001236089181179031,
+    "pagerank": 0.0002211521773869774
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0356
+  },
+  "dead_man_switch": {
+    "id": "bill.greenizan@enron.com",
+    "name": "Bill Greenizan",
+    "dms_score": -0.2974,
+    "betweenness": 0.0,
+    "eigenvector": 0.001236,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "bill.greenizan@enron.com",
+    "name": "Bill Greenizan",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "john.zufferli@enron.com",
+      "name": "John Zufferli",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1656,
+      "sentiment": 0.1468
+    },
+    {
+      "id": "cooper.richey@enron.com",
+      "name": "Cooper Richey",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1115,
+      "sentiment": -0.0477
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "m..wood@enron.com",
+  "name": "M Wood",
+  "email": "m..wood@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.003314770901812697,
+    "pagerank": 0.00021386044661430827
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0943
+  },
+  "dead_man_switch": {
+    "id": "m..wood@enron.com",
+    "name": "M Wood",
+    "dms_score": -0.2953,
+    "betweenness": 0.0,
+    "eigenvector": 0.003315,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "m..wood@enron.com",
+    "name": "M Wood",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1817,
+      "sentiment": 0.0943
+    }
+  ]
+}

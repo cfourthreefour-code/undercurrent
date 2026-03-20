@@ -1,0 +1,62 @@
+{
+  "id": "carole.frank@enron.com",
+  "name": "Carole Frank",
+  "email": "carole.frank@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0020607596346221054,
+    "pagerank": 0.0002355354198585221
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": -0.0313
+  },
+  "dead_man_switch": {
+    "id": "carole.frank@enron.com",
+    "name": "Carole Frank",
+    "dms_score": -0.2966,
+    "betweenness": 0.0,
+    "eigenvector": 0.002061,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "carole.frank@enron.com",
+    "name": "Carole Frank",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "t..lucci@enron.com",
+      "name": "T Lucci",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.2064,
+      "sentiment": 0.2061
+    },
+    {
+      "id": "c..giron@enron.com",
+      "name": "C Giron",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1864,
+      "sentiment": 0.1311
+    },
+    {
+      "id": "darron.giron@enron.com",
+      "name": "Darron Giron",
+      "direction": "incoming",
+      "email_count": 232,
+      "weight": 0.1818,
+      "sentiment": -0.0427
+    }
+  ]
+}

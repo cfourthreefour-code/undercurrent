@@ -1,0 +1,198 @@
+{
+  "id": "peter.keavey@enron.com",
+  "name": "Peter Keavey",
+  "email": "peter.keavey@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.003513394817742644,
+    "degree_centrality": 0.004391743522178305,
+    "betweenness_centrality": 0.0001838011702506207,
+    "eigenvector_centrality": 0.015347598206064109,
+    "pagerank": 0.0002333740436644393
+  },
+  "sentiment": {
+    "avg_sent": 0.1056,
+    "avg_received": 0.1141
+  },
+  "dead_man_switch": {
+    "id": "peter.keavey@enron.com",
+    "name": "Peter Keavey",
+    "dms_score": -0.275,
+    "betweenness": 0.000108,
+    "eigenvector": 0.015348,
+    "redundancy": 0.9952,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "peter.keavey@enron.com",
+    "name": "Peter Keavey",
+    "waste_score": 15.9,
+    "overproduction": 0.17,
+    "broadcast_ratio": 0.014,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0.75
+  },
+  "connections": [
+    {
+      "id": "purvi.patel@enron.com",
+      "name": "Purvi Patel",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.2119,
+      "sentiment": 0.525
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1457,
+      "sentiment": 0.199
+    },
+    {
+      "id": "jeffrey.shankman@enron.com",
+      "name": "Jeffrey Shankman",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1334,
+      "sentiment": 0.1485
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "outgoing",
+      "email_count": 14,
+      "weight": 0.1308,
+      "sentiment": 0.1047
+    },
+    {
+      "id": "gary.lamphier@enron.com",
+      "name": "Gary Lamphier",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1286,
+      "sentiment": 0.125
+    },
+    {
+      "id": "william.kasemervisz@enron.com",
+      "name": "William Kasemervisz",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1268,
+      "sentiment": 0.1
+    },
+    {
+      "id": "melba.lozano@enron.com",
+      "name": "Melba Lozano",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1234,
+      "sentiment": 0.0833
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1227,
+      "sentiment": 0.08
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1209,
+      "sentiment": 0.0816
+    },
+    {
+      "id": "brad.mckay@enron.com",
+      "name": "Brad Mckay",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1196,
+      "sentiment": 0.0
+    },
+    {
+      "id": "dale.neuner@enron.com",
+      "name": "Dale Neuner",
+      "direction": "outgoing",
+      "email_count": 12,
+      "weight": 0.1186,
+      "sentiment": 0.0491
+    },
+    {
+      "id": "sanjeev.khanna@enron.com",
+      "name": "Sanjeev Khanna",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.107,
+      "sentiment": 0.0
+    },
+    {
+      "id": "larry.may@enron.com",
+      "name": "Larry May",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.106,
+      "sentiment": -0.0038
+    },
+    {
+      "id": "barbara.lewis@enron.com",
+      "name": "Barbara Lewis",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1039,
+      "sentiment": 0.0
+    },
+    {
+      "id": "david.forster@enron.com",
+      "name": "David Forster",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.101,
+      "sentiment": -0.0326
+    },
+    {
+      "id": "bob.shults@enron.com",
+      "name": "Bob Shults",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.0862,
+      "sentiment": -0.0842
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 36,
+      "weight": 0.1551,
+      "sentiment": 0.1351
+    },
+    {
+      "id": "larry.may@enron.com",
+      "name": "Larry May",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1374,
+      "sentiment": 0.1228
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1235,
+      "sentiment": 0.0752
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1227,
+      "sentiment": 0.0361
+    }
+  ]
+}

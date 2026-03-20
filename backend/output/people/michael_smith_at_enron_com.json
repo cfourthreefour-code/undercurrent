@@ -1,0 +1,46 @@
+{
+  "id": "michael.smith@enron.com",
+  "name": "Michael Smith",
+  "email": "michael.smith@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.004258437145222532,
+    "pagerank": 0.0002103024182351082
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1074
+  },
+  "dead_man_switch": {
+    "id": "michael.smith@enron.com",
+    "name": "Michael Smith",
+    "dms_score": -0.2944,
+    "betweenness": 0.0,
+    "eigenvector": 0.004258,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "michael.smith@enron.com",
+    "name": "Michael Smith",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1231,
+      "sentiment": 0.0653
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gautam.gupta@enron.com",
+  "name": "Gautam Gupta",
+  "email": "gautam.gupta@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0032959838906603586,
+    "pagerank": 0.00021537866894469414
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1478
+  },
+  "dead_man_switch": {
+    "id": "gautam.gupta@enron.com",
+    "name": "Gautam Gupta",
+    "dms_score": -0.2953,
+    "betweenness": 0.0,
+    "eigenvector": 0.003296,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "gautam.gupta@enron.com",
+    "name": "Gautam Gupta",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "m..presto@enron.com",
+      "name": "M Presto",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.204,
+      "sentiment": 0.1051
+    },
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1578,
+      "sentiment": 0.275
+    }
+  ]
+}

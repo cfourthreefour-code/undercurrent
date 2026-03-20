@@ -1,0 +1,126 @@
+{
+  "id": "john.hodge@enron.com",
+  "name": "John Hodge",
+  "email": "john.hodge@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0013175230566534915,
+    "degree_centrality": 0.002415458937198068,
+    "betweenness_centrality": 6.655618340221898e-06,
+    "eigenvector_centrality": 0.014776146916908052,
+    "pagerank": 0.00021720802667909457
+  },
+  "sentiment": {
+    "avg_sent": 0.0801,
+    "avg_received": 0.147
+  },
+  "dead_man_switch": {
+    "id": "john.hodge@enron.com",
+    "name": "John Hodge",
+    "dms_score": -0.2826,
+    "betweenness": 1.6e-05,
+    "eigenvector": 0.014776,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "john.hodge@enron.com",
+    "name": "John Hodge",
+    "waste_score": 17.6,
+    "overproduction": 0.32,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0.833
+  },
+  "connections": [
+    {
+      "id": "kimberly.bates@enron.com",
+      "name": "Kimberly Bates",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1802,
+      "sentiment": 0.3035
+    },
+    {
+      "id": "scott.goodell@enron.com",
+      "name": "Scott Goodell",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1773,
+      "sentiment": 0.1384
+    },
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1576,
+      "sentiment": 0.0367
+    },
+    {
+      "id": "cynthia.franklin@enron.com",
+      "name": "Cynthia Franklin",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1411,
+      "sentiment": 0.1067
+    },
+    {
+      "id": "ruth.concannon@enron.com",
+      "name": "Ruth Concannon",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1332,
+      "sentiment": 0.0643
+    },
+    {
+      "id": "phil.demoes@enron.com",
+      "name": "Phil Demoes",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1311,
+      "sentiment": 0.0606
+    },
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2401,
+      "sentiment": 0.4
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.2138,
+      "sentiment": 0.2668
+    },
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 54,
+      "weight": 0.1882,
+      "sentiment": 0.1001
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1369,
+      "sentiment": 0.1556
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1276,
+      "sentiment": 0.0533
+    }
+  ]
+}

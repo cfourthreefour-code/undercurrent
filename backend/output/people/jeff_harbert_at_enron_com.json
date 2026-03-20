@@ -1,0 +1,46 @@
+{
+  "id": "jeff.harbert@enron.com",
+  "name": "Jeff Harbert",
+  "email": "jeff.harbert@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0035237076332642133,
+    "pagerank": 0.00021090201054583353
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1486
+  },
+  "dead_man_switch": {
+    "id": "jeff.harbert@enron.com",
+    "name": "Jeff Harbert",
+    "dms_score": -0.2951,
+    "betweenness": 0.0,
+    "eigenvector": 0.003524,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jeff.harbert@enron.com",
+    "name": "Jeff Harbert",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1405,
+      "sentiment": 0.172
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "kristin.walsh@enron.com",
+  "name": "Kristin Walsh",
+  "email": "kristin.walsh@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.013397710233316394,
+    "pagerank": 0.00022339405286645687
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1789
+  },
+  "dead_man_switch": {
+    "id": "kristin.walsh@enron.com",
+    "name": "Kristin Walsh",
+    "dms_score": -0.2852,
+    "betweenness": 0.0,
+    "eigenvector": 0.013398,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "kristin.walsh@enron.com",
+    "name": "Kristin Walsh",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 49,
+      "weight": 0.1969,
+      "sentiment": 0.1853
+    },
+    {
+      "id": "kevin.presto@enron.com",
+      "name": "Kevin Presto",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1676,
+      "sentiment": 0.2444
+    },
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1636,
+      "sentiment": 0.1238
+    },
+    {
+      "id": "m..presto@enron.com",
+      "name": "M Presto",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1467,
+      "sentiment": 0.1073
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "vsharp@enron.com",
+  "name": "Vsharp",
+  "email": "vsharp@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.003074100609133881,
+    "pagerank": 0.00021228341390089664
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1271
+  },
+  "dead_man_switch": {
+    "id": "vsharp@enron.com",
+    "name": "Vsharp",
+    "dms_score": -0.2955,
+    "betweenness": 0.0,
+    "eigenvector": 0.003074,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "vsharp@enron.com",
+    "name": "Vsharp",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.152,
+      "sentiment": 0.2042
+    }
+  ]
+}

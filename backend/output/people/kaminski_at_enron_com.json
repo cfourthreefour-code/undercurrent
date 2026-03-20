@@ -1,0 +1,174 @@
+{
+  "id": "kaminski@enron.com",
+  "name": "Kaminski",
+  "email": "kaminski@enron.com",
+  "community_id": 13,
+  "metrics": {
+    "in_degree_centrality": 0.0,
+    "out_degree_centrality": 0.003732981993851559,
+    "degree_centrality": 0.003732981993851559,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00391382975247384,
+    "pagerank": 0.00020989089455738852
+  },
+  "sentiment": {
+    "avg_sent": 0.1212,
+    "avg_received": 0
+  },
+  "dead_man_switch": {
+    "id": "kaminski@enron.com",
+    "name": "Kaminski",
+    "dms_score": -0.2946,
+    "betweenness": 0.0,
+    "eigenvector": 0.003914,
+    "redundancy": 0.9952,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "kaminski@enron.com",
+    "name": "Kaminski",
+    "waste_score": 23.8,
+    "overproduction": 0.69,
+    "broadcast_ratio": 0.013,
+    "reply_all_ratio": 0.067,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "rakesh.bharati@enron.com",
+      "name": "Rakesh Bharati",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1709,
+      "sentiment": 0.245
+    },
+    {
+      "id": "traci.warner@enron.com",
+      "name": "Traci Warner",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1617,
+      "sentiment": 0.1915
+    },
+    {
+      "id": "billy.lemmons@enron.com",
+      "name": "Billy Lemmons",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1611,
+      "sentiment": 0.1919
+    },
+    {
+      "id": "molly.magee@enron.com",
+      "name": "Molly Magee",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1595,
+      "sentiment": 0.1827
+    },
+    {
+      "id": "r..fellers@enron.com",
+      "name": "R Fellers",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1588,
+      "sentiment": 0.185
+    },
+    {
+      "id": "anita.dupont@enron.com",
+      "name": "Anita Dupont",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1582,
+      "sentiment": 0.1787
+    },
+    {
+      "id": "j.kaminski@enron.com",
+      "name": "J Kaminski",
+      "direction": "outgoing",
+      "email_count": 29,
+      "weight": 0.154,
+      "sentiment": 0.1174
+    },
+    {
+      "id": "j..kaminski@enron.com",
+      "name": "J Kaminski",
+      "direction": "outgoing",
+      "email_count": 16,
+      "weight": 0.1534,
+      "sentiment": 0.1489
+    },
+    {
+      "id": "paula.corey@enron.com",
+      "name": "Paula Corey",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1525,
+      "sentiment": 0.1467
+    },
+    {
+      "id": "shirley.crenshaw@enron.com",
+      "name": "Shirley Crenshaw",
+      "direction": "outgoing",
+      "email_count": 37,
+      "weight": 0.1511,
+      "sentiment": 0.0889
+    },
+    {
+      "id": "a..roberts@enron.com",
+      "name": "A Roberts",
+      "direction": "outgoing",
+      "email_count": 18,
+      "weight": 0.1484,
+      "sentiment": 0.1062
+    },
+    {
+      "id": "anne.labbe@enron.com",
+      "name": "Anne Labbe",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.1483,
+      "sentiment": 0.1217
+    },
+    {
+      "id": "zimin.lu@enron.com",
+      "name": "Zimin Lu",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.1436,
+      "sentiment": 0.1061
+    },
+    {
+      "id": "nelson.neale@enron.com",
+      "name": "Nelson Neale",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1436,
+      "sentiment": 0.1091
+    },
+    {
+      "id": "vasant.shanbhogue@enron.com",
+      "name": "Vasant Shanbhogue",
+      "direction": "outgoing",
+      "email_count": 11,
+      "weight": 0.1406,
+      "sentiment": 0.0817
+    },
+    {
+      "id": "mark.tawney@enron.com",
+      "name": "Mark Tawney",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1362,
+      "sentiment": 0.0674
+    },
+    {
+      "id": "pinnamaneni.krishnarao@enron.com",
+      "name": "Pinnamaneni Krishnarao",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1284,
+      "sentiment": 0.0253
+    }
+  ]
+}

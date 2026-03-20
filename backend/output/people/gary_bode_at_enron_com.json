@@ -1,0 +1,54 @@
+{
+  "id": "gary.bode@enron.com",
+  "name": "Gary Bode",
+  "email": "gary.bode@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.008347330143262182,
+    "pagerank": 0.00021580357248297843
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0991
+  },
+  "dead_man_switch": {
+    "id": "gary.bode@enron.com",
+    "name": "Gary Bode",
+    "dms_score": -0.2903,
+    "betweenness": 0.0,
+    "eigenvector": 0.008347,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "gary.bode@enron.com",
+    "name": "Gary Bode",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.155,
+      "sentiment": 0.1942
+    },
+    {
+      "id": "cathy.phillips@enron.com",
+      "name": "Cathy Phillips",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1115,
+      "sentiment": 0.0093
+    }
+  ]
+}

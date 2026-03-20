@@ -1,0 +1,70 @@
+{
+  "id": "jaime.williams@enron.com",
+  "name": "Jaime Williams",
+  "email": "jaime.williams@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.01570218552075734,
+    "pagerank": 0.00021598707036313725
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1232
+  },
+  "dead_man_switch": {
+    "id": "jaime.williams@enron.com",
+    "name": "Jaime Williams",
+    "dms_score": -0.2829,
+    "betweenness": 0.0,
+    "eigenvector": 0.015702,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jaime.williams@enron.com",
+    "name": "Jaime Williams",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1946,
+      "sentiment": 0.411
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1868,
+      "sentiment": 0.1865
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1151,
+      "sentiment": 0.0397
+    },
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1124,
+      "sentiment": -0.1083
+    }
+  ]
+}

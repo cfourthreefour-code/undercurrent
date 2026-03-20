@@ -1,0 +1,46 @@
+{
+  "id": "earlene.ackley@enron.com",
+  "name": "Earlene Ackley",
+  "email": "earlene.ackley@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00032569520786134736,
+    "pagerank": 0.00021535455791312364
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.2071
+  },
+  "dead_man_switch": {
+    "id": "earlene.ackley@enron.com",
+    "name": "Earlene Ackley",
+    "dms_score": -0.2983,
+    "betweenness": 0.0,
+    "eigenvector": 0.000326,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "earlene.ackley@enron.com",
+    "name": "Earlene Ackley",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "cindy.stark@enron.com",
+      "name": "Cindy Stark",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.177,
+      "sentiment": 0.2761
+    }
+  ]
+}

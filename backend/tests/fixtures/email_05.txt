@@ -1,0 +1,18 @@
+Message-ID: <test005@enron.com>
+Date: Thu, 17 May 2001 10:30:00 -0700 (PDT)
+From: mike.chen@enron.com
+To: external.partner@gmail.com
+Cc: john.smith@enron.com
+Subject: Partnership Proposal
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Dear Partner,
+
+We'd like to explore a strategic partnership opportunity. Our energy trading platform could complement your data analytics capabilities.
+
+I've copied our team lead John Smith for visibility.
+
+Best regards,
+Mike Chen

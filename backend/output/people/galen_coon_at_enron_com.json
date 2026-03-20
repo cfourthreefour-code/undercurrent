@@ -1,0 +1,54 @@
+{
+  "id": "galen.coon@enron.com",
+  "name": "Galen Coon",
+  "email": "galen.coon@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0017524241812936156,
+    "pagerank": 0.00021405631872958177
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1428
+  },
+  "dead_man_switch": {
+    "id": "galen.coon@enron.com",
+    "name": "Galen Coon",
+    "dms_score": -0.2969,
+    "betweenness": 0.0,
+    "eigenvector": 0.001752,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "galen.coon@enron.com",
+    "name": "Galen Coon",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "shelley.corman@enron.com",
+      "name": "Shelley Corman",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2153,
+      "sentiment": 0.0841
+    },
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1741,
+      "sentiment": 0.1681
+    }
+  ]
+}

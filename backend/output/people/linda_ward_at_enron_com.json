@@ -1,0 +1,54 @@
+{
+  "id": "linda.ward@enron.com",
+  "name": "Linda Ward",
+  "email": "linda.ward@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.001411328329985139,
+    "pagerank": 0.00021311589913199975
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0999
+  },
+  "dead_man_switch": {
+    "id": "linda.ward@enron.com",
+    "name": "Linda Ward",
+    "dms_score": -0.2972,
+    "betweenness": 0.0,
+    "eigenvector": 0.001411,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "linda.ward@enron.com",
+    "name": "Linda Ward",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "darrell.schoolcraft@enron.com",
+      "name": "Darrell Schoolcraft",
+      "direction": "incoming",
+      "email_count": 54,
+      "weight": 0.2372,
+      "sentiment": 0.0646
+    },
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 30,
+      "weight": 0.1989,
+      "sentiment": 0.1639
+    }
+  ]
+}

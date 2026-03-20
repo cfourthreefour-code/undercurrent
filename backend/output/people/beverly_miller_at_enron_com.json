@@ -1,0 +1,54 @@
+{
+  "id": "beverly.miller@enron.com",
+  "name": "Beverly Miller",
+  "email": "beverly.miller@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0014110681932095774,
+    "pagerank": 0.0002131257499921547
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1096
+  },
+  "dead_man_switch": {
+    "id": "beverly.miller@enron.com",
+    "name": "Beverly Miller",
+    "dms_score": -0.2972,
+    "betweenness": 0.0,
+    "eigenvector": 0.001411,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "beverly.miller@enron.com",
+    "name": "Beverly Miller",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "darrell.schoolcraft@enron.com",
+      "name": "Darrell Schoolcraft",
+      "direction": "incoming",
+      "email_count": 48,
+      "weight": 0.2399,
+      "sentiment": 0.0877
+    },
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 26,
+      "weight": 0.1967,
+      "sentiment": 0.1541
+    }
+  ]
+}

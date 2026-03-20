@@ -1,0 +1,54 @@
+{
+  "id": "steve.c.hall@enron.com",
+  "name": "Steve C Hall",
+  "email": "steve.c.hall@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0033286253347332546,
+    "pagerank": 0.00021287331372223472
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0339
+  },
+  "dead_man_switch": {
+    "id": "steve.c.hall@enron.com",
+    "name": "Steve C Hall",
+    "dms_score": -0.2953,
+    "betweenness": 0.0,
+    "eigenvector": 0.003329,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "steve.c.hall@enron.com",
+    "name": "Steve C Hall",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 32,
+      "weight": 0.1299,
+      "sentiment": 0.0289
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1208,
+      "sentiment": 0.0172
+    }
+  ]
+}

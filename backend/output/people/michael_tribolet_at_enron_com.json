@@ -1,0 +1,94 @@
+{
+  "id": "michael.tribolet@enron.com",
+  "name": "Michael Tribolet",
+  "email": "michael.tribolet@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0015371102327624067,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.02421700520240292,
+    "pagerank": 0.00022982875474422682
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1219
+  },
+  "dead_man_switch": {
+    "id": "michael.tribolet@enron.com",
+    "name": "Michael Tribolet",
+    "dms_score": -0.2744,
+    "betweenness": 0.0,
+    "eigenvector": 0.024217,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "michael.tribolet@enron.com",
+    "name": "Michael Tribolet",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 277,
+      "weight": 0.2732,
+      "sentiment": 0.1383
+    },
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 34,
+      "weight": 0.1924,
+      "sentiment": 0.0921
+    },
+    {
+      "id": "rick.buy@enron.com",
+      "name": "Rick Buy",
+      "direction": "incoming",
+      "email_count": 49,
+      "weight": 0.1875,
+      "sentiment": 0.0964
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.1846,
+      "sentiment": 0.1314
+    },
+    {
+      "id": "b..sanders@enron.com",
+      "name": "B Sanders",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1651,
+      "sentiment": 0.1195
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1387,
+      "sentiment": 0.0815
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 17,
+      "weight": 0.1221,
+      "sentiment": 0.0174
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "london.brown@enron.com",
+  "name": "London Brown",
+  "email": "london.brown@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.014454303532103044,
+    "pagerank": 0.00021181896400178775
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1025
+  },
+  "dead_man_switch": {
+    "id": "london.brown@enron.com",
+    "name": "London Brown",
+    "dms_score": -0.2842,
+    "betweenness": 0.0,
+    "eigenvector": 0.014454,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "london.brown@enron.com",
+    "name": "London Brown",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1647,
+      "sentiment": 0.0695
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1573,
+      "sentiment": 0.0591
+    }
+  ]
+}

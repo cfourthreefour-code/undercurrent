@@ -1,0 +1,70 @@
+{
+  "id": "derek.bailey@enron.com",
+  "name": "Derek Bailey",
+  "email": "derek.bailey@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.013957253889345923,
+    "pagerank": 0.0002150625972667403
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0894
+  },
+  "dead_man_switch": {
+    "id": "derek.bailey@enron.com",
+    "name": "Derek Bailey",
+    "dms_score": -0.2847,
+    "betweenness": 0.0,
+    "eigenvector": 0.013957,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "derek.bailey@enron.com",
+    "name": "Derek Bailey",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "errol.mclaughlin@enron.com",
+      "name": "Errol Mclaughlin",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1764,
+      "sentiment": 0.0638
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 19,
+      "weight": 0.1404,
+      "sentiment": 0.1148
+    },
+    {
+      "id": "darron.giron@enron.com",
+      "name": "Darron Giron",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.0921,
+      "sentiment": -0.0952
+    }
+  ]
+}

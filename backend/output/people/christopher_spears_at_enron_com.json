@@ -1,0 +1,62 @@
+{
+  "id": "christopher.spears@enron.com",
+  "name": "Christopher Spears",
+  "email": "christopher.spears@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.010391483672581352,
+    "pagerank": 0.00021167173229625516
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0308
+  },
+  "dead_man_switch": {
+    "id": "christopher.spears@enron.com",
+    "name": "Christopher Spears",
+    "dms_score": -0.2882,
+    "betweenness": 0.0,
+    "eigenvector": 0.010391,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "christopher.spears@enron.com",
+    "name": "Christopher Spears",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1163,
+      "sentiment": 0.044
+    },
+    {
+      "id": "phillip.love@enron.com",
+      "name": "Phillip Love",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.0792,
+      "sentiment": -0.1667
+    }
+  ]
+}

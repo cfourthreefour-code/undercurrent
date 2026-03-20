@@ -1,0 +1,254 @@
+{
+  "id": "jeffrey.hodge@enron.com",
+  "name": "Jeffrey Hodge",
+  "email": "jeffrey.hodge@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.00417215634606939,
+    "out_degree_centrality": 0.001756697408871322,
+    "degree_centrality": 0.005928853754940712,
+    "betweenness_centrality": 0.0005678978692471946,
+    "eigenvector_centrality": 0.04986290021899622,
+    "pagerank": 0.00025696226783934875
+  },
+  "sentiment": {
+    "avg_sent": 0.0452,
+    "avg_received": 0.0353
+  },
+  "dead_man_switch": {
+    "id": "jeffrey.hodge@enron.com",
+    "name": "Jeffrey Hodge",
+    "dms_score": -0.228,
+    "betweenness": 0.000273,
+    "eigenvector": 0.049863,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jeffrey.hodge@enron.com",
+    "name": "Jeffrey Hodge",
+    "waste_score": 23.1,
+    "overproduction": 2.5,
+    "broadcast_ratio": 0.125,
+    "reply_all_ratio": 0.219,
+    "orphan_ratio": 0.375
+  },
+  "connections": [
+    {
+      "id": "john.grass@enron.com",
+      "name": "John Grass",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1497,
+      "sentiment": 0.1488
+    },
+    {
+      "id": "mark.haedicke@enron.com",
+      "name": "Mark Haedicke",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1329,
+      "sentiment": 0.0498
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1222,
+      "sentiment": 0.0234
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.122,
+      "sentiment": 0.066
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1201,
+      "sentiment": 0.0113
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1173,
+      "sentiment": -0.0009
+    },
+    {
+      "id": "dick.jenkins@enron.com",
+      "name": "Dick Jenkins",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1168,
+      "sentiment": 0.0385
+    },
+    {
+      "id": "barbara.gray@enron.com",
+      "name": "Barbara Gray",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1045,
+      "sentiment": -0.0637
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 399,
+      "weight": 0.2353,
+      "sentiment": -0.0495
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 204,
+      "weight": 0.2026,
+      "sentiment": 0.0894
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 83,
+      "weight": 0.1674,
+      "sentiment": 0.1034
+    },
+    {
+      "id": "mark.haedicke@enron.com",
+      "name": "Mark Haedicke",
+      "direction": "incoming",
+      "email_count": 36,
+      "weight": 0.1609,
+      "sentiment": 0.1402
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1582,
+      "sentiment": 0.1758
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 55,
+      "weight": 0.154,
+      "sentiment": 0.0918
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 17,
+      "weight": 0.1529,
+      "sentiment": 0.1271
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 52,
+      "weight": 0.1507,
+      "sentiment": 0.064
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 26,
+      "weight": 0.1502,
+      "sentiment": 0.1158
+    },
+    {
+      "id": "michelle.cash@enron.com",
+      "name": "Michelle Cash",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1466,
+      "sentiment": 0.118
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 27,
+      "weight": 0.1461,
+      "sentiment": 0.0815
+    },
+    {
+      "id": "stacy.dickson@enron.com",
+      "name": "Stacy Dickson",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1443,
+      "sentiment": 0.0982
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1383,
+      "sentiment": 0.0393
+    },
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1348,
+      "sentiment": 0.1417
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.133,
+      "sentiment": 0.047
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 25,
+      "weight": 0.1288,
+      "sentiment": 0.0001
+    },
+    {
+      "id": "twanda.sweet@enron.com",
+      "name": "Twanda Sweet",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1265,
+      "sentiment": 0.0705
+    },
+    {
+      "id": "hunter.shively@enron.com",
+      "name": "Hunter Shively",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1172,
+      "sentiment": 0.0619
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.114,
+      "sentiment": -0.0194
+    }
+  ]
+}

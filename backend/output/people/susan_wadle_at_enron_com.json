@@ -1,0 +1,62 @@
+{
+  "id": "susan.wadle@enron.com",
+  "name": "Susan Wadle",
+  "email": "susan.wadle@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0024785300698664373,
+    "pagerank": 0.00022310643842117422
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1389
+  },
+  "dead_man_switch": {
+    "id": "susan.wadle@enron.com",
+    "name": "Susan Wadle",
+    "dms_score": -0.2961,
+    "betweenness": 0.0,
+    "eigenvector": 0.002479,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "susan.wadle@enron.com",
+    "name": "Susan Wadle",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kevin.hyatt@enron.com",
+      "name": "Kevin Hyatt",
+      "direction": "incoming",
+      "email_count": 24,
+      "weight": 0.2401,
+      "sentiment": 0.1249
+    },
+    {
+      "id": "kimberly.watson@enron.com",
+      "name": "Kimberly Watson",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.2397,
+      "sentiment": 0.1933
+    },
+    {
+      "id": "tracy.geaccone@enron.com",
+      "name": "Tracy Geaccone",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1786,
+      "sentiment": 0.1435
+    }
+  ]
+}

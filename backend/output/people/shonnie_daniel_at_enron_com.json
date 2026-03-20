@@ -1,0 +1,86 @@
+{
+  "id": "shonnie.daniel@enron.com",
+  "name": "Shonnie Daniel",
+  "email": "shonnie.daniel@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.015340451976362211,
+    "pagerank": 0.00021891282507889687
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1065
+  },
+  "dead_man_switch": {
+    "id": "shonnie.daniel@enron.com",
+    "name": "Shonnie Daniel",
+    "dms_score": -0.2833,
+    "betweenness": 0.0,
+    "eigenvector": 0.01534,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "shonnie.daniel@enron.com",
+    "name": "Shonnie Daniel",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 148,
+      "weight": 0.2054,
+      "sentiment": 0.0906
+    },
+    {
+      "id": "mike.mcconnell@enron.com",
+      "name": "Mike Mcconnell",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1593,
+      "sentiment": 0.2629
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.147,
+      "sentiment": 0.1953
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1458,
+      "sentiment": 0.1833
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1407,
+      "sentiment": 0.154
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1306,
+      "sentiment": 0.1005
+    }
+  ]
+}

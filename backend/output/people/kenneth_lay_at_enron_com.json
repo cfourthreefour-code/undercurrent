@@ -1,0 +1,286 @@
+{
+  "id": "kenneth.lay@enron.com",
+  "name": "Kenneth Lay",
+  "email": "kenneth.lay@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.002415458937198068,
+    "out_degree_centrality": 0.005270092226613966,
+    "degree_centrality": 0.007685551163812034,
+    "betweenness_centrality": 0.00028648096333998605,
+    "eigenvector_centrality": 0.05503039919606212,
+    "pagerank": 0.0002447027881412261
+  },
+  "sentiment": {
+    "avg_sent": 0.1537,
+    "avg_received": 0.0647
+  },
+  "dead_man_switch": {
+    "id": "kenneth.lay@enron.com",
+    "name": "Kenneth Lay",
+    "dms_score": -0.2198,
+    "betweenness": 0.00031,
+    "eigenvector": 0.05503,
+    "redundancy": 0.9947,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "kenneth.lay@enron.com",
+    "name": "Kenneth Lay",
+    "waste_score": 32.6,
+    "overproduction": 0.86,
+    "broadcast_ratio": 0.286,
+    "reply_all_ratio": 0.071,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "l..wells@enron.com",
+      "name": "L Wells",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.1863,
+      "sentiment": 0.2542
+    },
+    {
+      "id": "billy.lemmons@enron.com",
+      "name": "Billy Lemmons",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1851,
+      "sentiment": 0.2542
+    },
+    {
+      "id": "c..lewis@enron.com",
+      "name": "C Lewis",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1851,
+      "sentiment": 0.2542
+    },
+    {
+      "id": "mark.metts@enron.com",
+      "name": "Mark Metts",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1796,
+      "sentiment": 0.225
+    },
+    {
+      "id": "a..hughes@enron.com",
+      "name": "A Hughes",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1796,
+      "sentiment": 0.225
+    },
+    {
+      "id": "janet.dietrich@enron.com",
+      "name": "Janet Dietrich",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1796,
+      "sentiment": 0.225
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1796,
+      "sentiment": 0.225
+    },
+    {
+      "id": "k..allen@enron.com",
+      "name": "K Allen",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1764,
+      "sentiment": 0.2059
+    },
+    {
+      "id": "tim.belden@enron.com",
+      "name": "Tim Belden",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1737,
+      "sentiment": 0.1938
+    },
+    {
+      "id": "joseph.deffner@enron.com",
+      "name": "Joseph Deffner",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1737,
+      "sentiment": 0.1938
+    },
+    {
+      "id": "david.duran@enron.com",
+      "name": "David Duran",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1737,
+      "sentiment": 0.1938
+    },
+    {
+      "id": "brian.redmond@enron.com",
+      "name": "Brian Redmond",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1732,
+      "sentiment": 0.1926
+    },
+    {
+      "id": "cindy.olson@enron.com",
+      "name": "Cindy Olson",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.172,
+      "sentiment": 0.1684
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1694,
+      "sentiment": 0.1736
+    },
+    {
+      "id": "f..calger@enron.com",
+      "name": "F Calger",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1694,
+      "sentiment": 0.1736
+    },
+    {
+      "id": "shawn.cumberland@enron.com",
+      "name": "Shawn Cumberland",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1694,
+      "sentiment": 0.1736
+    },
+    {
+      "id": "j..detmering@enron.com",
+      "name": "J Detmering",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1694,
+      "sentiment": 0.1736
+    },
+    {
+      "id": "jeff.donahue@enron.com",
+      "name": "Jeff Donahue",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1694,
+      "sentiment": 0.1736
+    },
+    {
+      "id": "connie.estrems@enron.com",
+      "name": "Connie Estrems",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1694,
+      "sentiment": 0.1736
+    },
+    {
+      "id": "gary.hickerson@enron.com",
+      "name": "Gary Hickerson",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1694,
+      "sentiment": 0.1736
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2005,
+      "sentiment": 0.2125
+    },
+    {
+      "id": "j..kean@enron.com",
+      "name": "J Kean",
+      "direction": "incoming",
+      "email_count": 19,
+      "weight": 0.1754,
+      "sentiment": 0.074
+    },
+    {
+      "id": "jeff.skilling@enron.com",
+      "name": "Jeff Skilling",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1603,
+      "sentiment": 0.1476
+    },
+    {
+      "id": "james.derrick@enron.com",
+      "name": "James Derrick",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1566,
+      "sentiment": 0.0494
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 23,
+      "weight": 0.1542,
+      "sentiment": 0.0989
+    },
+    {
+      "id": "maureen.mcvicker@enron.com",
+      "name": "Maureen Mcvicker",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1325,
+      "sentiment": 0.0623
+    },
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1323,
+      "sentiment": 0.1332
+    },
+    {
+      "id": "cindy.stark@enron.com",
+      "name": "Cindy Stark",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1098,
+      "sentiment": 0.0035
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1083,
+      "sentiment": -0.0323
+    },
+    {
+      "id": "liz.taylor@enron.com",
+      "name": "Liz Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.108,
+      "sentiment": 0.0
+    },
+    {
+      "id": "sherri.sera@enron.com",
+      "name": "Sherri Sera",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1,
+      "sentiment": -0.0774
+    }
+  ]
+}

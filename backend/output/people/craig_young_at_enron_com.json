@@ -1,0 +1,54 @@
+{
+  "id": "craig.young@enron.com",
+  "name": "Craig Young",
+  "email": "craig.young@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.005651026902295582,
+    "pagerank": 0.00021121831086949654
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": -0.0122
+  },
+  "dead_man_switch": {
+    "id": "craig.young@enron.com",
+    "name": "Craig Young",
+    "dms_score": -0.293,
+    "betweenness": 0.0,
+    "eigenvector": 0.005651,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "craig.young@enron.com",
+    "name": "Craig Young",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1075,
+      "sentiment": -0.0009
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1044,
+      "sentiment": -0.0147
+    }
+  ]
+}

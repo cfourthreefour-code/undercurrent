@@ -1,0 +1,46 @@
+{
+  "id": "john.thomas@enron.com",
+  "name": "John Thomas",
+  "email": "john.thomas@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.001340435575543084,
+    "pagerank": 0.00021174327443142688
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": -0.0511
+  },
+  "dead_man_switch": {
+    "id": "john.thomas@enron.com",
+    "name": "John Thomas",
+    "dms_score": -0.2973,
+    "betweenness": 0.0,
+    "eigenvector": 0.00134,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "john.thomas@enron.com",
+    "name": "John Thomas",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.0839,
+      "sentiment": -0.1083
+    }
+  ]
+}

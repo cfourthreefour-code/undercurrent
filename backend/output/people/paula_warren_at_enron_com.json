@@ -1,0 +1,62 @@
+{
+  "id": "paula.warren@enron.com",
+  "name": "Paula Warren",
+  "email": "paula.warren@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.011528038147977326,
+    "pagerank": 0.00021318005923307527
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0524
+  },
+  "dead_man_switch": {
+    "id": "paula.warren@enron.com",
+    "name": "Paula Warren",
+    "dms_score": -0.2871,
+    "betweenness": 0.0,
+    "eigenvector": 0.011528,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "paula.warren@enron.com",
+    "name": "Paula Warren",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 212,
+      "weight": 0.2017,
+      "sentiment": 0.0504
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1708,
+      "sentiment": 0.3
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 24,
+      "weight": 0.1258,
+      "sentiment": 0.0288
+    }
+  ]
+}

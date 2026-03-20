@@ -1,0 +1,62 @@
+{
+  "id": "lynda.laferla@enron.com",
+  "name": "Lynda Laferla",
+  "email": "lynda.laferla@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00556412153527314,
+    "pagerank": 0.0002141656600422114
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.09
+  },
+  "dead_man_switch": {
+    "id": "lynda.laferla@enron.com",
+    "name": "Lynda Laferla",
+    "dms_score": -0.2931,
+    "betweenness": 0.0,
+    "eigenvector": 0.005564,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "lynda.laferla@enron.com",
+    "name": "Lynda Laferla",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.2386,
+      "sentiment": 0.1163
+    },
+    {
+      "id": "darrell.schoolcraft@enron.com",
+      "name": "Darrell Schoolcraft",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.2161,
+      "sentiment": 0.0617
+    },
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1865,
+      "sentiment": 0.2317
+    }
+  ]
+}

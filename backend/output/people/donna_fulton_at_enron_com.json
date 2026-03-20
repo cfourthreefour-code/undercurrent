@@ -1,0 +1,78 @@
+{
+  "id": "donna.fulton@enron.com",
+  "name": "Donna Fulton",
+  "email": "donna.fulton@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.013696840725939685,
+    "pagerank": 0.00021781818830151077
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0955
+  },
+  "dead_man_switch": {
+    "id": "donna.fulton@enron.com",
+    "name": "Donna Fulton",
+    "dms_score": -0.2849,
+    "betweenness": 0.0,
+    "eigenvector": 0.013697,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "donna.fulton@enron.com",
+    "name": "Donna Fulton",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 24,
+      "weight": 0.1734,
+      "sentiment": 0.0787
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 28,
+      "weight": 0.1596,
+      "sentiment": 0.1373
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 19,
+      "weight": 0.1329,
+      "sentiment": 0.0638
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1326,
+      "sentiment": 0.0233
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1258,
+      "sentiment": 0.111
+    }
+  ]
+}

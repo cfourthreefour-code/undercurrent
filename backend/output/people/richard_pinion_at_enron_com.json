@@ -1,0 +1,54 @@
+{
+  "id": "richard.pinion@enron.com",
+  "name": "Richard Pinion",
+  "email": "richard.pinion@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00440688938842206,
+    "pagerank": 0.00021438722077942756
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.169
+  },
+  "dead_man_switch": {
+    "id": "richard.pinion@enron.com",
+    "name": "Richard Pinion",
+    "dms_score": -0.2942,
+    "betweenness": 0.0,
+    "eigenvector": 0.004407,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "richard.pinion@enron.com",
+    "name": "Richard Pinion",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.2081,
+      "sentiment": 0.1126
+    },
+    {
+      "id": "randall.gay@enron.com",
+      "name": "Randall Gay",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1537,
+      "sentiment": 0.2286
+    }
+  ]
+}

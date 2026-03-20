@@ -1,0 +1,166 @@
+{
+  "id": "brenda.whitehead@enron.com",
+  "name": "Brenda Whitehead",
+  "email": "brenda.whitehead@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.002854633289415898,
+    "degree_centrality": 0.003513394817742644,
+    "betweenness_centrality": 6.752076577036708e-06,
+    "eigenvector_centrality": 0.017036850183153367,
+    "pagerank": 0.00021467899745165786
+  },
+  "sentiment": {
+    "avg_sent": 0.0492,
+    "avg_received": 0.0476
+  },
+  "dead_man_switch": {
+    "id": "brenda.whitehead@enron.com",
+    "name": "Brenda Whitehead",
+    "dms_score": -0.2814,
+    "betweenness": 2e-06,
+    "eigenvector": 0.017037,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "brenda.whitehead@enron.com",
+    "name": "Brenda Whitehead",
+    "waste_score": 32.1,
+    "overproduction": 0.0,
+    "broadcast_ratio": 0.455,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0.923
+  },
+  "connections": [
+    {
+      "id": "david.portz@enron.com",
+      "name": "David Portz",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.122,
+      "sentiment": 0.0578
+    },
+    {
+      "id": "mark.haedicke@enron.com",
+      "name": "Mark Haedicke",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1206,
+      "sentiment": 0.0883
+    },
+    {
+      "id": "stuart.zisman@enron.com",
+      "name": "Stuart Zisman",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1184,
+      "sentiment": 0.077
+    },
+    {
+      "id": "james.fallon@enron.com",
+      "name": "James Fallon",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1181,
+      "sentiment": 0.0736
+    },
+    {
+      "id": "kevin.presto@enron.com",
+      "name": "Kevin Presto",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1181,
+      "sentiment": 0.0736
+    },
+    {
+      "id": "rogers.herndon@enron.com",
+      "name": "Rogers Herndon",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1181,
+      "sentiment": 0.0736
+    },
+    {
+      "id": "tracy.ngo@enron.com",
+      "name": "Tracy Ngo",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1175,
+      "sentiment": 0.077
+    },
+    {
+      "id": "berney.aucoin@enron.com",
+      "name": "Berney Aucoin",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1175,
+      "sentiment": 0.077
+    },
+    {
+      "id": "james.simpson@enron.com",
+      "name": "James Simpson",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1175,
+      "sentiment": 0.077
+    },
+    {
+      "id": "wanda.curry@enron.com",
+      "name": "Wanda Curry",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1175,
+      "sentiment": 0.077
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1175,
+      "sentiment": 0.077
+    },
+    {
+      "id": "rodney.malcolm@enron.com",
+      "name": "Rodney Malcolm",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1175,
+      "sentiment": 0.077
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1165,
+      "sentiment": 0.0702
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 142,
+      "weight": 0.1691,
+      "sentiment": 0.0406
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 15,
+      "weight": 0.1408,
+      "sentiment": 0.115
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.0999,
+      "sentiment": -0.042
+    }
+  ]
+}

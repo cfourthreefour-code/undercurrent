@@ -1,0 +1,94 @@
+{
+  "id": "r..brackett@enron.com",
+  "name": "R Brackett",
+  "email": "r..brackett@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0015371102327624067,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.02549224005683338,
+    "pagerank": 0.00022298763903701502
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0714
+  },
+  "dead_man_switch": {
+    "id": "r..brackett@enron.com",
+    "name": "R Brackett",
+    "dms_score": -0.2732,
+    "betweenness": 0.0,
+    "eigenvector": 0.025492,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "r..brackett@enron.com",
+    "name": "R Brackett",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.2172,
+      "sentiment": 0.1527
+    },
+    {
+      "id": "kam.keiser@enron.com",
+      "name": "Kam Keiser",
+      "direction": "incoming",
+      "email_count": 20,
+      "weight": 0.2013,
+      "sentiment": 0.0723
+    },
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1953,
+      "sentiment": 0.1333
+    },
+    {
+      "id": "w..white@enron.com",
+      "name": "W White",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1907,
+      "sentiment": 0.0679
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1793,
+      "sentiment": 0.078
+    },
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1775,
+      "sentiment": 0.0823
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1079,
+      "sentiment": -0.2269
+    }
+  ]
+}

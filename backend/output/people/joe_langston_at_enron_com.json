@@ -1,0 +1,46 @@
+{
+  "id": "joe.langston@enron.com",
+  "name": "Joe Langston",
+  "email": "joe.langston@enron.com",
+  "community_id": 13,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.002954948222713265,
+    "pagerank": 0.00021072659956848766
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.2397
+  },
+  "dead_man_switch": {
+    "id": "joe.langston@enron.com",
+    "name": "Joe Langston",
+    "dms_score": -0.2957,
+    "betweenness": 0.0,
+    "eigenvector": 0.002955,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "joe.langston@enron.com",
+    "name": "Joe Langston",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1662,
+      "sentiment": 0.2397
+    }
+  ]
+}

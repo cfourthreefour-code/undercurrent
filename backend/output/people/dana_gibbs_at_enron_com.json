@@ -1,0 +1,54 @@
+{
+  "id": "dana.gibbs@enron.com",
+  "name": "Dana Gibbs",
+  "email": "dana.gibbs@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0009354050110002033,
+    "pagerank": 0.0002159387076328305
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0054
+  },
+  "dead_man_switch": {
+    "id": "dana.gibbs@enron.com",
+    "name": "Dana Gibbs",
+    "dms_score": -0.2977,
+    "betweenness": 0.0,
+    "eigenvector": 0.000935,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "dana.gibbs@enron.com",
+    "name": "Dana Gibbs",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "cindy.stark@enron.com",
+      "name": "Cindy Stark",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1284,
+      "sentiment": 0.0169
+    },
+    {
+      "id": "stanley.horton@enron.com",
+      "name": "Stanley Horton",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1153,
+      "sentiment": -0.0347
+    }
+  ]
+}

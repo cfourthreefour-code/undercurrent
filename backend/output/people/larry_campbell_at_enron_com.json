@@ -1,0 +1,198 @@
+{
+  "id": "larry.campbell@enron.com",
+  "name": "Larry Campbell",
+  "email": "larry.campbell@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0,
+    "out_degree_centrality": 0.034036012296881864,
+    "degree_centrality": 0.034036012296881864,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00573727142124731,
+    "pagerank": 0.00020989089455738852
+  },
+  "sentiment": {
+    "avg_sent": 0.0356,
+    "avg_received": 0.0265
+  },
+  "dead_man_switch": {
+    "id": "larry.campbell@enron.com",
+    "name": "Larry Campbell",
+    "dms_score": -0.2872,
+    "betweenness": 0.0,
+    "eigenvector": 0.005737,
+    "redundancy": 0.9763,
+    "impact_pct": 2.4
+  },
+  "waste": {
+    "id": "larry.campbell@enron.com",
+    "name": "Larry Campbell",
+    "waste_score": 35.1,
+    "overproduction": 2.08,
+    "broadcast_ratio": 0.232,
+    "reply_all_ratio": 0.098,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "william.kendrick@enron.com",
+      "name": "William Kendrick",
+      "direction": "outgoing",
+      "email_count": 180,
+      "weight": 0.2336,
+      "sentiment": 0.0681
+    },
+    {
+      "id": "rich.jolly@enron.com",
+      "name": "Rich Jolly",
+      "direction": "outgoing",
+      "email_count": 109,
+      "weight": 0.2129,
+      "sentiment": 0.0839
+    },
+    {
+      "id": "john.shafer@enron.com",
+      "name": "John Shafer",
+      "direction": "outgoing",
+      "email_count": 110,
+      "weight": 0.208,
+      "sentiment": 0.0578
+    },
+    {
+      "id": "louis.soldano@enron.com",
+      "name": "Louis Soldano",
+      "direction": "outgoing",
+      "email_count": 91,
+      "weight": 0.2062,
+      "sentiment": 0.0691
+    },
+    {
+      "id": "david.roensch@enron.com",
+      "name": "David Roensch",
+      "direction": "outgoing",
+      "email_count": 50,
+      "weight": 0.1942,
+      "sentiment": 0.098
+    },
+    {
+      "id": "team.mountainair@enron.com",
+      "name": "Team Mountainair",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.1898,
+      "sentiment": 0.126
+    },
+    {
+      "id": "team.carlsbad@enron.com",
+      "name": "Team Carlsbad",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.1886,
+      "sentiment": 0.137
+    },
+    {
+      "id": "arnie.bailey@enron.com",
+      "name": "Arnie Bailey",
+      "direction": "outgoing",
+      "email_count": 15,
+      "weight": 0.1878,
+      "sentiment": 0.1203
+    },
+    {
+      "id": "mike.riedel@enron.com",
+      "name": "Mike Riedel",
+      "direction": "outgoing",
+      "email_count": 38,
+      "weight": 0.1869,
+      "sentiment": 0.0546
+    },
+    {
+      "id": "rick.smith@enron.com",
+      "name": "Rick Smith",
+      "direction": "outgoing",
+      "email_count": 27,
+      "weight": 0.1863,
+      "sentiment": 0.0778
+    },
+    {
+      "id": "team.big-lake@enron.com",
+      "name": "Team Big Lake",
+      "direction": "outgoing",
+      "email_count": 9,
+      "weight": 0.1844,
+      "sentiment": 0.1012
+    },
+    {
+      "id": "robert.newman@enron.com",
+      "name": "Robert Newman",
+      "direction": "outgoing",
+      "email_count": 10,
+      "weight": 0.1831,
+      "sentiment": 0.1164
+    },
+    {
+      "id": "scott.clark@enron.com",
+      "name": "Scott Clark",
+      "direction": "outgoing",
+      "email_count": 34,
+      "weight": 0.182,
+      "sentiment": 0.0741
+    },
+    {
+      "id": "jonny.hendricks@enron.com",
+      "name": "Jonny Hendricks",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1818,
+      "sentiment": 0.0924
+    },
+    {
+      "id": "charlie.graham@enron.com",
+      "name": "Charlie Graham",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1811,
+      "sentiment": 0.0781
+    },
+    {
+      "id": "richard.melton@enron.com",
+      "name": "Richard Melton",
+      "direction": "outgoing",
+      "email_count": 21,
+      "weight": 0.1804,
+      "sentiment": 0.0953
+    },
+    {
+      "id": "team.gallup-sta5@enron.com",
+      "name": "Team Gallup Sta5",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1792,
+      "sentiment": 0.0879
+    },
+    {
+      "id": "scott.jones@enron.com",
+      "name": "Scott Jones",
+      "direction": "outgoing",
+      "email_count": 49,
+      "weight": 0.1785,
+      "sentiment": 0.0335
+    },
+    {
+      "id": "lorraine.lindberg@enron.com",
+      "name": "Lorraine Lindberg",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1783,
+      "sentiment": 0.0624
+    },
+    {
+      "id": "rick.loveless@enron.com",
+      "name": "Rick Loveless",
+      "direction": "outgoing",
+      "email_count": 38,
+      "weight": 0.1781,
+      "sentiment": 0.0445
+    }
+  ]
+}

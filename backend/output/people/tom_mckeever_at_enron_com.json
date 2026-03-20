@@ -1,0 +1,46 @@
+{
+  "id": "tom.mckeever@enron.com",
+  "name": "Tom Mckeever",
+  "email": "tom.mckeever@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0012163374636702602,
+    "pagerank": 0.00021493077650096805
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.2133
+  },
+  "dead_man_switch": {
+    "id": "tom.mckeever@enron.com",
+    "name": "Tom Mckeever",
+    "dms_score": -0.2974,
+    "betweenness": 0.0,
+    "eigenvector": 0.001216,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "tom.mckeever@enron.com",
+    "name": "Tom Mckeever",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "james.derrick@enron.com",
+      "name": "James Derrick",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1583,
+      "sentiment": 0.2468
+    }
+  ]
+}

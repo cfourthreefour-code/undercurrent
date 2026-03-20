@@ -1,0 +1,54 @@
+{
+  "id": "john.pavetto@enron.com",
+  "name": "John Pavetto",
+  "email": "john.pavetto@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.006979415468319798,
+    "pagerank": 0.00021153711663803113
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": -0.0224
+  },
+  "dead_man_switch": {
+    "id": "john.pavetto@enron.com",
+    "name": "John Pavetto",
+    "dms_score": -0.2916,
+    "betweenness": 0.0,
+    "eigenvector": 0.006979,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "john.pavetto@enron.com",
+    "name": "John Pavetto",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "mike.mcconnell@enron.com",
+      "name": "Mike Mcconnell",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1618,
+      "sentiment": 0.2793
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 26,
+      "weight": 0.1339,
+      "sentiment": -0.1368
+    }
+  ]
+}

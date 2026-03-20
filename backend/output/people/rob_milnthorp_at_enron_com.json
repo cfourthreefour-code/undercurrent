@@ -1,0 +1,166 @@
+{
+  "id": "rob.milnthorp@enron.com",
+  "name": "Rob Milnthorp",
+  "email": "rob.milnthorp@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.003513394817742644,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.003513394817742644,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.04987243085082845,
+    "pagerank": 0.000259822003682692
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1014
+  },
+  "dead_man_switch": {
+    "id": "rob.milnthorp@enron.com",
+    "name": "Rob Milnthorp",
+    "dms_score": -0.2488,
+    "betweenness": 0.0,
+    "eigenvector": 0.049872,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "rob.milnthorp@enron.com",
+    "name": "Rob Milnthorp",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "m..presto@enron.com",
+      "name": "M Presto",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.2266,
+      "sentiment": 0.226
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 33,
+      "weight": 0.2152,
+      "sentiment": 0.1034
+    },
+    {
+      "id": "john.zufferli@enron.com",
+      "name": "John Zufferli",
+      "direction": "incoming",
+      "email_count": 20,
+      "weight": 0.2017,
+      "sentiment": 0.0766
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "incoming",
+      "email_count": 46,
+      "weight": 0.1812,
+      "sentiment": 0.0689
+    },
+    {
+      "id": "kenneth.lay@enron.com",
+      "name": "Kenneth Lay",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1694,
+      "sentiment": 0.1736
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 108,
+      "weight": 0.1655,
+      "sentiment": 0.1022
+    },
+    {
+      "id": "barry.tycholiz@enron.com",
+      "name": "Barry Tycholiz",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1579,
+      "sentiment": 0.0209
+    },
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 29,
+      "weight": 0.1527,
+      "sentiment": 0.1095
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 32,
+      "weight": 0.1512,
+      "sentiment": 0.1729
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1318,
+      "sentiment": 0.1252
+    },
+    {
+      "id": "mark.haedicke@enron.com",
+      "name": "Mark Haedicke",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1292,
+      "sentiment": 0.0941
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1283,
+      "sentiment": 0.0403
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1213,
+      "sentiment": 0.0488
+    },
+    {
+      "id": "twanda.sweet@enron.com",
+      "name": "Twanda Sweet",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1196,
+      "sentiment": 0.0532
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1189,
+      "sentiment": -0.0043
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.116,
+      "sentiment": 0.056
+    }
+  ]
+}

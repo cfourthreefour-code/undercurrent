@@ -1,0 +1,54 @@
+{
+  "id": "cherylene.westbrook@enron.com",
+  "name": "Cherylene Westbrook",
+  "email": "cherylene.westbrook@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00982196864276667,
+    "pagerank": 0.00021135615315271732
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1813
+  },
+  "dead_man_switch": {
+    "id": "cherylene.westbrook@enron.com",
+    "name": "Cherylene Westbrook",
+    "dms_score": -0.2888,
+    "betweenness": 0.0,
+    "eigenvector": 0.009822,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "cherylene.westbrook@enron.com",
+    "name": "Cherylene Westbrook",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 58,
+      "weight": 0.1629,
+      "sentiment": 0.1856
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1307,
+      "sentiment": 0.0952
+    }
+  ]
+}

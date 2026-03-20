@@ -1,0 +1,62 @@
+{
+  "id": "joe.quenet@enron.com",
+  "name": "Joe Quenet",
+  "email": "joe.quenet@enron.com",
+  "community_id": 5,
+  "metrics": {
+    "in_degree_centrality": 0.0,
+    "out_degree_centrality": 0.0006587615283267457,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0009138157532567784,
+    "pagerank": 0.00020989089455738852
+  },
+  "sentiment": {
+    "avg_sent": 0.0927,
+    "avg_received": 0.094
+  },
+  "dead_man_switch": {
+    "id": "joe.quenet@enron.com",
+    "name": "Joe Quenet",
+    "dms_score": -0.2976,
+    "betweenness": 0.0,
+    "eigenvector": 0.000914,
+    "redundancy": 0.9949,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "joe.quenet@enron.com",
+    "name": "Joe Quenet",
+    "waste_score": 20.2,
+    "overproduction": 0.06,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "k.presto@enron.com",
+      "name": "K Presto",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1493,
+      "sentiment": 0.2
+    },
+    {
+      "id": "stephanie.sever@enron.com",
+      "name": "Stephanie Sever",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1243,
+      "sentiment": 0.075
+    },
+    {
+      "id": "rstalford@enron.com",
+      "name": "Rstalford",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1085,
+      "sentiment": 0.0
+    }
+  ]
+}

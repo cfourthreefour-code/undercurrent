@@ -1,0 +1,70 @@
+{
+  "id": "craig.taylor@enron.com",
+  "name": "Craig Taylor",
+  "email": "craig.taylor@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.005281150329170679,
+    "pagerank": 0.00022898850260582234
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1358
+  },
+  "dead_man_switch": {
+    "id": "craig.taylor@enron.com",
+    "name": "Craig Taylor",
+    "dms_score": -0.2933,
+    "betweenness": 0.0,
+    "eigenvector": 0.005281,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "craig.taylor@enron.com",
+    "name": "Craig Taylor",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2401,
+      "sentiment": 0.4
+    },
+    {
+      "id": ".ward@enron.com",
+      "name": "Ward",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1731,
+      "sentiment": 0.1798
+    },
+    {
+      "id": "andy.zipper@enron.com",
+      "name": "Andy Zipper",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1576,
+      "sentiment": 0.0545
+    },
+    {
+      "id": "andrea.ring@enron.com",
+      "name": "Andrea Ring",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.115,
+      "sentiment": -0.023
+    }
+  ]
+}

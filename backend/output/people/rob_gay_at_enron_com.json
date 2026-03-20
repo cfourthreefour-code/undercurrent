@@ -1,0 +1,206 @@
+{
+  "id": "rob.gay@enron.com",
+  "name": "Rob Gay",
+  "email": "rob.gay@enron.com",
+  "community_id": 0,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.009442248572683356,
+    "degree_centrality": 0.009661835748792272,
+    "betweenness_centrality": 0.0002528170386916173,
+    "eigenvector_centrality": 0.0030405983365375073,
+    "pagerank": 0.00021248097314850899
+  },
+  "sentiment": {
+    "avg_sent": 0.1171,
+    "avg_received": 0.0206
+  },
+  "dead_man_switch": {
+    "id": "rob.gay@enron.com",
+    "name": "Rob Gay",
+    "dms_score": -0.2751,
+    "betweenness": 0.000244,
+    "eigenvector": 0.003041,
+    "redundancy": 0.9892,
+    "impact_pct": 1.1
+  },
+  "waste": {
+    "id": "rob.gay@enron.com",
+    "name": "Rob Gay",
+    "waste_score": 38.3,
+    "overproduction": 2.62,
+    "broadcast_ratio": 0.217,
+    "reply_all_ratio": 0.197,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "marcia.manarin@enron.com",
+      "name": "Marcia Manarin",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1736,
+      "sentiment": 0.3023
+    },
+    {
+      "id": "maggie.li@enron.com",
+      "name": "Maggie Li",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1511,
+      "sentiment": 0.1938
+    },
+    {
+      "id": "richard.lammers@enron.com",
+      "name": "Richard Lammers",
+      "direction": "outgoing",
+      "email_count": 81,
+      "weight": 0.1484,
+      "sentiment": 0.0542
+    },
+    {
+      "id": "peter.weidler@enron.com",
+      "name": "Peter Weidler",
+      "direction": "outgoing",
+      "email_count": 59,
+      "weight": 0.1478,
+      "sentiment": 0.0852
+    },
+    {
+      "id": "laine.powell@enron.com",
+      "name": "Laine Powell",
+      "direction": "outgoing",
+      "email_count": 60,
+      "weight": 0.1443,
+      "sentiment": 0.0679
+    },
+    {
+      "id": "james.guidry@enron.com",
+      "name": "James Guidry",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.142,
+      "sentiment": 0.145
+    },
+    {
+      "id": "john.novak@enron.com",
+      "name": "John Novak",
+      "direction": "outgoing",
+      "email_count": 57,
+      "weight": 0.142,
+      "sentiment": 0.0592
+    },
+    {
+      "id": "tracee.bersani@enron.com",
+      "name": "Tracee Bersani",
+      "direction": "outgoing",
+      "email_count": 37,
+      "weight": 0.1416,
+      "sentiment": 0.0906
+    },
+    {
+      "id": "james.bannantine@enron.com",
+      "name": "James Bannantine",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.1413,
+      "sentiment": 0.1404
+    },
+    {
+      "id": "michelle.blaine@enron.com",
+      "name": "Michelle Blaine",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1396,
+      "sentiment": 0.133
+    },
+    {
+      "id": "blanca.bollom@enron.com",
+      "name": "Blanca Bollom",
+      "direction": "outgoing",
+      "email_count": 22,
+      "weight": 0.1385,
+      "sentiment": 0.0997
+    },
+    {
+      "id": "christiaan.huizer@enron.com",
+      "name": "Christiaan Huizer",
+      "direction": "outgoing",
+      "email_count": 33,
+      "weight": 0.1382,
+      "sentiment": 0.0792
+    },
+    {
+      "id": "eddy.daniels@enron.com",
+      "name": "Eddy Daniels",
+      "direction": "outgoing",
+      "email_count": 16,
+      "weight": 0.1373,
+      "sentiment": 0.0994
+    },
+    {
+      "id": "felipe.ospina@enron.com",
+      "name": "Felipe Ospina",
+      "direction": "outgoing",
+      "email_count": 23,
+      "weight": 0.1371,
+      "sentiment": 0.0895
+    },
+    {
+      "id": "john.guidry@enron.com",
+      "name": "John Guidry",
+      "direction": "outgoing",
+      "email_count": 10,
+      "weight": 0.1338,
+      "sentiment": 0.0935
+    },
+    {
+      "id": "rob.g.gay@enron.com",
+      "name": "Rob G Gay",
+      "direction": "outgoing",
+      "email_count": 10,
+      "weight": 0.1332,
+      "sentiment": 0.0957
+    },
+    {
+      "id": "marcus.stephan@enron.com",
+      "name": "Marcus Stephan",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.133,
+      "sentiment": 0.1095
+    },
+    {
+      "id": "federico.cerisoli@enron.com",
+      "name": "Federico Cerisoli",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.1328,
+      "sentiment": 0.0889
+    },
+    {
+      "id": "brett.wiggs@enron.com",
+      "name": "Brett Wiggs",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1316,
+      "sentiment": 0.1108
+    },
+    {
+      "id": "lutz.speidel@enron.com",
+      "name": "Lutz Speidel",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1316,
+      "sentiment": 0.1092
+    },
+    {
+      "id": "randall.gay@enron.com",
+      "name": "Randall Gay",
+      "direction": "incoming",
+      "email_count": 30,
+      "weight": 0.1185,
+      "sentiment": 0.0206
+    }
+  ]
+}

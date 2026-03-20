@@ -1,0 +1,70 @@
+{
+  "id": "peter.berzins@enron.com",
+  "name": "Peter Berzins",
+  "email": "peter.berzins@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.014401499559287993,
+    "pagerank": 0.00021728774818803942
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1082
+  },
+  "dead_man_switch": {
+    "id": "peter.berzins@enron.com",
+    "name": "Peter Berzins",
+    "dms_score": -0.2842,
+    "betweenness": 0.0,
+    "eigenvector": 0.014401,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "peter.berzins@enron.com",
+    "name": "Peter Berzins",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1302,
+      "sentiment": 0.0949
+    },
+    {
+      "id": "jeffrey.shankman@enron.com",
+      "name": "Jeffrey Shankman",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1136,
+      "sentiment": 0.0223
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.109,
+      "sentiment": 0.0
+    }
+  ]
+}

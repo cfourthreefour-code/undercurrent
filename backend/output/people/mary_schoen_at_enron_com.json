@@ -1,0 +1,54 @@
+{
+  "id": "mary.schoen@enron.com",
+  "name": "Mary Schoen",
+  "email": "mary.schoen@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.009396082673736747,
+    "pagerank": 0.00021426052024687485
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1176
+  },
+  "dead_man_switch": {
+    "id": "mary.schoen@enron.com",
+    "name": "Mary Schoen",
+    "dms_score": -0.2892,
+    "betweenness": 0.0,
+    "eigenvector": 0.009396,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "mary.schoen@enron.com",
+    "name": "Mary Schoen",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.1807,
+      "sentiment": 0.1399
+    },
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1723,
+      "sentiment": 0.1097
+    }
+  ]
+}

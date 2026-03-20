@@ -1,0 +1,54 @@
+{
+  "id": "michael.corbally@enron.com",
+  "name": "Michael Corbally",
+  "email": "michael.corbally@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.006464387393151547,
+    "pagerank": 0.0002112821398267688
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0605
+  },
+  "dead_man_switch": {
+    "id": "michael.corbally@enron.com",
+    "name": "Michael Corbally",
+    "dms_score": -0.2922,
+    "betweenness": 0.0,
+    "eigenvector": 0.006464,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "michael.corbally@enron.com",
+    "name": "Michael Corbally",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1312,
+      "sentiment": 0.1484
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1042,
+      "sentiment": 0.0128
+    }
+  ]
+}

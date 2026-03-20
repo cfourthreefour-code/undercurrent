@@ -1,0 +1,46 @@
+{
+  "id": "kay.quigley@enron.com",
+  "name": "Kay Quigley",
+  "email": "kay.quigley@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0011109965390327095,
+    "pagerank": 0.00022190839324575634
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.2398
+  },
+  "dead_man_switch": {
+    "id": "kay.quigley@enron.com",
+    "name": "Kay Quigley",
+    "dms_score": -0.2975,
+    "betweenness": 0.0,
+    "eigenvector": 0.001111,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "kay.quigley@enron.com",
+    "name": "Kay Quigley",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "dutch.quigley@enron.com",
+      "name": "Dutch Quigley",
+      "direction": "incoming",
+      "email_count": 103,
+      "weight": 0.238,
+      "sentiment": 0.2433
+    }
+  ]
+}

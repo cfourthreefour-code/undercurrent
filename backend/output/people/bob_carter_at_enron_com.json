@@ -1,0 +1,70 @@
+{
+  "id": "bob.carter@enron.com",
+  "name": "Bob Carter",
+  "email": "bob.carter@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.011079731868483038,
+    "pagerank": 0.0002156139408268691
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0683
+  },
+  "dead_man_switch": {
+    "id": "bob.carter@enron.com",
+    "name": "Bob Carter",
+    "dms_score": -0.2876,
+    "betweenness": 0.0,
+    "eigenvector": 0.01108,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "bob.carter@enron.com",
+    "name": "Bob Carter",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1488,
+      "sentiment": 0.1592
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 43,
+      "weight": 0.1391,
+      "sentiment": 0.0477
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.13,
+      "sentiment": 0.1167
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1292,
+      "sentiment": 0.0865
+    }
+  ]
+}

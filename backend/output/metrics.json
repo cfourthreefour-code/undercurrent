@@ -1,0 +1,747 @@
+{
+  "health": {
+    "health_score": 49.4,
+    "grade": "F",
+    "sub_scores": {
+      "connectivity": 60.2,
+      "bottleneck_risk": 49.6,
+      "silo_score": 70.3,
+      "efficiency": 57.4
+    },
+    "stats": {
+      "node_count": 4555,
+      "edge_count": 11661,
+      "density": 0.000562,
+      "avg_path_length": 3.65,
+      "clustering_coefficient": 0.2447,
+      "communities_count": 17,
+      "modularity": 0.6016,
+      "gcc_ratio": 0.9954
+    }
+  },
+  "sentiment": {
+    "avg_sentiment": 0.0978,
+    "total_edges_with_sentiment": 11661,
+    "distribution": {
+      "very_negative": 36,
+      "negative": 189,
+      "neutral": 6072,
+      "positive": 5072,
+      "very_positive": 292
+    },
+    "top_negative": [
+      {
+        "source": "daren.farmer@enron.com",
+        "target": "patrick.wade@enron.com",
+        "sentiment": -0.8,
+        "source_name": "Daren Farmer",
+        "target_name": "Patrick Wade"
+      },
+      {
+        "source": "w..white@enron.com",
+        "target": "john.lavorato@enron.com",
+        "sentiment": -0.7,
+        "source_name": "W White",
+        "target_name": "John Lavorato"
+      },
+      {
+        "source": "sara.shackleton@enron.com",
+        "target": ".mark@enron.com",
+        "sentiment": -0.6438,
+        "source_name": "Sara Shackleton",
+        "target_name": "Mark"
+      },
+      {
+        "source": "sara.shackleton@enron.com",
+        "target": ".susan@enron.com",
+        "sentiment": -0.6438,
+        "source_name": "Sara Shackleton",
+        "target_name": "Susan"
+      },
+      {
+        "source": "larry.campbell@enron.com",
+        "target": "laura.arnold@enron.com",
+        "sentiment": -0.5833,
+        "source_name": "Larry Campbell",
+        "target_name": "Laura Arnold"
+      },
+      {
+        "source": "larry.campbell@enron.com",
+        "target": "corry.bentley@enron.com",
+        "sentiment": -0.5833,
+        "source_name": "Larry Campbell",
+        "target_name": "Corry Bentley"
+      },
+      {
+        "source": "larry.campbell@enron.com",
+        "target": "la.finnels-neal@enron.com",
+        "sentiment": -0.5833,
+        "source_name": "Larry Campbell",
+        "target_name": "La Finnels Neal"
+      },
+      {
+        "source": "larry.campbell@enron.com",
+        "target": "jess.galura@enron.com",
+        "sentiment": -0.5833,
+        "source_name": "Larry Campbell",
+        "target_name": "Jess Galura"
+      },
+      {
+        "source": "larry.campbell@enron.com",
+        "target": "brad.morse@enron.com",
+        "sentiment": -0.5833,
+        "source_name": "Larry Campbell",
+        "target_name": "Brad Morse"
+      },
+      {
+        "source": "larry.campbell@enron.com",
+        "target": "joanie.ngo@enron.com",
+        "sentiment": -0.5833,
+        "source_name": "Larry Campbell",
+        "target_name": "Joanie Ngo"
+      }
+    ],
+    "top_positive": [
+      {
+        "source": "randall.gay@enron.com",
+        "target": "brenda.herod@enron.com",
+        "sentiment": 1.0,
+        "source_name": "Randall Gay",
+        "target_name": "Brenda Herod"
+      },
+      {
+        "source": "scott.neal@enron.com",
+        "target": "joel.henenberg@enron.com",
+        "sentiment": 1.0,
+        "source_name": "Scott Neal",
+        "target_name": "Joel Henenberg"
+      },
+      {
+        "source": "scott.neal@enron.com",
+        "target": "mary.gosnell@enron.com",
+        "sentiment": 1.0,
+        "source_name": "Scott Neal",
+        "target_name": "Mary Gosnell"
+      },
+      {
+        "source": "greg.whalley@enron.com",
+        "target": "stephen.douglas@enron.com",
+        "sentiment": 1.0,
+        "source_name": "Greg Whalley",
+        "target_name": "Stephen Douglas"
+      },
+      {
+        "source": "randall.gay@enron.com",
+        "target": "daren.farmer@enron.com",
+        "sentiment": 0.85,
+        "source_name": "Randall Gay",
+        "target_name": "Daren Farmer"
+      },
+      {
+        "source": "john.lavorato@enron.com",
+        "target": "robert.hemstock@enron.com",
+        "sentiment": 0.75,
+        "source_name": "John Lavorato",
+        "target_name": "Robert Hemstock"
+      },
+      {
+        "source": "jeff.dasovich@enron.com",
+        "target": "tk.lohman@enron.com",
+        "sentiment": 0.7143,
+        "source_name": "Jeff Dasovich",
+        "target_name": "Tk Lohman"
+      },
+      {
+        "source": "john.lavorato@enron.com",
+        "target": "jeanie.slone@enron.com",
+        "sentiment": 0.7103,
+        "source_name": "John Lavorato",
+        "target_name": "Jeanie Slone"
+      },
+      {
+        "source": "hunter.shively@enron.com",
+        "target": "dan.hyvl@enron.com",
+        "sentiment": 0.7,
+        "source_name": "Hunter Shively",
+        "target_name": "Dan Hyvl"
+      },
+      {
+        "source": "randall.gay@enron.com",
+        "target": "inja.chun@enron.com",
+        "sentiment": 0.7,
+        "source_name": "Randall Gay",
+        "target_name": "Inja Chun"
+      }
+    ]
+  },
+  "dead_man_switch": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "dms_score": 0.4154,
+      "betweenness": 0.005232,
+      "eigenvector": 0.300489,
+      "redundancy": 0.9486,
+      "impact_pct": 5.1
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "dms_score": 0.2471,
+      "betweenness": 0.005109,
+      "eigenvector": 0.154769,
+      "redundancy": 0.9932,
+      "impact_pct": 0.7
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "dms_score": 0.2196,
+      "betweenness": 0.003896,
+      "eigenvector": 0.219189,
+      "redundancy": 0.9901,
+      "impact_pct": 1.0
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "dms_score": 0.1237,
+      "betweenness": 0.002814,
+      "eigenvector": 0.200984,
+      "redundancy": 0.9734,
+      "impact_pct": 2.7
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "dms_score": 0.0599,
+      "betweenness": 0.002757,
+      "eigenvector": 0.147226,
+      "redundancy": 0.9928,
+      "impact_pct": 0.7
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "dms_score": 0.0275,
+      "betweenness": 0.00356,
+      "eigenvector": 0.051366,
+      "redundancy": 0.9864,
+      "impact_pct": 1.4
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "dms_score": 0.0054,
+      "betweenness": 0.001424,
+      "eigenvector": 0.191463,
+      "redundancy": 0.982,
+      "impact_pct": 1.8
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "dms_score": -0.01,
+      "betweenness": 0.001831,
+      "eigenvector": 0.145752,
+      "redundancy": 0.9851,
+      "impact_pct": 1.5
+    },
+    {
+      "id": "susan.scott@enron.com",
+      "name": "Susan Scott",
+      "dms_score": -0.0238,
+      "betweenness": 0.002992,
+      "eigenvector": 0.04381,
+      "redundancy": 0.9875,
+      "impact_pct": 1.3
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "dms_score": -0.0309,
+      "betweenness": 0.002282,
+      "eigenvector": 0.092799,
+      "redundancy": 0.9934,
+      "impact_pct": 0.7
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "dms_score": -0.0407,
+      "betweenness": 0.00141,
+      "eigenvector": 0.149429,
+      "redundancy": 0.9925,
+      "impact_pct": 0.7
+    },
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "dms_score": -0.0431,
+      "betweenness": 0.002424,
+      "eigenvector": 0.069955,
+      "redundancy": 0.9941,
+      "impact_pct": 0.6
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "dms_score": -0.0451,
+      "betweenness": 0.001839,
+      "eigenvector": 0.109211,
+      "redundancy": 0.9824,
+      "impact_pct": 1.8
+    },
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "dms_score": -0.0497,
+      "betweenness": 0.001824,
+      "eigenvector": 0.103276,
+      "redundancy": 0.9743,
+      "impact_pct": 2.6
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "dms_score": -0.0519,
+      "betweenness": 0.001682,
+      "eigenvector": 0.117512,
+      "redundancy": 0.9925,
+      "impact_pct": 0.7
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "dms_score": -0.0596,
+      "betweenness": 0.001748,
+      "eigenvector": 0.104557,
+      "redundancy": 0.9921,
+      "impact_pct": 0.8
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "dms_score": -0.0613,
+      "betweenness": 0.001664,
+      "eigenvector": 0.108898,
+      "redundancy": 0.9906,
+      "impact_pct": 0.9
+    },
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "dms_score": -0.0647,
+      "betweenness": 0.00165,
+      "eigenvector": 0.103661,
+      "redundancy": 0.9811,
+      "impact_pct": 1.9
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "dms_score": -0.0691,
+      "betweenness": 0.001551,
+      "eigenvector": 0.106105,
+      "redundancy": 0.9785,
+      "impact_pct": 2.2
+    },
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "dms_score": -0.0732,
+      "betweenness": 0.001536,
+      "eigenvector": 0.105976,
+      "redundancy": 0.9881,
+      "impact_pct": 1.2
+    }
+  ],
+  "waste": [
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "waste_score": 68.5,
+      "overproduction": 20.91,
+      "broadcast_ratio": 0.638,
+      "reply_all_ratio": 0.014,
+      "orphan_ratio": 0.953
+    },
+    {
+      "id": "karen.heathman@enron.com",
+      "name": "Karen Heathman",
+      "waste_score": 64.0,
+      "overproduction": 8.0,
+      "broadcast_ratio": 0.667,
+      "reply_all_ratio": 0.0,
+      "orphan_ratio": 1.0
+    },
+    {
+      "id": "beverly.stephens@enron.com",
+      "name": "Beverly Stephens",
+      "waste_score": 63.5,
+      "overproduction": 6.92,
+      "broadcast_ratio": 0.769,
+      "reply_all_ratio": 0.0,
+      "orphan_ratio": 0.983
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "waste_score": 48.7,
+      "overproduction": 5.9,
+      "broadcast_ratio": 0.381,
+      "reply_all_ratio": 0.016,
+      "orphan_ratio": 0.961
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "waste_score": 47.5,
+      "overproduction": 5.03,
+      "broadcast_ratio": 0.321,
+      "reply_all_ratio": 0.176,
+      "orphan_ratio": 0.962
+    },
+    {
+      "id": "rob.gay@enron.com",
+      "name": "Rob Gay",
+      "waste_score": 38.3,
+      "overproduction": 2.62,
+      "broadcast_ratio": 0.217,
+      "reply_all_ratio": 0.197,
+      "orphan_ratio": 1.0
+    },
+    {
+      "id": "patti.thompson@enron.com",
+      "name": "Patti Thompson",
+      "waste_score": 37.4,
+      "overproduction": 3.59,
+      "broadcast_ratio": 0.224,
+      "reply_all_ratio": 0.017,
+      "orphan_ratio": 0.978
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "waste_score": 35.8,
+      "overproduction": 2.36,
+      "broadcast_ratio": 0.196,
+      "reply_all_ratio": 0.199,
+      "orphan_ratio": 0.944
+    },
+    {
+      "id": "twanda.sweet@enron.com",
+      "name": "Twanda Sweet",
+      "waste_score": 35.5,
+      "overproduction": 2.86,
+      "broadcast_ratio": 0.268,
+      "reply_all_ratio": 0.0,
+      "orphan_ratio": 0.944
+    },
+    {
+      "id": "darrell.schoolcraft@enron.com",
+      "name": "Darrell Schoolcraft",
+      "waste_score": 35.4,
+      "overproduction": 1.72,
+      "broadcast_ratio": 0.265,
+      "reply_all_ratio": 0.147,
+      "orphan_ratio": 0.969
+    },
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "waste_score": 35.3,
+      "overproduction": 1.86,
+      "broadcast_ratio": 0.238,
+      "reply_all_ratio": 0.161,
+      "orphan_ratio": 0.97
+    },
+    {
+      "id": "larry.campbell@enron.com",
+      "name": "Larry Campbell",
+      "waste_score": 35.1,
+      "overproduction": 2.08,
+      "broadcast_ratio": 0.232,
+      "reply_all_ratio": 0.098,
+      "orphan_ratio": 1.0
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "waste_score": 33.2,
+      "overproduction": 1.62,
+      "broadcast_ratio": 0.224,
+      "reply_all_ratio": 0.12,
+      "orphan_ratio": 0.963
+    },
+    {
+      "id": "judy.hernandez@enron.com",
+      "name": "Judy Hernandez",
+      "waste_score": 32.9,
+      "overproduction": 0.08,
+      "broadcast_ratio": 0.406,
+      "reply_all_ratio": 0.023,
+      "orphan_ratio": 1.0
+    },
+    {
+      "id": "teb.lokey@enron.com",
+      "name": "Teb Lokey",
+      "waste_score": 32.7,
+      "overproduction": 1.61,
+      "broadcast_ratio": 0.202,
+      "reply_all_ratio": 0.169,
+      "orphan_ratio": 0.919
+    },
+    {
+      "id": "kenneth.lay@enron.com",
+      "name": "Kenneth Lay",
+      "waste_score": 32.6,
+      "overproduction": 0.86,
+      "broadcast_ratio": 0.286,
+      "reply_all_ratio": 0.071,
+      "orphan_ratio": 1.0
+    },
+    {
+      "id": "maureen.mcvicker@enron.com",
+      "name": "Maureen Mcvicker",
+      "waste_score": 32.2,
+      "overproduction": 1.59,
+      "broadcast_ratio": 0.258,
+      "reply_all_ratio": 0.031,
+      "orphan_ratio": 0.951
+    },
+    {
+      "id": "brenda.whitehead@enron.com",
+      "name": "Brenda Whitehead",
+      "waste_score": 32.1,
+      "overproduction": 0.0,
+      "broadcast_ratio": 0.455,
+      "reply_all_ratio": 0.0,
+      "orphan_ratio": 0.923
+    },
+    {
+      "id": "stephanie.panus@enron.com",
+      "name": "Stephanie Panus",
+      "waste_score": 31.9,
+      "overproduction": 1.93,
+      "broadcast_ratio": 0.233,
+      "reply_all_ratio": 0.1,
+      "orphan_ratio": 0.857
+    },
+    {
+      "id": "kevin.presto@enron.com",
+      "name": "Kevin Presto",
+      "waste_score": 31.5,
+      "overproduction": 1.49,
+      "broadcast_ratio": 0.153,
+      "reply_all_ratio": 0.146,
+      "orphan_ratio": 0.976
+    }
+  ],
+  "top_centrality": {
+    "pagerank": [
+      {
+        "id": "d..steffes@enron.com",
+        "name": "D Steffes",
+        "score": 0.0007733063697840042
+      },
+      {
+        "id": "mike.grigsby@enron.com",
+        "name": "Mike Grigsby",
+        "score": 0.0006611737628774772
+      },
+      {
+        "id": "doug.gilbert-smith@enron.com",
+        "name": "Doug Gilbert Smith",
+        "score": 0.0006233428115664055
+      },
+      {
+        "id": "john.lavorato@enron.com",
+        "name": "John Lavorato",
+        "score": 0.000543472828263569
+      },
+      {
+        "id": "mark.haedicke@enron.com",
+        "name": "Mark Haedicke",
+        "score": 0.0004719988747298637
+      },
+      {
+        "id": "bill.williams@enron.com",
+        "name": "Bill Williams",
+        "score": 0.0004588326094422775
+      },
+      {
+        "id": "jay.reitmeyer@enron.com",
+        "name": "Jay Reitmeyer",
+        "score": 0.000447704796349963
+      },
+      {
+        "id": "cora.pendergrass@enron.com",
+        "name": "Cora Pendergrass",
+        "score": 0.0004415595430139742
+      },
+      {
+        "id": "bill.iii@enron.com",
+        "name": "Bill Iii",
+        "score": 0.000440848310625824
+      },
+      {
+        "id": "paul.hennemeyer@enron.com",
+        "name": "Paul Hennemeyer",
+        "score": 0.00043636279318543024
+      },
+      {
+        "id": ".williams@enron.com",
+        "name": "Williams",
+        "score": 0.0004304644534618892
+      },
+      {
+        "id": "elizabeth.hernandez@enron.com",
+        "name": "Elizabeth Hernandez",
+        "score": 0.0004265365160378324
+      },
+      {
+        "id": "joan.quick@enron.com",
+        "name": "Joan Quick",
+        "score": 0.0004138976822759577
+      },
+      {
+        "id": "alejandra.chavez@enron.com",
+        "name": "Alejandra Chavez",
+        "score": 0.0004096981070325575
+      },
+      {
+        "id": "tim.belden@enron.com",
+        "name": "Tim Belden",
+        "score": 0.0004048358133400045
+      },
+      {
+        "id": "rika.imai@enron.com",
+        "name": "Rika Imai",
+        "score": 0.00040437782638944606
+      },
+      {
+        "id": "louise.kitchen@enron.com",
+        "name": "Louise Kitchen",
+        "score": 0.0004031160127749442
+      },
+      {
+        "id": "jim.cashion@enron.com",
+        "name": "Jim Cashion",
+        "score": 0.0004008830608060389
+      },
+      {
+        "id": "m..forney@enron.com",
+        "name": "M Forney",
+        "score": 0.00039826727483932957
+      },
+      {
+        "id": "na-incoming@enron.com",
+        "name": "Na Incoming",
+        "score": 0.00038848978797812177
+      }
+    ],
+    "betweenness": [
+      {
+        "id": "sally.beck@enron.com",
+        "name": "Sally Beck",
+        "score": 0.005119762064538084
+      },
+      {
+        "id": "john.lavorato@enron.com",
+        "name": "John Lavorato",
+        "score": 0.004810179353480951
+      },
+      {
+        "id": "david.delainey@enron.com",
+        "name": "David Delainey",
+        "score": 0.004572120425021999
+      },
+      {
+        "id": "drew.fossum@enron.com",
+        "name": "Drew Fossum",
+        "score": 0.004091372572736986
+      },
+      {
+        "id": "susan.scott@enron.com",
+        "name": "Susan Scott",
+        "score": 0.004001135892196731
+      },
+      {
+        "id": "john.arnold@enron.com",
+        "name": "John Arnold",
+        "score": 0.0035625402893997896
+      },
+      {
+        "id": "kim.ward@enron.com",
+        "name": "Kim Ward",
+        "score": 0.002582813978071763
+      },
+      {
+        "id": "steven.kean@enron.com",
+        "name": "Steven Kean",
+        "score": 0.0025410957906493578
+      },
+      {
+        "id": "gerald.nemec@enron.com",
+        "name": "Gerald Nemec",
+        "score": 0.0023790459528004767
+      },
+      {
+        "id": "richard.sanders@enron.com",
+        "name": "Richard Sanders",
+        "score": 0.002374994706854255
+      },
+      {
+        "id": "phillip.allen@enron.com",
+        "name": "Phillip Allen",
+        "score": 0.002360863575160885
+      },
+      {
+        "id": "vince.kaminski@enron.com",
+        "name": "Vince Kaminski",
+        "score": 0.0021815959420405603
+      },
+      {
+        "id": "barry.tycholiz@enron.com",
+        "name": "Barry Tycholiz",
+        "score": 0.0020490623246570113
+      },
+      {
+        "id": "jeffrey.shankman@enron.com",
+        "name": "Jeffrey Shankman",
+        "score": 0.001965915324522645
+      },
+      {
+        "id": "mark.guzman@enron.com",
+        "name": "Mark Guzman",
+        "score": 0.0018246040075889482
+      },
+      {
+        "id": "mike.grigsby@enron.com",
+        "name": "Mike Grigsby",
+        "score": 0.0017430003392436188
+      },
+      {
+        "id": "jeff.dasovich@enron.com",
+        "name": "Jeff Dasovich",
+        "score": 0.0017415052365729892
+      },
+      {
+        "id": "kay.chapman@enron.com",
+        "name": "Kay Chapman",
+        "score": 0.001683967898312955
+      },
+      {
+        "id": "sara.shackleton@enron.com",
+        "name": "Sara Shackleton",
+        "score": 0.0016258035815136245
+      },
+      {
+        "id": "stanley.horton@enron.com",
+        "name": "Stanley Horton",
+        "score": 0.0016145179678062917
+      }
+    ]
+  }
+}

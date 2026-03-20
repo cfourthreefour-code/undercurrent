@@ -1,0 +1,86 @@
+{
+  "id": "louis.soldano@enron.com",
+  "name": "Louis Soldano",
+  "email": "louis.soldano@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00633980798028676,
+    "pagerank": 0.00021981688739582502
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0966
+  },
+  "dead_man_switch": {
+    "id": "louis.soldano@enron.com",
+    "name": "Louis Soldano",
+    "dms_score": -0.2923,
+    "betweenness": 0.0,
+    "eigenvector": 0.00634,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "louis.soldano@enron.com",
+    "name": "Louis Soldano",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "larry.campbell@enron.com",
+      "name": "Larry Campbell",
+      "direction": "incoming",
+      "email_count": 91,
+      "weight": 0.2062,
+      "sentiment": 0.0691
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 149,
+      "weight": 0.1847,
+      "sentiment": 0.1166
+    },
+    {
+      "id": "rod.hayslett@enron.com",
+      "name": "Rod Hayslett",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1805,
+      "sentiment": 0.1154
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1435,
+      "sentiment": 0.1917
+    },
+    {
+      "id": "susan.scott@enron.com",
+      "name": "Susan Scott",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1237,
+      "sentiment": 0.0829
+    },
+    {
+      "id": "stanley.horton@enron.com",
+      "name": "Stanley Horton",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.083,
+      "sentiment": -0.125
+    }
+  ]
+}

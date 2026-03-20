@@ -1,0 +1,70 @@
+{
+  "id": "jake.thomas@enron.com",
+  "name": "Jake Thomas",
+  "email": "jake.thomas@enron.com",
+  "community_id": 1,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.006107966700538861,
+    "pagerank": 0.00022852200617694672
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0917
+  },
+  "dead_man_switch": {
+    "id": "jake.thomas@enron.com",
+    "name": "Jake Thomas",
+    "dms_score": -0.2925,
+    "betweenness": 0.0,
+    "eigenvector": 0.006108,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jake.thomas@enron.com",
+    "name": "Jake Thomas",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "mark.whitt@enron.com",
+      "name": "Mark Whitt",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1865,
+      "sentiment": 0.176
+    },
+    {
+      "id": "sean.crandall@enron.com",
+      "name": "Sean Crandall",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.185,
+      "sentiment": 0.0141
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 80,
+      "weight": 0.1603,
+      "sentiment": 0.0895
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.122,
+      "sentiment": 0.0616
+    }
+  ]
+}

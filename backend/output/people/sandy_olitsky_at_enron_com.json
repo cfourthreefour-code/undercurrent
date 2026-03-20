@@ -1,0 +1,54 @@
+{
+  "id": "sandy.olitsky@enron.com",
+  "name": "Sandy Olitsky",
+  "email": "sandy.olitsky@enron.com",
+  "community_id": 6,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.011266195770485368,
+    "pagerank": 0.0002114459735092654
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1258
+  },
+  "dead_man_switch": {
+    "id": "sandy.olitsky@enron.com",
+    "name": "Sandy Olitsky",
+    "dms_score": -0.2874,
+    "betweenness": 0.0,
+    "eigenvector": 0.011266,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "sandy.olitsky@enron.com",
+    "name": "Sandy Olitsky",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1825,
+      "sentiment": 0.193
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1014,
+      "sentiment": -0.0364
+    }
+  ]
+}

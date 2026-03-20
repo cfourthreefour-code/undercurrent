@@ -1,0 +1,134 @@
+{
+  "id": "leslie.hansen@enron.com",
+  "name": "Leslie Hansen",
+  "email": "leslie.hansen@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.002635046113306983,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.002635046113306983,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.04273279842903261,
+    "pagerank": 0.00023053048323981142
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0171
+  },
+  "dead_man_switch": {
+    "id": "leslie.hansen@enron.com",
+    "name": "Leslie Hansen",
+    "dms_score": -0.256,
+    "betweenness": 0.0,
+    "eigenvector": 0.042733,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "leslie.hansen@enron.com",
+    "name": "Leslie Hansen",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 484,
+      "weight": 0.2971,
+      "sentiment": -0.0054
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1947,
+      "sentiment": 0.0446
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 48,
+      "weight": 0.1696,
+      "sentiment": 0.0636
+    },
+    {
+      "id": "michelle.cash@enron.com",
+      "name": "Michelle Cash",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1679,
+      "sentiment": 0.0245
+    },
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.159,
+      "sentiment": -0.0057
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.159,
+      "sentiment": 0.1701
+    },
+    {
+      "id": ".taylor@enron.com",
+      "name": "Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1571,
+      "sentiment": 0.142
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1513,
+      "sentiment": -0.0567
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 75,
+      "weight": 0.1503,
+      "sentiment": 0.1003
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1277,
+      "sentiment": -0.0948
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 41,
+      "weight": 0.1249,
+      "sentiment": 0.025
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1205,
+      "sentiment": 0.055
+    }
+  ]
+}

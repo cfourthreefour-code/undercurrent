@@ -1,0 +1,70 @@
+{
+  "id": "james.saunders@enron.com",
+  "name": "James Saunders",
+  "email": "james.saunders@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.003232750746387961,
+    "pagerank": 0.00022164051665205493
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0879
+  },
+  "dead_man_switch": {
+    "id": "james.saunders@enron.com",
+    "name": "James Saunders",
+    "dms_score": -0.2954,
+    "betweenness": 0.0,
+    "eigenvector": 0.003233,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "james.saunders@enron.com",
+    "name": "James Saunders",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "rod.hayslett@enron.com",
+      "name": "Rod Hayslett",
+      "direction": "incoming",
+      "email_count": 136,
+      "weight": 0.2167,
+      "sentiment": 0.0875
+    },
+    {
+      "id": "kevin.hyatt@enron.com",
+      "name": "Kevin Hyatt",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2133,
+      "sentiment": 0.1025
+    },
+    {
+      "id": "tracy.geaccone@enron.com",
+      "name": "Tracy Geaccone",
+      "direction": "incoming",
+      "email_count": 32,
+      "weight": 0.1812,
+      "sentiment": 0.0708
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.1339,
+      "sentiment": 0.0867
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ld.stephens@enron.com",
+  "name": "Ld Stephens",
+  "email": "ld.stephens@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.002301467187313905,
+    "pagerank": 0.00021363380047657217
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1411
+  },
+  "dead_man_switch": {
+    "id": "ld.stephens@enron.com",
+    "name": "Ld Stephens",
+    "dms_score": -0.2963,
+    "betweenness": 0.0,
+    "eigenvector": 0.002301,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "ld.stephens@enron.com",
+    "name": "Ld Stephens",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1935,
+      "sentiment": 0.1476
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1627,
+      "sentiment": 0.2433
+    },
+    {
+      "id": "larry.campbell@enron.com",
+      "name": "Larry Campbell",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1547,
+      "sentiment": 0.0734
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "patrice.mims@enron.com",
+  "name": "Patrice Mims",
+  "email": "patrice.mims@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.006148440931049627,
+    "degree_centrality": 0.006587615283267458,
+    "betweenness_centrality": 0.00012206789868914221,
+    "eigenvector_centrality": 0.008019313387780119,
+    "pagerank": 0.00021396925877599336
+  },
+  "sentiment": {
+    "avg_sent": 0.1144,
+    "avg_received": 0.0717
+  },
+  "dead_man_switch": {
+    "id": "patrice.mims@enron.com",
+    "name": "Patrice Mims",
+    "dms_score": -0.2837,
+    "betweenness": 8.7e-05,
+    "eigenvector": 0.008019,
+    "redundancy": 0.9945,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "patrice.mims@enron.com",
+    "name": "Patrice Mims",
+    "waste_score": 19.4,
+    "overproduction": 0.04,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0.964
+  },
+  "connections": [
+    {
+      "id": "janet.wallis@enron.com",
+      "name": "Janet Wallis",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.2041,
+      "sentiment": 0.4307
+    },
+    {
+      "id": "kelli.stevens@enron.com",
+      "name": "Kelli Stevens",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.2012,
+      "sentiment": 0.4688
+    },
+    {
+      "id": "monique.phillips@enron.com",
+      "name": "Monique Phillips",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1851,
+      "sentiment": 0.369
+    },
+    {
+      "id": "cynthia.rivers@enron.com",
+      "name": "Cynthia Rivers",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1829,
+      "sentiment": 0.3747
+    },
+    {
+      "id": "ora.cross@enron.com",
+      "name": "Ora Cross",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1813,
+      "sentiment": 0.3462
+    },
+    {
+      "id": "mims@enron.com",
+      "name": "Mims",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.1503,
+      "sentiment": 0.162
+    },
+    {
+      "id": "cora.pendergrass@enron.com",
+      "name": "Cora Pendergrass",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1452,
+      "sentiment": 0.1667
+    },
+    {
+      "id": "yolanda.ford@enron.com",
+      "name": "Yolanda Ford",
+      "direction": "outgoing",
+      "email_count": 14,
+      "weight": 0.1449,
+      "sentiment": 0.1301
+    },
+    {
+      "id": "vladimir.gorny@enron.com",
+      "name": "Vladimir Gorny",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1439,
+      "sentiment": 0.1381
+    },
+    {
+      "id": "airam.arteaga@enron.com",
+      "name": "Airam Arteaga",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1419,
+      "sentiment": 0.1228
+    },
+    {
+      "id": "darla.saucier@enron.com",
+      "name": "Darla Saucier",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1403,
+      "sentiment": 0.1542
+    },
+    {
+      "id": "jesus.guerra@enron.com",
+      "name": "Jesus Guerra",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1376,
+      "sentiment": 0.1067
+    },
+    {
+      "id": "felix.buitron@enron.com",
+      "name": "Felix Buitron",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1297,
+      "sentiment": 0.125
+    },
+    {
+      "id": "outlook.team@enron.com",
+      "name": "Outlook Team",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.128,
+      "sentiment": 0.0518
+    },
+    {
+      "id": "melba.lozano@enron.com",
+      "name": "Melba Lozano",
+      "direction": "outgoing",
+      "email_count": 10,
+      "weight": 0.1272,
+      "sentiment": 0.071
+    },
+    {
+      "id": "elizabeth.hernandez@enron.com",
+      "name": "Elizabeth Hernandez",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1259,
+      "sentiment": 0.0438
+    },
+    {
+      "id": "melinda.pharms@enron.com",
+      "name": "Melinda Pharms",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1248,
+      "sentiment": 0.1
+    },
+    {
+      "id": "angie.collins@enron.com",
+      "name": "Angie Collins",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1234,
+      "sentiment": 0.0458
+    },
+    {
+      "id": "phillip.love@enron.com",
+      "name": "Phillip Love",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1225,
+      "sentiment": 0.0341
+    },
+    {
+      "id": "laurie.ellis@enron.com",
+      "name": "Laurie Ellis",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1173,
+      "sentiment": 0.0
+    },
+    {
+      "id": "phillip.love@enron.com",
+      "name": "Phillip Love",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1394,
+      "sentiment": 0.114
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.125,
+      "sentiment": 0.0107
+    }
+  ]
+}

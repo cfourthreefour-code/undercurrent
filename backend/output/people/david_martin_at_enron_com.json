@@ -1,0 +1,46 @@
+{
+  "id": "david.martin@enron.com",
+  "name": "David Martin",
+  "email": "david.martin@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0004631972276396865,
+    "pagerank": 0.00021217854219220141
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1455
+  },
+  "dead_man_switch": {
+    "id": "david.martin@enron.com",
+    "name": "David Martin",
+    "dms_score": -0.2982,
+    "betweenness": 0.0,
+    "eigenvector": 0.000463,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "david.martin@enron.com",
+    "name": "David Martin",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "benjamin.rogers@enron.com",
+      "name": "Benjamin Rogers",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1337,
+      "sentiment": 0.1455
+    }
+  ]
+}

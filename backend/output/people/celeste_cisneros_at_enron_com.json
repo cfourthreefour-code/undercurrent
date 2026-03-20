@@ -1,0 +1,62 @@
+{
+  "id": "celeste.cisneros@enron.com",
+  "name": "Celeste Cisneros",
+  "email": "celeste.cisneros@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.017151425227126364,
+    "pagerank": 0.00021197042778430848
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1086
+  },
+  "dead_man_switch": {
+    "id": "celeste.cisneros@enron.com",
+    "name": "Celeste Cisneros",
+    "dms_score": -0.2815,
+    "betweenness": 0.0,
+    "eigenvector": 0.017151,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "celeste.cisneros@enron.com",
+    "name": "Celeste Cisneros",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 25,
+      "weight": 0.1824,
+      "sentiment": 0.1352
+    },
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 27,
+      "weight": 0.1808,
+      "sentiment": 0.0782
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    }
+  ]
+}

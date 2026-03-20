@@ -1,0 +1,54 @@
+{
+  "id": "gay.mayeux@enron.com",
+  "name": "Gay Mayeux",
+  "email": "gay.mayeux@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00298686626114236,
+    "pagerank": 0.00021513440556065124
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0851
+  },
+  "dead_man_switch": {
+    "id": "gay.mayeux@enron.com",
+    "name": "Gay Mayeux",
+    "dms_score": -0.2956,
+    "betweenness": 0.0,
+    "eigenvector": 0.002987,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "gay.mayeux@enron.com",
+    "name": "Gay Mayeux",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "rod.hayslett@enron.com",
+      "name": "Rod Hayslett",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1829,
+      "sentiment": 0.1546
+    },
+    {
+      "id": "j..kean@enron.com",
+      "name": "J Kean",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1752,
+      "sentiment": 0.1072
+    }
+  ]
+}

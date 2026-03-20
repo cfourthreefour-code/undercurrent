@@ -1,0 +1,110 @@
+{
+  "id": "lloyd.will@enron.com",
+  "name": "Lloyd Will",
+  "email": "lloyd.will@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.001976284584980237,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.001976284584980237,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.01870948114544764,
+    "pagerank": 0.0002591246294148919
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1417
+  },
+  "dead_man_switch": {
+    "id": "lloyd.will@enron.com",
+    "name": "Lloyd Will",
+    "dms_score": -0.2799,
+    "betweenness": 0.0,
+    "eigenvector": 0.018709,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "lloyd.will@enron.com",
+    "name": "Lloyd Will",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "m..presto@enron.com",
+      "name": "M Presto",
+      "direction": "incoming",
+      "email_count": 72,
+      "weight": 0.2333,
+      "sentiment": 0.1354
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.2055,
+      "sentiment": 0.1048
+    },
+    {
+      "id": "don.baughman@enron.com",
+      "name": "Don Baughman",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.2036,
+      "sentiment": 0.098
+    },
+    {
+      "id": "j..sturm@enron.com",
+      "name": "J Sturm",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.184,
+      "sentiment": 0.0222
+    },
+    {
+      "id": "m..forney@enron.com",
+      "name": "M Forney",
+      "direction": "incoming",
+      "email_count": 37,
+      "weight": 0.1823,
+      "sentiment": 0.1309
+    },
+    {
+      "id": "d..thomas@enron.com",
+      "name": "D Thomas",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1723,
+      "sentiment": 0.1339
+    },
+    {
+      "id": "kevin.presto@enron.com",
+      "name": "Kevin Presto",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.17,
+      "sentiment": 0.2302
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.1608,
+      "sentiment": 0.1827
+    },
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1443,
+      "sentiment": 0.1121
+    }
+  ]
+}

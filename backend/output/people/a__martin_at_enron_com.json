@@ -1,0 +1,254 @@
+{
+  "id": "a..martin@enron.com",
+  "name": "A Martin",
+  "email": "a..martin@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.004830917874396136,
+    "degree_centrality": 0.006368028107158543,
+    "betweenness_centrality": 8.256825071347746e-05,
+    "eigenvector_centrality": 0.035234078808252904,
+    "pagerank": 0.000245243574104517
+  },
+  "sentiment": {
+    "avg_sent": 0.1108,
+    "avg_received": 0.1042
+  },
+  "dead_man_switch": {
+    "id": "a..martin@enron.com",
+    "name": "A Martin",
+    "dms_score": -0.2513,
+    "betweenness": 0.000157,
+    "eigenvector": 0.035234,
+    "redundancy": 0.9952,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "a..martin@enron.com",
+    "name": "A Martin",
+    "waste_score": 18.2,
+    "overproduction": 0.19,
+    "broadcast_ratio": 0.01,
+    "reply_all_ratio": 0.005,
+    "orphan_ratio": 0.864
+  },
+  "connections": [
+    {
+      "id": "d..winfree@enron.com",
+      "name": "D Winfree",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.2401,
+      "sentiment": 0.3373
+    },
+    {
+      "id": "jeanie.slone@enron.com",
+      "name": "Jeanie Slone",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.2197,
+      "sentiment": 0.1844
+    },
+    {
+      "id": "laura.vuittonet@enron.com",
+      "name": "Laura Vuittonet",
+      "direction": "outgoing",
+      "email_count": 37,
+      "weight": 0.2178,
+      "sentiment": 0.1145
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "outgoing",
+      "email_count": 9,
+      "weight": 0.2174,
+      "sentiment": 0.1676
+    },
+    {
+      "id": "david.forster@enron.com",
+      "name": "David Forster",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.2162,
+      "sentiment": 0.218
+    },
+    {
+      "id": "m.hall@enron.com",
+      "name": "M Hall",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.2148,
+      "sentiment": 0.2051
+    },
+    {
+      "id": "brian.redmond@enron.com",
+      "name": "Brian Redmond",
+      "direction": "outgoing",
+      "email_count": 12,
+      "weight": 0.2133,
+      "sentiment": 0.1894
+    },
+    {
+      "id": "gary.bryan@enron.com",
+      "name": "Gary Bryan",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.2107,
+      "sentiment": 0.1415
+    },
+    {
+      "id": "jd.buss@enron.com",
+      "name": "Jd Buss",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.2095,
+      "sentiment": 0.1213
+    },
+    {
+      "id": "robert.superty@enron.com",
+      "name": "Robert Superty",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.2068,
+      "sentiment": 0.1532
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "outgoing",
+      "email_count": 11,
+      "weight": 0.1967,
+      "sentiment": 0.0896
+    },
+    {
+      "id": "j..farmer@enron.com",
+      "name": "J Farmer",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1922,
+      "sentiment": 0.0977
+    },
+    {
+      "id": "david.baumbach@enron.com",
+      "name": "David Baumbach",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.1913,
+      "sentiment": 0.0383
+    },
+    {
+      "id": "c..gossett@enron.com",
+      "name": "C Gossett",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1909,
+      "sentiment": 0.0978
+    },
+    {
+      "id": "michael.olsen@enron.com",
+      "name": "Michael Olsen",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.183,
+      "sentiment": 0.0028
+    },
+    {
+      "id": "jim.schwieger@enron.com",
+      "name": "Jim Schwieger",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1787,
+      "sentiment": 0.1218
+    },
+    {
+      "id": "laynie.east@enron.com",
+      "name": "Laynie East",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.176,
+      "sentiment": 0.0265
+    },
+    {
+      "id": "karen.buckley@enron.com",
+      "name": "Karen Buckley",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.1736,
+      "sentiment": 0.1104
+    },
+    {
+      "id": "irma.alvarez@enron.com",
+      "name": "Irma Alvarez",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1734,
+      "sentiment": 0.0708
+    },
+    {
+      "id": "bryan.hull@enron.com",
+      "name": "Bryan Hull",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1617,
+      "sentiment": 0.0353
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.2097,
+      "sentiment": 0.1211
+    },
+    {
+      "id": "j..farmer@enron.com",
+      "name": "J Farmer",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.2002,
+      "sentiment": 0.1314
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1865,
+      "sentiment": 0.065
+    },
+    {
+      "id": "jim.schwieger@enron.com",
+      "name": "Jim Schwieger",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1743,
+      "sentiment": 0.0842
+    },
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1692,
+      "sentiment": 0.0969
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1672,
+      "sentiment": 0.0907
+    },
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1415,
+      "sentiment": 0.095
+    }
+  ]
+}

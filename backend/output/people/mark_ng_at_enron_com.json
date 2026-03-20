@@ -1,0 +1,46 @@
+{
+  "id": "mark.ng@enron.com",
+  "name": "Mark Ng",
+  "email": "mark.ng@enron.com",
+  "community_id": 14,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 7.231266404736485e-18,
+    "pagerank": 0.00022416734925202533
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0
+  },
+  "dead_man_switch": {
+    "id": "mark.ng@enron.com",
+    "name": "Mark Ng",
+    "dms_score": -0.2987,
+    "betweenness": 0.0,
+    "eigenvector": 0.0,
+    "redundancy": 0.9956,
+    "impact_pct": 0.4
+  },
+  "waste": {
+    "id": "mark.ng@enron.com",
+    "name": "Mark Ng",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "mary.fischer@enron.com",
+      "name": "Mary Fischer",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1467,
+      "sentiment": 0.0
+    }
+  ]
+}

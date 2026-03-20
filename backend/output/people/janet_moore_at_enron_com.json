@@ -1,0 +1,86 @@
+{
+  "id": "janet.moore@enron.com",
+  "name": "Janet Moore",
+  "email": "janet.moore@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.01703088003204394,
+    "pagerank": 0.0002181130081452735
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0818
+  },
+  "dead_man_switch": {
+    "id": "janet.moore@enron.com",
+    "name": "Janet Moore",
+    "dms_score": -0.2816,
+    "betweenness": 0.0,
+    "eigenvector": 0.017031,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "janet.moore@enron.com",
+    "name": "Janet Moore",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.159,
+      "sentiment": 0.1701
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1489,
+      "sentiment": 0.132
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 21,
+      "weight": 0.1386,
+      "sentiment": 0.0573
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1219,
+      "sentiment": 0.0991
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1211,
+      "sentiment": 0.0372
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.0967,
+      "sentiment": -0.0256
+    }
+  ]
+}

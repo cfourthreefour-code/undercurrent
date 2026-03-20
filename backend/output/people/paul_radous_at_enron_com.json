@@ -1,0 +1,78 @@
+{
+  "id": "paul.radous@enron.com",
+  "name": "Paul Radous",
+  "email": "paul.radous@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.01942568362840546,
+    "pagerank": 0.00021715281015192696
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.077
+  },
+  "dead_man_switch": {
+    "id": "paul.radous@enron.com",
+    "name": "Paul Radous",
+    "dms_score": -0.2792,
+    "betweenness": 0.0,
+    "eigenvector": 0.019426,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "paul.radous@enron.com",
+    "name": "Paul Radous",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 80,
+      "weight": 0.2011,
+      "sentiment": 0.0604
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 51,
+      "weight": 0.1849,
+      "sentiment": 0.1092
+    },
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 39,
+      "weight": 0.1842,
+      "sentiment": 0.077
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1508,
+      "sentiment": 0.1372
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1344,
+      "sentiment": 0.0157
+    }
+  ]
+}

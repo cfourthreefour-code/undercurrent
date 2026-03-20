@@ -1,0 +1,126 @@
+{
+  "id": "mary.fischer@enron.com",
+  "name": "Mary Fischer",
+  "email": "mary.fischer@enron.com",
+  "community_id": 14,
+  "metrics": {
+    "in_degree_centrality": 0.0,
+    "out_degree_centrality": 0.002415458937198068,
+    "degree_centrality": 0.002415458937198068,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 2.732005327343665e-17,
+    "pagerank": 0.00020989089455738852
+  },
+  "sentiment": {
+    "avg_sent": 0.1048,
+    "avg_received": 0
+  },
+  "dead_man_switch": {
+    "id": "mary.fischer@enron.com",
+    "name": "Mary Fischer",
+    "dms_score": -0.2987,
+    "betweenness": 0.0,
+    "eigenvector": 0.0,
+    "redundancy": 0.9956,
+    "impact_pct": 0.4
+  },
+  "waste": {
+    "id": "mary.fischer@enron.com",
+    "name": "Mary Fischer",
+    "waste_score": 25.7,
+    "overproduction": 0.63,
+    "broadcast_ratio": 0.083,
+    "reply_all_ratio": 0.067,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "richard.laird@enron.com",
+      "name": "Richard Laird",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.181,
+      "sentiment": 0.1727
+    },
+    {
+      "id": "essie.locklear@enron.com",
+      "name": "Essie Locklear",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1764,
+      "sentiment": 0.1395
+    },
+    {
+      "id": "felecia.fitzgerald@enron.com",
+      "name": "Felecia Fitzgerald",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.176,
+      "sentiment": 0.1505
+    },
+    {
+      "id": "leesa.white@enron.com",
+      "name": "Leesa White",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.1757,
+      "sentiment": 0.1402
+    },
+    {
+      "id": "marguerite.nguyen@enron.com",
+      "name": "Marguerite Nguyen",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1698,
+      "sentiment": 0.1181
+    },
+    {
+      "id": "todd.richards@enron.com",
+      "name": "Todd Richards",
+      "direction": "outgoing",
+      "email_count": 9,
+      "weight": 0.1639,
+      "sentiment": 0.0639
+    },
+    {
+      "id": "john.swafford@enron.com",
+      "name": "John Swafford",
+      "direction": "outgoing",
+      "email_count": 10,
+      "weight": 0.1626,
+      "sentiment": 0.056
+    },
+    {
+      "id": "selma.reyna@enron.com",
+      "name": "Selma Reyna",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1623,
+      "sentiment": 0.0684
+    },
+    {
+      "id": "facundo.caminos@enron.com",
+      "name": "Facundo Caminos",
+      "direction": "outgoing",
+      "email_count": 11,
+      "weight": 0.1614,
+      "sentiment": 0.0612
+    },
+    {
+      "id": "jeff.herrold@enron.com",
+      "name": "Jeff Herrold",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1594,
+      "sentiment": 0.0689
+    },
+    {
+      "id": "mark.ng@enron.com",
+      "name": "Mark Ng",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1467,
+      "sentiment": 0.0
+    }
+  ]
+}

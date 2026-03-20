@@ -1,0 +1,86 @@
+{
+  "id": "stacey.white@enron.com",
+  "name": "Stacey White",
+  "email": "stacey.white@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.014691836861042109,
+    "pagerank": 0.00022463782120534664
+  },
+  "sentiment": {
+    "avg_sent": 0.0,
+    "avg_received": 0.1126
+  },
+  "dead_man_switch": {
+    "id": "stacey.white@enron.com",
+    "name": "Stacey White",
+    "dms_score": -0.2839,
+    "betweenness": 0.0,
+    "eigenvector": 0.014692,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "stacey.white@enron.com",
+    "name": "Stacey White",
+    "waste_score": 0.0,
+    "overproduction": 0.0,
+    "broadcast_ratio": 0.0,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 42,
+      "weight": 0.1585,
+      "sentiment": 0.1453
+    },
+    {
+      "id": "m..presto@enron.com",
+      "name": "M Presto",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1457,
+      "sentiment": 0.099
+    },
+    {
+      "id": "kevin.presto@enron.com",
+      "name": "Kevin Presto",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1405,
+      "sentiment": 0.0944
+    },
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1361,
+      "sentiment": 0.0678
+    },
+    {
+      "id": "kate.symes@enron.com",
+      "name": "Kate Symes",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.136,
+      "sentiment": 0.0998
+    },
+    {
+      "id": "patti.thompson@enron.com",
+      "name": "Patti Thompson",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1333,
+      "sentiment": 0.0693
+    }
+  ]
+}

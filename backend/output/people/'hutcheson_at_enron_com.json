@@ -1,0 +1,46 @@
+{
+  "id": "'hutcheson@enron.com",
+  "name": "'hutcheson",
+  "email": "'hutcheson@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.002018601909646111,
+    "pagerank": 0.00021584489272822444
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1073
+  },
+  "dead_man_switch": {
+    "id": "'hutcheson@enron.com",
+    "name": "'hutcheson",
+    "dms_score": -0.2966,
+    "betweenness": 0.0,
+    "eigenvector": 0.002019,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "'hutcheson@enron.com",
+    "name": "'hutcheson",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1676,
+      "sentiment": 0.1073
+    }
+  ]
+}

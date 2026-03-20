@@ -1,0 +1,102 @@
+{
+  "id": "cyndie.balfour-flanagan@enron.com",
+  "name": "Cyndie Balfour Flanagan",
+  "email": "cyndie.balfour-flanagan@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.001756697408871322,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.001756697408871322,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.020076313265123987,
+    "pagerank": 0.000237355698008319
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1412
+  },
+  "dead_man_switch": {
+    "id": "cyndie.balfour-flanagan@enron.com",
+    "name": "Cyndie Balfour Flanagan",
+    "dms_score": -0.2786,
+    "betweenness": 0.0,
+    "eigenvector": 0.020076,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "cyndie.balfour-flanagan@enron.com",
+    "name": "Cyndie Balfour Flanagan",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.2858,
+      "sentiment": 0.0385
+    },
+    {
+      "id": "c..giron@enron.com",
+      "name": "C Giron",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.2352,
+      "sentiment": 0.2609
+    },
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.2203,
+      "sentiment": 0.1828
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 26,
+      "weight": 0.1753,
+      "sentiment": 0.1984
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "stacy.dickson@enron.com",
+      "name": "Stacy Dickson",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1299,
+      "sentiment": 0.0321
+    },
+    {
+      "id": "daren.farmer@enron.com",
+      "name": "Daren Farmer",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1289,
+      "sentiment": 0.1084
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.116,
+      "sentiment": 0.0239
+    }
+  ]
+}

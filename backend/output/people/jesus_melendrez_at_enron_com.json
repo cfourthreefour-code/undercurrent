@@ -1,0 +1,54 @@
+{
+  "id": "jesus.melendrez@enron.com",
+  "name": "Jesus Melendrez",
+  "email": "jesus.melendrez@enron.com",
+  "community_id": 13,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.004997004867831228,
+    "pagerank": 0.00021157896789811552
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1252
+  },
+  "dead_man_switch": {
+    "id": "jesus.melendrez@enron.com",
+    "name": "Jesus Melendrez",
+    "dms_score": -0.2936,
+    "betweenness": 0.0,
+    "eigenvector": 0.004997,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jesus.melendrez@enron.com",
+    "name": "Jesus Melendrez",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1402,
+      "sentiment": 0.1837
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1332,
+      "sentiment": 0.1438
+    }
+  ]
+}

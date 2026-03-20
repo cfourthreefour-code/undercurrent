@@ -1,0 +1,70 @@
+{
+  "id": "david.roensch@enron.com",
+  "name": "David Roensch",
+  "email": "david.roensch@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0026208702251938124,
+    "pagerank": 0.00022113340330717052
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0843
+  },
+  "dead_man_switch": {
+    "id": "david.roensch@enron.com",
+    "name": "David Roensch",
+    "dms_score": -0.296,
+    "betweenness": 0.0,
+    "eigenvector": 0.002621,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "david.roensch@enron.com",
+    "name": "David Roensch",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "darrell.schoolcraft@enron.com",
+      "name": "Darrell Schoolcraft",
+      "direction": "incoming",
+      "email_count": 77,
+      "weight": 0.2454,
+      "sentiment": 0.0702
+    },
+    {
+      "id": "kimberly.watson@enron.com",
+      "name": "Kimberly Watson",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.2328,
+      "sentiment": 0.1178
+    },
+    {
+      "id": "larry.campbell@enron.com",
+      "name": "Larry Campbell",
+      "direction": "incoming",
+      "email_count": 50,
+      "weight": 0.1942,
+      "sentiment": 0.098
+    },
+    {
+      "id": "lindy.donoho@enron.com",
+      "name": "Lindy Donoho",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.167,
+      "sentiment": 0.0791
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "morris.clark@enron.com",
+  "name": "Morris Clark",
+  "email": "morris.clark@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.012907648602713448,
+    "pagerank": 0.0002179859488656975
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0789
+  },
+  "dead_man_switch": {
+    "id": "morris.clark@enron.com",
+    "name": "Morris Clark",
+    "dms_score": -0.2857,
+    "betweenness": 0.0,
+    "eigenvector": 0.012908,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "morris.clark@enron.com",
+    "name": "Morris Clark",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 17,
+      "weight": 0.1735,
+      "sentiment": 0.0682
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1356,
+      "sentiment": 0.1598
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1315,
+      "sentiment": 0.0478
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1171,
+      "sentiment": 0.0646
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1014,
+      "sentiment": 0.0
+    }
+  ]
+}

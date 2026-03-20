@@ -1,0 +1,70 @@
+{
+  "id": "james.keller@enron.com",
+  "name": "James Keller",
+  "email": "james.keller@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.010525201711194879,
+    "pagerank": 0.00021699821328889098
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0522
+  },
+  "dead_man_switch": {
+    "id": "james.keller@enron.com",
+    "name": "James Keller",
+    "dms_score": -0.2881,
+    "betweenness": 0.0,
+    "eigenvector": 0.010525,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "james.keller@enron.com",
+    "name": "James Keller",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1715,
+      "sentiment": 0.0752
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1316,
+      "sentiment": 0.05
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1278,
+      "sentiment": 0.0492
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1217,
+      "sentiment": -0.0143
+    }
+  ]
+}

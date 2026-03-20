@@ -1,0 +1,78 @@
+{
+  "id": "shirley.crenshaw@enron.com",
+  "name": "Shirley Crenshaw",
+  "email": "shirley.crenshaw@enron.com",
+  "community_id": 13,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.01454701393336725,
+    "pagerank": 0.00023253537837360499
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0963
+  },
+  "dead_man_switch": {
+    "id": "shirley.crenshaw@enron.com",
+    "name": "Shirley Crenshaw",
+    "dms_score": -0.2841,
+    "betweenness": 0.0,
+    "eigenvector": 0.014547,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "shirley.crenshaw@enron.com",
+    "name": "Shirley Crenshaw",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 1292,
+      "weight": 0.536,
+      "sentiment": 0.0898
+    },
+    {
+      "id": "j.kaminski@enron.com",
+      "name": "J Kaminski",
+      "direction": "incoming",
+      "email_count": 157,
+      "weight": 0.2593,
+      "sentiment": 0.1502
+    },
+    {
+      "id": "kimberly.watson@enron.com",
+      "name": "Kimberly Watson",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1898,
+      "sentiment": 0.2716
+    },
+    {
+      "id": "kaminski@enron.com",
+      "name": "Kaminski",
+      "direction": "incoming",
+      "email_count": 37,
+      "weight": 0.1511,
+      "sentiment": 0.0889
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 42,
+      "weight": 0.1341,
+      "sentiment": 0.0828
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "david.sztroin@enron.com",
+  "name": "David Sztroin",
+  "email": "david.sztroin@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0003814871591340279,
+    "pagerank": 0.00021558321962267629
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0556
+  },
+  "dead_man_switch": {
+    "id": "david.sztroin@enron.com",
+    "name": "David Sztroin",
+    "dms_score": -0.2982,
+    "betweenness": 0.0,
+    "eigenvector": 0.000381,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "david.sztroin@enron.com",
+    "name": "David Sztroin",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "teb.lokey@enron.com",
+      "name": "Teb Lokey",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2109,
+      "sentiment": 0.0556
+    }
+  ]
+}

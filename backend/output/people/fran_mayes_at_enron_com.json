@@ -1,0 +1,70 @@
+{
+  "id": "fran.mayes@enron.com",
+  "name": "Fran Mayes",
+  "email": "fran.mayes@enron.com",
+  "community_id": 16,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.008533725669694818,
+    "pagerank": 0.00021822934828128273
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0512
+  },
+  "dead_man_switch": {
+    "id": "fran.mayes@enron.com",
+    "name": "Fran Mayes",
+    "dms_score": -0.2901,
+    "betweenness": 0.0,
+    "eigenvector": 0.008534,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "fran.mayes@enron.com",
+    "name": "Fran Mayes",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "michelle.cash@enron.com",
+      "name": "Michelle Cash",
+      "direction": "incoming",
+      "email_count": 56,
+      "weight": 0.1829,
+      "sentiment": 0.0608
+    },
+    {
+      "id": "barry.tycholiz@enron.com",
+      "name": "Barry Tycholiz",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1306,
+      "sentiment": 0.1047
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1145,
+      "sentiment": 0.05
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.0844,
+      "sentiment": -0.1191
+    }
+  ]
+}

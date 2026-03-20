@@ -1,0 +1,54 @@
+{
+  "id": "team.kingman-sta1@enron.com",
+  "name": "Team Kingman Sta1",
+  "email": "team.kingman-sta1@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0005559367917779158,
+    "pagerank": 0.00021246768262335255
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0788
+  },
+  "dead_man_switch": {
+    "id": "team.kingman-sta1@enron.com",
+    "name": "Team Kingman Sta1",
+    "dms_score": -0.2981,
+    "betweenness": 0.0,
+    "eigenvector": 0.000556,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "team.kingman-sta1@enron.com",
+    "name": "Team Kingman Sta1",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "larry.campbell@enron.com",
+      "name": "Larry Campbell",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1713,
+      "sentiment": 0.1189
+    },
+    {
+      "id": "darrell.schoolcraft@enron.com",
+      "name": "Darrell Schoolcraft",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1344,
+      "sentiment": 0.0487
+    }
+  ]
+}

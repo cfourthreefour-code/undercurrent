@@ -1,0 +1,46 @@
+{
+  "id": "debi.vanwey@enron.com",
+  "name": "Debi Vanwey",
+  "email": "debi.vanwey@enron.com",
+  "community_id": 16,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0020623727552357895,
+    "pagerank": 0.00021108754442146016
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1427
+  },
+  "dead_man_switch": {
+    "id": "debi.vanwey@enron.com",
+    "name": "Debi Vanwey",
+    "dms_score": -0.2966,
+    "betweenness": 0.0,
+    "eigenvector": 0.002062,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "debi.vanwey@enron.com",
+    "name": "Debi Vanwey",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "michelle.cash@enron.com",
+      "name": "Michelle Cash",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1291,
+      "sentiment": 0.1073
+    }
+  ]
+}

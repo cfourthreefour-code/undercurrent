@@ -1,0 +1,54 @@
+{
+  "id": "rick.johnson@enron.com",
+  "name": "Rick Johnson",
+  "email": "rick.johnson@enron.com",
+  "community_id": 16,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0035804475195142247,
+    "pagerank": 0.00021317896035704826
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0526
+  },
+  "dead_man_switch": {
+    "id": "rick.johnson@enron.com",
+    "name": "Rick Johnson",
+    "dms_score": -0.295,
+    "betweenness": 0.0,
+    "eigenvector": 0.00358,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "rick.johnson@enron.com",
+    "name": "Rick Johnson",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "michelle.cash@enron.com",
+      "name": "Michelle Cash",
+      "direction": "incoming",
+      "email_count": 48,
+      "weight": 0.1926,
+      "sentiment": 0.0672
+    },
+    {
+      "id": "stanley.horton@enron.com",
+      "name": "Stanley Horton",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.083,
+      "sentiment": -0.125
+    }
+  ]
+}

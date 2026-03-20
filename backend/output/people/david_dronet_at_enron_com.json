@@ -1,0 +1,78 @@
+{
+  "id": "david.dronet@enron.com",
+  "name": "David Dronet",
+  "email": "david.dronet@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0050256137775010045,
+    "pagerank": 0.0002584866881669565
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1367
+  },
+  "dead_man_switch": {
+    "id": "david.dronet@enron.com",
+    "name": "David Dronet",
+    "dms_score": -0.2936,
+    "betweenness": 0.0,
+    "eigenvector": 0.005026,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "david.dronet@enron.com",
+    "name": "David Dronet",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "vladi.pimenov@enron.com",
+      "name": "Vladi Pimenov",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2055,
+      "sentiment": 0.0802
+    },
+    {
+      "id": "tori.kuykendall@enron.com",
+      "name": "Tori Kuykendall",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1851,
+      "sentiment": 0.1761
+    },
+    {
+      "id": "matt.smith@enron.com",
+      "name": "Matt Smith",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1808,
+      "sentiment": 0.1861
+    },
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1776,
+      "sentiment": 0.1257
+    },
+    {
+      "id": "s..shively@enron.com",
+      "name": "S Shively",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1439,
+      "sentiment": 0.1245
+    }
+  ]
+}

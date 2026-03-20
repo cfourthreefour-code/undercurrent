@@ -1,0 +1,78 @@
+{
+  "id": "vance.meyer@enron.com",
+  "name": "Vance Meyer",
+  "email": "vance.meyer@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.014146979056492986,
+    "pagerank": 0.00022486480462184018
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1748
+  },
+  "dead_man_switch": {
+    "id": "vance.meyer@enron.com",
+    "name": "Vance Meyer",
+    "dms_score": -0.2845,
+    "betweenness": 0.0,
+    "eigenvector": 0.014147,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "vance.meyer@enron.com",
+    "name": "Vance Meyer",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "j..kean@enron.com",
+      "name": "J Kean",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1694,
+      "sentiment": 0.0819
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1668,
+      "sentiment": 0.1117
+    },
+    {
+      "id": "andy.zipper@enron.com",
+      "name": "Andy Zipper",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1581,
+      "sentiment": 0.1774
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1466,
+      "sentiment": 0.1497
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1371,
+      "sentiment": 0.0686
+    }
+  ]
+}

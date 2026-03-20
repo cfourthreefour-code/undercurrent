@@ -1,0 +1,46 @@
+{
+  "id": "paul.canha@enron.com",
+  "name": "Paul Canha",
+  "email": "paul.canha@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0036102344485535384,
+    "pagerank": 0.0002102736777502939
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0534
+  },
+  "dead_man_switch": {
+    "id": "paul.canha@enron.com",
+    "name": "Paul Canha",
+    "dms_score": -0.295,
+    "betweenness": 0.0,
+    "eigenvector": 0.00361,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "paul.canha@enron.com",
+    "name": "Paul Canha",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1096,
+      "sentiment": 0.0105
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "marcus.edmonds@enron.com",
+  "name": "Marcus Edmonds",
+  "email": "marcus.edmonds@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0057783140991168325,
+    "pagerank": 0.0002116760839289363
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1288
+  },
+  "dead_man_switch": {
+    "id": "marcus.edmonds@enron.com",
+    "name": "Marcus Edmonds",
+    "dms_score": -0.2928,
+    "betweenness": 0.0,
+    "eigenvector": 0.005778,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "marcus.edmonds@enron.com",
+    "name": "Marcus Edmonds",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1847,
+      "sentiment": 0.1441
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1265,
+      "sentiment": 0.0417
+    }
+  ]
+}

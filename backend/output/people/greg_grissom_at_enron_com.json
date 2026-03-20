@@ -1,0 +1,54 @@
+{
+  "id": "greg.grissom@enron.com",
+  "name": "Greg Grissom",
+  "email": "greg.grissom@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.004124326088874348,
+    "pagerank": 0.0002136144941159811
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.254
+  },
+  "dead_man_switch": {
+    "id": "greg.grissom@enron.com",
+    "name": "Greg Grissom",
+    "dms_score": -0.2945,
+    "betweenness": 0.0,
+    "eigenvector": 0.004124,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "greg.grissom@enron.com",
+    "name": "Greg Grissom",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "mike.mcconnell@enron.com",
+      "name": "Mike Mcconnell",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1684,
+      "sentiment": 0.2895
+    },
+    {
+      "id": "sherri.sera@enron.com",
+      "name": "Sherri Sera",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1372,
+      "sentiment": 0.1697
+    }
+  ]
+}

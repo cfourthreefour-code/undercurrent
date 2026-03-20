@@ -1,0 +1,342 @@
+{
+  "id": "barry.tycholiz@enron.com",
+  "name": "Barry Tycholiz",
+  "email": "barry.tycholiz@enron.com",
+  "community_id": 1,
+  "metrics": {
+    "in_degree_centrality": 0.003952569169960474,
+    "out_degree_centrality": 0.010540184453227932,
+    "degree_centrality": 0.014492753623188406,
+    "betweenness_centrality": 0.0020490623246570113,
+    "eigenvector_centrality": 0.0587287389087019,
+    "pagerank": 0.0003471136045957329
+  },
+  "sentiment": {
+    "avg_sent": 0.0979,
+    "avg_received": 0.0987
+  },
+  "dead_man_switch": {
+    "id": "barry.tycholiz@enron.com",
+    "name": "Barry Tycholiz",
+    "dms_score": -0.0917,
+    "betweenness": 0.001934,
+    "eigenvector": 0.058729,
+    "redundancy": 0.9939,
+    "impact_pct": 0.6
+  },
+  "waste": {
+    "id": "barry.tycholiz@enron.com",
+    "name": "Barry Tycholiz",
+    "waste_score": 16.1,
+    "overproduction": 0.24,
+    "broadcast_ratio": 0.007,
+    "reply_all_ratio": 0.011,
+    "orphan_ratio": 0.75
+  },
+  "connections": [
+    {
+      "id": "stephanie.miller@enron.com",
+      "name": "Stephanie Miller",
+      "direction": "outgoing",
+      "email_count": 48,
+      "weight": 0.2018,
+      "sentiment": 0.1246
+    },
+    {
+      "id": "laynie.east@enron.com",
+      "name": "Laynie East",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1963,
+      "sentiment": 0.2336
+    },
+    {
+      "id": "f..calger@enron.com",
+      "name": "F Calger",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1956,
+      "sentiment": 0.1959
+    },
+    {
+      "id": "mark.whitt@enron.com",
+      "name": "Mark Whitt",
+      "direction": "outgoing",
+      "email_count": 53,
+      "weight": 0.1956,
+      "sentiment": 0.0752
+    },
+    {
+      "id": "frank.vickers@enron.com",
+      "name": "Frank Vickers",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.1926,
+      "sentiment": 0.1083
+    },
+    {
+      "id": "jessica.presas@enron.com",
+      "name": "Jessica Presas",
+      "direction": "outgoing",
+      "email_count": 46,
+      "weight": 0.1903,
+      "sentiment": 0.0916
+    },
+    {
+      "id": "m..tholt@enron.com",
+      "name": "M Tholt",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1885,
+      "sentiment": 0.2184
+    },
+    {
+      "id": "david.oxley@enron.com",
+      "name": "David Oxley",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1885,
+      "sentiment": 0.1422
+    },
+    {
+      "id": "tyrell.harrison@enron.com",
+      "name": "Tyrell Harrison",
+      "direction": "outgoing",
+      "email_count": 12,
+      "weight": 0.1869,
+      "sentiment": 0.1504
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "outgoing",
+      "email_count": 12,
+      "weight": 0.1863,
+      "sentiment": 0.1489
+    },
+    {
+      "id": "jeanie.slone@enron.com",
+      "name": "Jeanie Slone",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1839,
+      "sentiment": 0.1386
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "outgoing",
+      "email_count": 12,
+      "weight": 0.1832,
+      "sentiment": 0.1465
+    },
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "direction": "outgoing",
+      "email_count": 13,
+      "weight": 0.1824,
+      "sentiment": 0.0863
+    },
+    {
+      "id": ".ward@enron.com",
+      "name": "Ward",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1804,
+      "sentiment": 0.1209
+    },
+    {
+      "id": "s..bradford@enron.com",
+      "name": "S Bradford",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1789,
+      "sentiment": 0.1053
+    },
+    {
+      "id": "eric.le@enron.com",
+      "name": "Eric Le",
+      "direction": "outgoing",
+      "email_count": 12,
+      "weight": 0.1784,
+      "sentiment": 0.1015
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.1748,
+      "sentiment": 0.1347
+    },
+    {
+      "id": "dave.fuller@enron.com",
+      "name": "Dave Fuller",
+      "direction": "outgoing",
+      "email_count": 22,
+      "weight": 0.1732,
+      "sentiment": 0.0649
+    },
+    {
+      "id": "'fildes@enron.com",
+      "name": "'fildes",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1712,
+      "sentiment": 0.087
+    },
+    {
+      "id": "leslie.lawner@enron.com",
+      "name": "Leslie Lawner",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1695,
+      "sentiment": 0.0741
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 150,
+      "weight": 0.2216,
+      "sentiment": 0.0704
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 46,
+      "weight": 0.2136,
+      "sentiment": 0.2217
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 27,
+      "weight": 0.2121,
+      "sentiment": 0.1084
+    },
+    {
+      "id": ".ward@enron.com",
+      "name": "Ward",
+      "direction": "incoming",
+      "email_count": 53,
+      "weight": 0.2042,
+      "sentiment": 0.1145
+    },
+    {
+      "id": "mark.whitt@enron.com",
+      "name": "Mark Whitt",
+      "direction": "incoming",
+      "email_count": 63,
+      "weight": 0.1991,
+      "sentiment": 0.0856
+    },
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "direction": "incoming",
+      "email_count": 38,
+      "weight": 0.1978,
+      "sentiment": 0.0949
+    },
+    {
+      "id": "t..lucci@enron.com",
+      "name": "T Lucci",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1898,
+      "sentiment": 0.167
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1798,
+      "sentiment": 0.1562
+    },
+    {
+      "id": "m..tholt@enron.com",
+      "name": "M Tholt",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1727,
+      "sentiment": 0.076
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 24,
+      "weight": 0.1602,
+      "sentiment": 0.2108
+    },
+    {
+      "id": "s..ward@enron.com",
+      "name": "S Ward",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1511,
+      "sentiment": 0.1547
+    },
+    {
+      "id": "lavorato@enron.com",
+      "name": "Lavorato",
+      "direction": "incoming",
+      "email_count": 19,
+      "weight": 0.1392,
+      "sentiment": 0.0623
+    },
+    {
+      "id": "kim.ward@enron.com",
+      "name": "Kim Ward",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1379,
+      "sentiment": 0.0915
+    },
+    {
+      "id": "john.lavorato@enron.com",
+      "name": "John Lavorato",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1374,
+      "sentiment": -0.0936
+    },
+    {
+      "id": "kay.chapman@enron.com",
+      "name": "Kay Chapman",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.13,
+      "sentiment": 0.1017
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.1293,
+      "sentiment": 0.0502
+    },
+    {
+      "id": "chris.dorland@enron.com",
+      "name": "Chris Dorland",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1285,
+      "sentiment": -0.109
+    },
+    {
+      "id": "phillip.allen@enron.com",
+      "name": "Phillip Allen",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1144,
+      "sentiment": -0.0076
+    }
+  ]
+}

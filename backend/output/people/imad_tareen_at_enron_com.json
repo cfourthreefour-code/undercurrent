@@ -1,0 +1,46 @@
+{
+  "id": "imad.tareen@enron.com",
+  "name": "Imad Tareen",
+  "email": "imad.tareen@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00028718218015148285,
+    "pagerank": 0.0002131334815457358
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0
+  },
+  "dead_man_switch": {
+    "id": "imad.tareen@enron.com",
+    "name": "Imad Tareen",
+    "dms_score": -0.2983,
+    "betweenness": 0.0,
+    "eigenvector": 0.000287,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "imad.tareen@enron.com",
+    "name": "Imad Tareen",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "matt.smith@enron.com",
+      "name": "Matt Smith",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1066,
+      "sentiment": 0.0
+    }
+  ]
+}

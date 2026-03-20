@@ -1,0 +1,94 @@
+{
+  "id": "andrew.fastow@enron.com",
+  "name": "Andrew Fastow",
+  "email": "andrew.fastow@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0015371102327624067,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.014805657713477456,
+    "pagerank": 0.0002203685224286727
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.069
+  },
+  "dead_man_switch": {
+    "id": "andrew.fastow@enron.com",
+    "name": "Andrew Fastow",
+    "dms_score": -0.2838,
+    "betweenness": 0.0,
+    "eigenvector": 0.014806,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "andrew.fastow@enron.com",
+    "name": "Andrew Fastow",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1753,
+      "sentiment": 0.3084
+    },
+    {
+      "id": "mike.mcconnell@enron.com",
+      "name": "Mike Mcconnell",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1456,
+      "sentiment": 0.1431
+    },
+    {
+      "id": "maureen.mcvicker@enron.com",
+      "name": "Maureen Mcvicker",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.1294,
+      "sentiment": 0.0231
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1244,
+      "sentiment": 0.0873
+    },
+    {
+      "id": "sherri.sera@enron.com",
+      "name": "Sherri Sera",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1109,
+      "sentiment": -0.0167
+    },
+    {
+      "id": "liz.taylor@enron.com",
+      "name": "Liz Taylor",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.108,
+      "sentiment": 0.0
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1049,
+      "sentiment": -0.0953
+    }
+  ]
+}

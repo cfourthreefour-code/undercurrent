@@ -1,0 +1,142 @@
+{
+  "id": "mark.mcconnell@enron.com",
+  "name": "Mark Mcconnell",
+  "email": "mark.mcconnell@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.0013175230566534915,
+    "degree_centrality": 0.002854633289415898,
+    "betweenness_centrality": 8.608897635721804e-05,
+    "eigenvector_centrality": 0.0074944469016486725,
+    "pagerank": 0.00024288377729017341
+  },
+  "sentiment": {
+    "avg_sent": 0.1134,
+    "avg_received": 0.1147
+  },
+  "dead_man_switch": {
+    "id": "mark.mcconnell@enron.com",
+    "name": "Mark Mcconnell",
+    "dms_score": -0.2877,
+    "betweenness": 4.5e-05,
+    "eigenvector": 0.007494,
+    "redundancy": 0.9952,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "mark.mcconnell@enron.com",
+    "name": "Mark Mcconnell",
+    "waste_score": 18.8,
+    "overproduction": 0.22,
+    "broadcast_ratio": 0.03,
+    "reply_all_ratio": 0.03,
+    "orphan_ratio": 0.833
+  },
+  "connections": [
+    {
+      "id": "'mcconnell@enron.com",
+      "name": "'mcconnell",
+      "direction": "outgoing",
+      "email_count": 11,
+      "weight": 0.2004,
+      "sentiment": 0.203
+    },
+    {
+      "id": "zachary.mccarroll@enron.com",
+      "name": "Zachary Mccarroll",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.1875,
+      "sentiment": 0.1425
+    },
+    {
+      "id": "paul.y'barbo@enron.com",
+      "name": "Paul Y'barbo",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1715,
+      "sentiment": 0.121
+    },
+    {
+      "id": "kimberly.watson@enron.com",
+      "name": "Kimberly Watson",
+      "direction": "outgoing",
+      "email_count": 15,
+      "weight": 0.1682,
+      "sentiment": 0.0518
+    },
+    {
+      "id": "steven.harris@enron.com",
+      "name": "Steven Harris",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1635,
+      "sentiment": 0.0871
+    },
+    {
+      "id": "audrey.robertson@enron.com",
+      "name": "Audrey Robertson",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1624,
+      "sentiment": 0.0369
+    },
+    {
+      "id": "kimberly.watson@enron.com",
+      "name": "Kimberly Watson",
+      "direction": "incoming",
+      "email_count": 116,
+      "weight": 0.2725,
+      "sentiment": 0.1357
+    },
+    {
+      "id": "lindy.donoho@enron.com",
+      "name": "Lindy Donoho",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.237,
+      "sentiment": 0.1983
+    },
+    {
+      "id": "darrell.schoolcraft@enron.com",
+      "name": "Darrell Schoolcraft",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.2299,
+      "sentiment": 0.1126
+    },
+    {
+      "id": "michelle.lokay@enron.com",
+      "name": "Michelle Lokay",
+      "direction": "incoming",
+      "email_count": 23,
+      "weight": 0.2253,
+      "sentiment": 0.0533
+    },
+    {
+      "id": "kevin.hyatt@enron.com",
+      "name": "Kevin Hyatt",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.2229,
+      "sentiment": 0.1081
+    },
+    {
+      "id": "bill.rapp@enron.com",
+      "name": "Bill Rapp",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1919,
+      "sentiment": 0.14
+    },
+    {
+      "id": "mike.mcconnell@enron.com",
+      "name": "Mike Mcconnell",
+      "direction": "incoming",
+      "email_count": 28,
+      "weight": 0.1313,
+      "sentiment": 0.0566
+    }
+  ]
+}

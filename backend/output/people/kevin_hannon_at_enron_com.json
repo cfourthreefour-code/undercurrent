@@ -1,0 +1,126 @@
+{
+  "id": "kevin.hannon@enron.com",
+  "name": "Kevin Hannon",
+  "email": "kevin.hannon@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.002415458937198068,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.002415458937198068,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.02738737062383719,
+    "pagerank": 0.00024503591519484276
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1114
+  },
+  "dead_man_switch": {
+    "id": "kevin.hannon@enron.com",
+    "name": "Kevin Hannon",
+    "dms_score": -0.2713,
+    "betweenness": 0.0,
+    "eigenvector": 0.027387,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "kevin.hannon@enron.com",
+    "name": "Kevin Hannon",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "jeff.skilling@enron.com",
+      "name": "Jeff Skilling",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1596,
+      "sentiment": 0.1411
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1554,
+      "sentiment": 0.262
+    },
+    {
+      "id": "mike.mcconnell@enron.com",
+      "name": "Mike Mcconnell",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1546,
+      "sentiment": 0.1844
+    },
+    {
+      "id": "liz.taylor@enron.com",
+      "name": "Liz Taylor",
+      "direction": "incoming",
+      "email_count": 26,
+      "weight": 0.1511,
+      "sentiment": 0.1554
+    },
+    {
+      "id": "mark.haedicke@enron.com",
+      "name": "Mark Haedicke",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1478,
+      "sentiment": 0.2286
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "name": "Elizabeth Sager",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.146,
+      "sentiment": 0.2185
+    },
+    {
+      "id": "sherri.sera@enron.com",
+      "name": "Sherri Sera",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1379,
+      "sentiment": 0.0864
+    },
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1266,
+      "sentiment": 0.0865
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1239,
+      "sentiment": -0.0314
+    },
+    {
+      "id": "maureen.mcvicker@enron.com",
+      "name": "Maureen Mcvicker",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1238,
+      "sentiment": 0.0264
+    },
+    {
+      "id": "rosalee.fleming@enron.com",
+      "name": "Rosalee Fleming",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1144,
+      "sentiment": 0.0269
+    }
+  ]
+}

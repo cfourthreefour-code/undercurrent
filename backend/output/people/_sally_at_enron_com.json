@@ -1,0 +1,46 @@
+{
+  "id": ".sally@enron.com",
+  "name": "Sally",
+  "email": ".sally@enron.com",
+  "community_id": 1,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0011897826859252909,
+    "pagerank": 0.00021289752207601152
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0877
+  },
+  "dead_man_switch": {
+    "id": ".sally@enron.com",
+    "name": "Sally",
+    "dms_score": -0.2974,
+    "betweenness": 0.0,
+    "eigenvector": 0.00119,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": ".sally@enron.com",
+    "name": "Sally",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": ".ward@enron.com",
+      "name": "Ward",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1802,
+      "sentiment": 0.0877
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "melinda.pharms@enron.com",
+  "name": "Melinda Pharms",
+  "email": "melinda.pharms@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.009473724868690721,
+    "pagerank": 0.00023044658698250883
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0843
+  },
+  "dead_man_switch": {
+    "id": "melinda.pharms@enron.com",
+    "name": "Melinda Pharms",
+    "dms_score": -0.2892,
+    "betweenness": 0.0,
+    "eigenvector": 0.009474,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "melinda.pharms@enron.com",
+    "name": "Melinda Pharms",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "m..tholt@enron.com",
+      "name": "M Tholt",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1972,
+      "sentiment": 0.2162
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.172,
+      "sentiment": 0.1549
+    },
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1493,
+      "sentiment": -0.02
+    },
+    {
+      "id": "patrice.mims@enron.com",
+      "name": "Patrice Mims",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1248,
+      "sentiment": 0.1
+    }
+  ]
+}

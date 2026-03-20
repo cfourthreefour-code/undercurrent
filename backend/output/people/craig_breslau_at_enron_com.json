@@ -1,0 +1,118 @@
+{
+  "id": "craig.breslau@enron.com",
+  "name": "Craig Breslau",
+  "email": "craig.breslau@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.02929020292739613,
+    "pagerank": 0.00025231560859127766
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0755
+  },
+  "dead_man_switch": {
+    "id": "craig.breslau@enron.com",
+    "name": "Craig Breslau",
+    "dms_score": -0.2694,
+    "betweenness": 0.0,
+    "eigenvector": 0.02929,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "craig.breslau@enron.com",
+    "name": "Craig Breslau",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "louise.kitchen@enron.com",
+      "name": "Louise Kitchen",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1994,
+      "sentiment": 0.1351
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1795,
+      "sentiment": 0.0779
+    },
+    {
+      "id": "susan.bailey@enron.com",
+      "name": "Susan Bailey",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1688,
+      "sentiment": 0.0538
+    },
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 12,
+      "weight": 0.1397,
+      "sentiment": -0.0158
+    },
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1387,
+      "sentiment": 0.1639
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.1368,
+      "sentiment": 0.1246
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1281,
+      "sentiment": 0.0375
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1257,
+      "sentiment": 0.0985
+    },
+    {
+      "id": "mike.grigsby@enron.com",
+      "name": "Mike Grigsby",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1242,
+      "sentiment": 0.0222
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1177,
+      "sentiment": 0.0429
+    }
+  ]
+}

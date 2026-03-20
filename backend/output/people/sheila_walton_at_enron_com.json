@@ -1,0 +1,86 @@
+{
+  "id": "sheila.walton@enron.com",
+  "name": "Sheila Walton",
+  "email": "sheila.walton@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.018857455033259467,
+    "pagerank": 0.00022006881685977827
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0574
+  },
+  "dead_man_switch": {
+    "id": "sheila.walton@enron.com",
+    "name": "Sheila Walton",
+    "dms_score": -0.2798,
+    "betweenness": 0.0,
+    "eigenvector": 0.018857,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "sheila.walton@enron.com",
+    "name": "Sheila Walton",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "rick.buy@enron.com",
+      "name": "Rick Buy",
+      "direction": "incoming",
+      "email_count": 21,
+      "weight": 0.1801,
+      "sentiment": 0.1155
+    },
+    {
+      "id": "michelle.cash@enron.com",
+      "name": "Michelle Cash",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.1671,
+      "sentiment": 0.0598
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.143,
+      "sentiment": 0.1728
+    },
+    {
+      "id": "mark.haedicke@enron.com",
+      "name": "Mark Haedicke",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1187,
+      "sentiment": -0.0204
+    },
+    {
+      "id": "vince.kaminski@enron.com",
+      "name": "Vince Kaminski",
+      "direction": "incoming",
+      "email_count": 20,
+      "weight": 0.1157,
+      "sentiment": -0.0174
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.0718,
+      "sentiment": -0.1667
+    }
+  ]
+}

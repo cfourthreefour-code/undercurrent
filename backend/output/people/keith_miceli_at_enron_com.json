@@ -1,0 +1,46 @@
+{
+  "id": "keith.miceli@enron.com",
+  "name": "Keith Miceli",
+  "email": "keith.miceli@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0023864227103756823,
+    "pagerank": 0.00021103634702087398
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0931
+  },
+  "dead_man_switch": {
+    "id": "keith.miceli@enron.com",
+    "name": "Keith Miceli",
+    "dms_score": -0.2962,
+    "betweenness": 0.0,
+    "eigenvector": 0.002386,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "keith.miceli@enron.com",
+    "name": "Keith Miceli",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1273,
+      "sentiment": 0.1022
+    }
+  ]
+}

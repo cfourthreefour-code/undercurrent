@@ -1,0 +1,70 @@
+{
+  "id": "michael.walters@enron.com",
+  "name": "Michael Walters",
+  "email": "michael.walters@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.010248570637232305,
+    "pagerank": 0.00021640182126850916
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0628
+  },
+  "dead_man_switch": {
+    "id": "michael.walters@enron.com",
+    "name": "Michael Walters",
+    "dms_score": -0.2884,
+    "betweenness": 0.0,
+    "eigenvector": 0.010249,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "michael.walters@enron.com",
+    "name": "Michael Walters",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "eric.bass@enron.com",
+      "name": "Eric Bass",
+      "direction": "incoming",
+      "email_count": 192,
+      "weight": 0.1868,
+      "sentiment": 0.0759
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1398,
+      "sentiment": 0.1686
+    },
+    {
+      "id": "phillip.love@enron.com",
+      "name": "Phillip Love",
+      "direction": "incoming",
+      "email_count": 50,
+      "weight": 0.1272,
+      "sentiment": 0.0005
+    },
+    {
+      "id": "matthew.lenhart@enron.com",
+      "name": "Matthew Lenhart",
+      "direction": "incoming",
+      "email_count": 24,
+      "weight": 0.125,
+      "sentiment": 0.0486
+    }
+  ]
+}

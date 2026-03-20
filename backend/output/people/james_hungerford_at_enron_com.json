@@ -1,0 +1,54 @@
+{
+  "id": "james.hungerford@enron.com",
+  "name": "James Hungerford",
+  "email": "james.hungerford@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.00416808658908643,
+    "pagerank": 0.00021557998035421058
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1806
+  },
+  "dead_man_switch": {
+    "id": "james.hungerford@enron.com",
+    "name": "James Hungerford",
+    "dms_score": -0.2945,
+    "betweenness": 0.0,
+    "eigenvector": 0.004168,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "james.hungerford@enron.com",
+    "name": "James Hungerford",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 26,
+      "weight": 0.2208,
+      "sentiment": 0.1907
+    },
+    {
+      "id": "kam.keiser@enron.com",
+      "name": "Kam Keiser",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.2174,
+      "sentiment": 0.1774
+    }
+  ]
+}

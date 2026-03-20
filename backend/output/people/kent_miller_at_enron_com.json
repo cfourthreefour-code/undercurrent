@@ -1,0 +1,78 @@
+{
+  "id": "kent.miller@enron.com",
+  "name": "Kent Miller",
+  "email": "kent.miller@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0010979358805445762,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0010979358805445762,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.004054034022163251,
+    "pagerank": 0.00022561596475810484
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0771
+  },
+  "dead_man_switch": {
+    "id": "kent.miller@enron.com",
+    "name": "Kent Miller",
+    "dms_score": -0.2946,
+    "betweenness": 0.0,
+    "eigenvector": 0.004054,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "kent.miller@enron.com",
+    "name": "Kent Miller",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1963,
+      "sentiment": 0.1132
+    },
+    {
+      "id": "rod.hayslett@enron.com",
+      "name": "Rod Hayslett",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1848,
+      "sentiment": 0.1829
+    },
+    {
+      "id": "danny.mccarty@enron.com",
+      "name": "Danny Mccarty",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1599,
+      "sentiment": -0.0525
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 83,
+      "weight": 0.1527,
+      "sentiment": 0.0754
+    },
+    {
+      "id": "kimberly.watson@enron.com",
+      "name": "Kimberly Watson",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1499,
+      "sentiment": 0.0517
+    }
+  ]
+}

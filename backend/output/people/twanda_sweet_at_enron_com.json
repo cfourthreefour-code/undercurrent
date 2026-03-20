@@ -1,0 +1,246 @@
+{
+  "id": "twanda.sweet@enron.com",
+  "name": "Twanda Sweet",
+  "email": "twanda.sweet@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.011857707509881424,
+    "degree_centrality": 0.013175230566534916,
+    "betweenness_centrality": 0.00018245075493521335,
+    "eigenvector_centrality": 0.06513489192092971,
+    "pagerank": 0.00022438330882409115
+  },
+  "sentiment": {
+    "avg_sent": 0.051,
+    "avg_received": 0.0716
+  },
+  "dead_man_switch": {
+    "id": "twanda.sweet@enron.com",
+    "name": "Twanda Sweet",
+    "dms_score": -0.2235,
+    "betweenness": 0.000131,
+    "eigenvector": 0.065135,
+    "redundancy": 0.9952,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "twanda.sweet@enron.com",
+    "name": "Twanda Sweet",
+    "waste_score": 35.5,
+    "overproduction": 2.86,
+    "broadcast_ratio": 0.268,
+    "reply_all_ratio": 0.0,
+    "orphan_ratio": 0.944
+  },
+  "connections": [
+    {
+      "id": "mark.haedicke@enron.com",
+      "name": "Mark Haedicke",
+      "direction": "outgoing",
+      "email_count": 48,
+      "weight": 0.1368,
+      "sentiment": 0.0145
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1351,
+      "sentiment": 0.0715
+    },
+    {
+      "id": "david.fairley@enron.com",
+      "name": "David Fairley",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.135,
+      "sentiment": 0.13
+    },
+    {
+      "id": "eric.boyt@enron.com",
+      "name": "Eric Boyt",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.135,
+      "sentiment": 0.13
+    },
+    {
+      "id": "julia.murray@enron.com",
+      "name": "Julia Murray",
+      "direction": "outgoing",
+      "email_count": 41,
+      "weight": 0.1347,
+      "sentiment": 0.0149
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "outgoing",
+      "email_count": 25,
+      "weight": 0.1328,
+      "sentiment": 0.04
+    },
+    {
+      "id": "james.steffes@enron.com",
+      "name": "James Steffes",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.1314,
+      "sentiment": 0.0496
+    },
+    {
+      "id": "sandra.mccubbin@enron.com",
+      "name": "Sandra Mccubbin",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1312,
+      "sentiment": 0.0535
+    },
+    {
+      "id": "mark.frevert@enron.com",
+      "name": "Mark Frevert",
+      "direction": "outgoing",
+      "email_count": 16,
+      "weight": 0.1302,
+      "sentiment": 0.0312
+    },
+    {
+      "id": "stephanie.harris@enron.com",
+      "name": "Stephanie Harris",
+      "direction": "outgoing",
+      "email_count": 24,
+      "weight": 0.1301,
+      "sentiment": 0.0181
+    },
+    {
+      "id": "richard.shapiro@enron.com",
+      "name": "Richard Shapiro",
+      "direction": "outgoing",
+      "email_count": 18,
+      "weight": 0.1292,
+      "sentiment": 0.0323
+    },
+    {
+      "id": "steven.kean@enron.com",
+      "name": "Steven Kean",
+      "direction": "outgoing",
+      "email_count": 17,
+      "weight": 0.1292,
+      "sentiment": 0.0342
+    },
+    {
+      "id": "david.delainey@enron.com",
+      "name": "David Delainey",
+      "direction": "outgoing",
+      "email_count": 17,
+      "weight": 0.1278,
+      "sentiment": 0.0275
+    },
+    {
+      "id": "vicki.sharp@enron.com",
+      "name": "Vicki Sharp",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.1277,
+      "sentiment": 0.0424
+    },
+    {
+      "id": "kriste.sullivan@enron.com",
+      "name": "Kriste Sullivan",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1272,
+      "sentiment": 0.1031
+    },
+    {
+      "id": "sharon.butcher@enron.com",
+      "name": "Sharon Butcher",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.1272,
+      "sentiment": 0.1031
+    },
+    {
+      "id": "jeffrey.hodge@enron.com",
+      "name": "Jeffrey Hodge",
+      "direction": "outgoing",
+      "email_count": 16,
+      "weight": 0.1265,
+      "sentiment": 0.0705
+    },
+    {
+      "id": "tammy.shepperd@enron.com",
+      "name": "Tammy Shepperd",
+      "direction": "outgoing",
+      "email_count": 8,
+      "weight": 0.1254,
+      "sentiment": 0.0625
+    },
+    {
+      "id": "robert.williams@enron.com",
+      "name": "Robert Williams",
+      "direction": "outgoing",
+      "email_count": 6,
+      "weight": 0.1251,
+      "sentiment": 0.0279
+    },
+    {
+      "id": "maureen.mcvicker@enron.com",
+      "name": "Maureen Mcvicker",
+      "direction": "outgoing",
+      "email_count": 24,
+      "weight": 0.1238,
+      "sentiment": 0.0507
+    },
+    {
+      "id": "michelle.cash@enron.com",
+      "name": "Michelle Cash",
+      "direction": "incoming",
+      "email_count": 206,
+      "weight": 0.2469,
+      "sentiment": 0.0913
+    },
+    {
+      "id": "b..sanders@enron.com",
+      "name": "B Sanders",
+      "direction": "incoming",
+      "email_count": 38,
+      "weight": 0.1846,
+      "sentiment": 0.1044
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 126,
+      "weight": 0.1674,
+      "sentiment": 0.0307
+    },
+    {
+      "id": "janette.elbertson@enron.com",
+      "name": "Janette Elbertson",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.1494,
+      "sentiment": 0.108
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1486,
+      "sentiment": 0.142
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "name": "Mary Hain",
+      "direction": "incoming",
+      "email_count": 24,
+      "weight": 0.1258,
+      "sentiment": 0.0288
+    }
+  ]
+}

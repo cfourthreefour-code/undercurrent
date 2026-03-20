@@ -1,0 +1,54 @@
+{
+  "id": "dale.ratliff@enron.com",
+  "name": "Dale Ratliff",
+  "email": "dale.ratliff@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.001229669124226423,
+    "pagerank": 0.00021266810436700758
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0333
+  },
+  "dead_man_switch": {
+    "id": "dale.ratliff@enron.com",
+    "name": "Dale Ratliff",
+    "dms_score": -0.2974,
+    "betweenness": 0.0,
+    "eigenvector": 0.00123,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "dale.ratliff@enron.com",
+    "name": "Dale Ratliff",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "darrell.schoolcraft@enron.com",
+      "name": "Darrell Schoolcraft",
+      "direction": "incoming",
+      "email_count": 35,
+      "weight": 0.1979,
+      "sentiment": 0.0019
+    },
+    {
+      "id": "lynn.blair@enron.com",
+      "name": "Lynn Blair",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1802,
+      "sentiment": 0.143
+    }
+  ]
+}

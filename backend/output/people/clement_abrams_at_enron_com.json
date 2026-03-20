@@ -1,0 +1,94 @@
+{
+  "id": "clement.abrams@enron.com",
+  "name": "Clement Abrams",
+  "email": "clement.abrams@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.0015371102327624067,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0015371102327624067,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.02107960070351581,
+    "pagerank": 0.00021929622060048765
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0381
+  },
+  "dead_man_switch": {
+    "id": "clement.abrams@enron.com",
+    "name": "Clement Abrams",
+    "dms_score": -0.2776,
+    "betweenness": 0.0,
+    "eigenvector": 0.02108,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "clement.abrams@enron.com",
+    "name": "Clement Abrams",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "marie.heard@enron.com",
+      "name": "Marie Heard",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1916,
+      "sentiment": 0.1967
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "name": "Kay Mann",
+      "direction": "incoming",
+      "email_count": 5,
+      "weight": 0.1848,
+      "sentiment": 0.1109
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1708,
+      "sentiment": 0.0652
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 38,
+      "weight": 0.1675,
+      "sentiment": 0.0233
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 19,
+      "weight": 0.1465,
+      "sentiment": 0.0009
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 3,
+      "weight": 0.1344,
+      "sentiment": 0.1516
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "name": "Dan Hyvl",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.123,
+      "sentiment": 0.0379
+    }
+  ]
+}

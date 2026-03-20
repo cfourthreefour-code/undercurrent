@@ -1,0 +1,46 @@
+{
+  "id": "rusty.belflower@enron.com",
+  "name": "Rusty Belflower",
+  "email": "rusty.belflower@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.00021958717610891525,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0013436197574882103,
+    "pagerank": 0.00021073509087710565
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": -0.0629
+  },
+  "dead_man_switch": {
+    "id": "rusty.belflower@enron.com",
+    "name": "Rusty Belflower",
+    "dms_score": -0.2973,
+    "betweenness": 0.0,
+    "eigenvector": 0.001344,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "rusty.belflower@enron.com",
+    "name": "Rusty Belflower",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "gerald.nemec@enron.com",
+      "name": "Gerald Nemec",
+      "direction": "incoming",
+      "email_count": 15,
+      "weight": 0.1079,
+      "sentiment": -0.0878
+    }
+  ]
+}

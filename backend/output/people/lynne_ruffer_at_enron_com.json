@@ -1,0 +1,54 @@
+{
+  "id": "lynne.ruffer@enron.com",
+  "name": "Lynne Ruffer",
+  "email": "lynne.ruffer@enron.com",
+  "community_id": 3,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.009452759101685708,
+    "pagerank": 0.00021478069735029155
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.1494
+  },
+  "dead_man_switch": {
+    "id": "lynne.ruffer@enron.com",
+    "name": "Lynne Ruffer",
+    "dms_score": -0.2892,
+    "betweenness": 0.0,
+    "eigenvector": 0.009453,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "lynne.ruffer@enron.com",
+    "name": "Lynne Ruffer",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "d..steffes@enron.com",
+      "name": "D Steffes",
+      "direction": "incoming",
+      "email_count": 13,
+      "weight": 0.198,
+      "sentiment": 0.1492
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "name": "Jeff Dasovich",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1688,
+      "sentiment": 0.1608
+    }
+  ]
+}

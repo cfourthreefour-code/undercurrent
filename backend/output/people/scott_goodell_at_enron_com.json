@@ -1,0 +1,86 @@
+{
+  "id": "scott.goodell@enron.com",
+  "name": "Scott Goodell",
+  "email": "scott.goodell@enron.com",
+  "community_id": 8,
+  "metrics": {
+    "in_degree_centrality": 0.0013175230566534915,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0013175230566534915,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.017566832523826844,
+    "pagerank": 0.0002607022874851257
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0858
+  },
+  "dead_man_switch": {
+    "id": "scott.goodell@enron.com",
+    "name": "Scott Goodell",
+    "dms_score": -0.2811,
+    "betweenness": 0.0,
+    "eigenvector": 0.017567,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "scott.goodell@enron.com",
+    "name": "Scott Goodell",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "chris.germany@enron.com",
+      "name": "Chris Germany",
+      "direction": "incoming",
+      "email_count": 780,
+      "weight": 0.4821,
+      "sentiment": 0.0789
+    },
+    {
+      "id": "m..love@enron.com",
+      "name": "M Love",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.2401,
+      "sentiment": 0.4
+    },
+    {
+      "id": "jonathan.mckay@enron.com",
+      "name": "Jonathan Mckay",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.2037,
+      "sentiment": 0.0564
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "name": "Scott Neal",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.181,
+      "sentiment": 0.2955
+    },
+    {
+      "id": "john.hodge@enron.com",
+      "name": "John Hodge",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1773,
+      "sentiment": 0.1384
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "name": "Debra Perlingiere",
+      "direction": "incoming",
+      "email_count": 7,
+      "weight": 0.1601,
+      "sentiment": 0.1421
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "gregory.carraway@enron.com",
+  "name": "Gregory Carraway",
+  "email": "gregory.carraway@enron.com",
+  "community_id": 10,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.011406765399695151,
+    "pagerank": 0.00021642630956379162
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0632
+  },
+  "dead_man_switch": {
+    "id": "gregory.carraway@enron.com",
+    "name": "Gregory Carraway",
+    "dms_score": -0.2872,
+    "betweenness": 0.0,
+    "eigenvector": 0.011407,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "gregory.carraway@enron.com",
+    "name": "Gregory Carraway",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "sally.beck@enron.com",
+      "name": "Sally Beck",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1498,
+      "sentiment": 0.2213
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "name": "John Arnold",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1283,
+      "sentiment": 0.115
+    },
+    {
+      "id": "errol.mclaughlin@enron.com",
+      "name": "Errol Mclaughlin",
+      "direction": "incoming",
+      "email_count": 16,
+      "weight": 0.1268,
+      "sentiment": 0.0492
+    },
+    {
+      "id": "susan.scott@enron.com",
+      "name": "Susan Scott",
+      "direction": "incoming",
+      "email_count": 10,
+      "weight": 0.1138,
+      "sentiment": 0.0139
+    }
+  ]
+}

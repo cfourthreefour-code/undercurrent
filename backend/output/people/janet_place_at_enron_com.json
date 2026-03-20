@@ -1,0 +1,62 @@
+{
+  "id": "janet.place@enron.com",
+  "name": "Janet Place",
+  "email": "janet.place@enron.com",
+  "community_id": 11,
+  "metrics": {
+    "in_degree_centrality": 0.0006587615283267457,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0006587615283267457,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.003805808824314748,
+    "pagerank": 0.00021437544323139003
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0893
+  },
+  "dead_man_switch": {
+    "id": "janet.place@enron.com",
+    "name": "Janet Place",
+    "dms_score": -0.2948,
+    "betweenness": 0.0,
+    "eigenvector": 0.003806,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "janet.place@enron.com",
+    "name": "Janet Place",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "rod.hayslett@enron.com",
+      "name": "Rod Hayslett",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1831,
+      "sentiment": 0.1175
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "name": "Drew Fossum",
+      "direction": "incoming",
+      "email_count": 22,
+      "weight": 0.1401,
+      "sentiment": 0.0952
+    },
+    {
+      "id": "richard.sanders@enron.com",
+      "name": "Richard Sanders",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.112,
+      "sentiment": 0.0064
+    }
+  ]
+}

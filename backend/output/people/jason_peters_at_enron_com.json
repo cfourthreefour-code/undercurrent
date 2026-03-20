@@ -1,0 +1,70 @@
+{
+  "id": "jason.peters@enron.com",
+  "name": "Jason Peters",
+  "email": "jason.peters@enron.com",
+  "community_id": 9,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.011651655140016778,
+    "pagerank": 0.00021386659624625804
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0756
+  },
+  "dead_man_switch": {
+    "id": "jason.peters@enron.com",
+    "name": "Jason Peters",
+    "dms_score": -0.287,
+    "betweenness": 0.0,
+    "eigenvector": 0.011652,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "jason.peters@enron.com",
+    "name": "Jason Peters",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "tana.jones@enron.com",
+      "name": "Tana Jones",
+      "direction": "incoming",
+      "email_count": 8,
+      "weight": 0.133,
+      "sentiment": 0.1353
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "name": "Carol Clair",
+      "direction": "incoming",
+      "email_count": 18,
+      "weight": 0.1252,
+      "sentiment": 0.0818
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 26,
+      "weight": 0.1236,
+      "sentiment": 0.0595
+    },
+    {
+      "id": "mark.taylor@enron.com",
+      "name": "Mark Taylor",
+      "direction": "incoming",
+      "email_count": 9,
+      "weight": 0.1176,
+      "sentiment": 0.0564
+    }
+  ]
+}

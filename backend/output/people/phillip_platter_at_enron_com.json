@@ -1,0 +1,118 @@
+{
+  "id": "phillip.platter@enron.com",
+  "name": "Phillip Platter",
+  "email": "phillip.platter@enron.com",
+  "community_id": 7,
+  "metrics": {
+    "in_degree_centrality": 0.00021958717610891525,
+    "out_degree_centrality": 0.001976284584980237,
+    "degree_centrality": 0.002195871761089152,
+    "betweenness_centrality": 8.97061602377734e-06,
+    "eigenvector_centrality": 0.0016257891185386024,
+    "pagerank": 0.0002117790545956713
+  },
+  "sentiment": {
+    "avg_sent": 0.1119,
+    "avg_received": 0.0464
+  },
+  "dead_man_switch": {
+    "id": "phillip.platter@enron.com",
+    "name": "Phillip Platter",
+    "dms_score": -0.2962,
+    "betweenness": 9e-06,
+    "eigenvector": 0.001626,
+    "redundancy": 0.9952,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "phillip.platter@enron.com",
+    "name": "Phillip Platter",
+    "waste_score": 21.8,
+    "overproduction": 0.3,
+    "broadcast_ratio": 0.019,
+    "reply_all_ratio": 0.019,
+    "orphan_ratio": 1.0
+  },
+  "connections": [
+    {
+      "id": "'franksen@enron.com",
+      "name": "'franksen",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.2104,
+      "sentiment": 0.1827
+    },
+    {
+      "id": "jeffrey.miller@enron.com",
+      "name": "Jeffrey Miller",
+      "direction": "outgoing",
+      "email_count": 11,
+      "weight": 0.2063,
+      "sentiment": 0.1974
+    },
+    {
+      "id": "serena.bishop@enron.com",
+      "name": "Serena Bishop",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1955,
+      "sentiment": 0.0965
+    },
+    {
+      "id": "chris.mallory@enron.com",
+      "name": "Chris Mallory",
+      "direction": "outgoing",
+      "email_count": 11,
+      "weight": 0.1904,
+      "sentiment": 0.0618
+    },
+    {
+      "id": "jeff.richter@enron.com",
+      "name": "Jeff Richter",
+      "direction": "outgoing",
+      "email_count": 7,
+      "weight": 0.177,
+      "sentiment": 0.0009
+    },
+    {
+      "id": "mark.fischer@enron.com",
+      "name": "Mark Fischer",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1692,
+      "sentiment": -0.0336
+    },
+    {
+      "id": "david.poston@enron.com",
+      "name": "David Poston",
+      "direction": "outgoing",
+      "email_count": 5,
+      "weight": 0.1609,
+      "sentiment": 0.1311
+    },
+    {
+      "id": "neil.bresnan@enron.com",
+      "name": "Neil Bresnan",
+      "direction": "outgoing",
+      "email_count": 3,
+      "weight": 0.1465,
+      "sentiment": 0.0821
+    },
+    {
+      "id": "jeremy.morris@enron.com",
+      "name": "Jeremy Morris",
+      "direction": "outgoing",
+      "email_count": 4,
+      "weight": 0.114,
+      "sentiment": -0.0389
+    },
+    {
+      "id": "kate.symes@enron.com",
+      "name": "Kate Symes",
+      "direction": "incoming",
+      "email_count": 38,
+      "weight": 0.1325,
+      "sentiment": 0.038
+    }
+  ]
+}

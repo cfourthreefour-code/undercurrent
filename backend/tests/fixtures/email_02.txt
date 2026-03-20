@@ -1,0 +1,16 @@
+Message-ID: <test002@enron.com>
+Date: Tue, 15 May 2001 09:12:00 -0700 (PDT)
+From: jane.doe@enron.com
+To: john.smith@enron.com
+Subject: Re: Q3 Budget Review
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+John,
+
+The numbers look good overall. I have concerns about the 15% cost reduction — that seems aggressive given our current commitments. Can we discuss alternatives?
+
+I'd suggest we meet Thursday morning.
+
+Jane

@@ -1,0 +1,70 @@
+{
+  "id": "heather.dunton@enron.com",
+  "name": "Heather Dunton",
+  "email": "heather.dunton@enron.com",
+  "community_id": 7,
+  "metrics": {
+    "in_degree_centrality": 0.000878348704435661,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.000878348704435661,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0029390350232200496,
+    "pagerank": 0.00022922444622378374
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0943
+  },
+  "dead_man_switch": {
+    "id": "heather.dunton@enron.com",
+    "name": "Heather Dunton",
+    "dms_score": -0.2957,
+    "betweenness": 0.0,
+    "eigenvector": 0.002939,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "heather.dunton@enron.com",
+    "name": "Heather Dunton",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "w..white@enron.com",
+      "name": "W White",
+      "direction": "incoming",
+      "email_count": 21,
+      "weight": 0.2119,
+      "sentiment": 0.1051
+    },
+    {
+      "id": "bill.williams@enron.com",
+      "name": "Bill Williams",
+      "direction": "incoming",
+      "email_count": 11,
+      "weight": 0.201,
+      "sentiment": 0.1166
+    },
+    {
+      "id": "holden.salisbury@enron.com",
+      "name": "Holden Salisbury",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1576,
+      "sentiment": 0.0703
+    },
+    {
+      "id": "kate.symes@enron.com",
+      "name": "Kate Symes",
+      "direction": "incoming",
+      "email_count": 14,
+      "weight": 0.1395,
+      "sentiment": 0.0899
+    }
+  ]
+}

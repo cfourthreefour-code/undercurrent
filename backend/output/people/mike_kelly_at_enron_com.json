@@ -1,0 +1,54 @@
+{
+  "id": "mike.kelly@enron.com",
+  "name": "Mike Kelly",
+  "email": "mike.kelly@enron.com",
+  "community_id": 2,
+  "metrics": {
+    "in_degree_centrality": 0.0004391743522178305,
+    "out_degree_centrality": 0.0,
+    "degree_centrality": 0.0004391743522178305,
+    "betweenness_centrality": 0.0,
+    "eigenvector_centrality": 0.0033615410470337124,
+    "pagerank": 0.000215249069964526
+  },
+  "sentiment": {
+    "avg_sent": 0,
+    "avg_received": 0.0608
+  },
+  "dead_man_switch": {
+    "id": "mike.kelly@enron.com",
+    "name": "Mike Kelly",
+    "dms_score": -0.2953,
+    "betweenness": 0.0,
+    "eigenvector": 0.003362,
+    "redundancy": 0.9954,
+    "impact_pct": 0.5
+  },
+  "waste": {
+    "id": "mike.kelly@enron.com",
+    "name": "Mike Kelly",
+    "waste_score": 0,
+    "overproduction": 0,
+    "broadcast_ratio": 0,
+    "reply_all_ratio": 0,
+    "orphan_ratio": 0
+  },
+  "connections": [
+    {
+      "id": "matt.smith@enron.com",
+      "name": "Matt Smith",
+      "direction": "incoming",
+      "email_count": 4,
+      "weight": 0.1481,
+      "sentiment": 0.1531
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "name": "Sara Shackleton",
+      "direction": "incoming",
+      "email_count": 6,
+      "weight": 0.1181,
+      "sentiment": 0.0296
+    }
+  ]
+}
