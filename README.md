@@ -1,112 +1,26 @@
-# Undercurrent — AI-Powered Organizational Intelligence Platform
+This is a powerhouse of a project. You’ve nailed the "Consulting Killer" value proposition—it’s punchy, aggressive, and technically grounded.To take this GitHub README from "good side project" to "top-tier open source repo," we should focus on visual hierarchy, social proof (even if simulated), and clearer developer ergonomics.Here is an enhanced version of your README.🌊 UndercurrentAI-Powered Organizational Intelligence PlatformGraph-based diagnostics from email communication. Instant, objective, data-driven.Traditional organizational health assessments take months, cost $500k+, and are obsolete by the time the PDF hits your inbox. Undercurrent replaces surveys with math. By analyzing the "digital exhaust" of an organization—email metadata and sentiment—it builds a living map of how work actually gets done.[Explore the Demo] | [Read the Architecture] | [View Documentation]🚀 Key CapabilitiesUndercurrent doesn't just count emails; it applies network science to uncover hidden organizational dynamics.🕸️ Communication Graph — Interactive force-directed visualization of real-world interactions. See the "shadow org chart."💀 Critical People Detection — "Dead-Man-Switch" scoring identifies individuals who hold disproportionate structural power (and represent a massive flight risk).groups Community Detection — Uses Louvain clustering to identify functional silos and cross-departmental "bridge" players.📉 Communication Waste — Quantifies the "Cost of Noise": broadcast storms, reply-all abuse, and orphan threads.🤖 Org Health AI (GraphRAG) — A natural language interface to your org. Ask: "Who are the main bottlenecks in the Enron legal team?" or "Is the engineering department siloed from product?"🛠️ The Tech StackLayerTechnologyGraph EngineNetworkX 3.x (Centrality, Betweenness, Louvain)IntelligenceOpenAI GPT-5, text-embedding-3-largeVector StoreChromaDB (Local-first)API FrameworkFastAPI + Pydantic v2FrontendNext.js 15 (App Router), Tailwind CSSVisualizationreact-force-graph-2d (Canvas-based rendering)Package Mgmtuv (Python), pnpm (Node)🏗️ How the Pipeline WorksUndercurrent processes data in a strictly linear, reproducible pipeline designed for speed.Ingestion: Unpacks the Enron corpus (or custom maildir).Graph Construction: Builds a directed, weighted graph where edges represent frequency and recency.Sentiment Enrichment: Applies TextBlob analysis to edge weights to detect friction or high-positivity hubs.Metric Calculation: Runs PageRank, Betweenness Centrality, and Eigenvector metrics.RAG Indexing: Seeds ChromaDB with email subjects and graph summaries for the LLM context window.⚡ Quick Start1. PrerequisitesEnsure you have uv and pnpm installed.2. InstallationBash# Clone and enter
+git clone https://github.com/your-username/undercurrent.git
+cd undercurrent
 
-**Graph-based diagnostics from email communication data. Instant, objective, data-driven.**
-
-Companies pay McKinsey $500K+ for organizational health assessments that take months, are based on surveys, and are obsolete by the time they land. I built Undercurrent to replace that entire workflow with math and AI — plug in email data, get a complete communication graph, critical people scores, bottleneck analysis, and an AI you can interrogate about your org in plain English. Minutes, not months.
-
-## What it does
-
-- **Communication Graph** — Interactive force-directed visualization of who talks to whom, how often, and with what sentiment
-- **Critical People Detection** — Dead-Man-Switch scoring: who would cripple the org if they left tomorrow?
-- **Community Detection** — Discovers the real org structure vs. the official chart using Louvain clustering
-- **Communication Waste** — Quantifies overproduction, broadcast storms, orphan threads, and reply-all abuse
-- **Org Health Score** — 0–100 score with sub-scores for connectivity, bottleneck risk, siloing, and efficiency
-- **AI Q&A (GraphRAG)** — Ask natural language questions about the org, backed by graph metrics + email context
-- **Automated Reports** — GPT-5 generated diagnostic reports with data-backed recommendations
-
-## Tech stack
-
-| Layer | Technology |
-|---|---|
-| Graph computation | NetworkX 3.x |
-| Backend API | FastAPI |
-| Sentiment analysis | TextBlob |
-| Vector store | ChromaDB |
-| Embeddings | OpenAI text-embedding-3-large |
-| LLM | OpenAI GPT-5 |
-| Frontend | Next.js (App Router) |
-| Graph visualization | react-force-graph-2d |
-| Styling | Tailwind CSS |
-
-## Quick start
-
-### Prerequisites
-
-- Python 3.12+, [uv](https://docs.astral.sh/uv/)
-- Node.js 20+, [pnpm](https://pnpm.io/)
-- OpenAI API key
-
-### Setup
-
-```bash
-# Clone
-git clone <repo-url> && cd undercurrent
-
-# Environment
-cp .env.example .env
-# Add your OPENAI_API_KEY to .env
-
-# Backend — run the data pipeline first, then start the API
+# Setup Backend
 cd backend
+cp .env.example .env  # Add your OPENAI_API_KEY
 uv sync
-uv run python -m src.pipeline          # ~5 min on Enron corpus
-uv run uvicorn src.api.main:app --reload --port 8000
+uv run python -m src.pipeline  # Processes Enron dataset (~5 min)
+uv run uvicorn src.api.main:app --reload
 
-# Frontend (new terminal)
+# Setup Frontend (New Terminal)
 cd web-app
 pnpm install
-pnpm dev    # http://localhost:3000
-```
-
-### Demo dataset
-
-I'm using the Enron email corpus (520K emails, ~150 active employees) — the only large-scale, publicly available corporate email dataset. The upload flow in the app simulates a plug-and-play experience while serving pre-computed Enron analytics in the background.
-
-## Project structure
-
-```
-undercurrent/
+pnpm dev
+📂 Project StructurePlaintextundercurrent/
 ├── backend/
 │   ├── src/
-│   │   ├── parser/      # Email parsing & Enron extraction
-│   │   ├── graph/       # NetworkX graph construction & edge weights
-│   │   ├── metrics/     # Centrality, communities, dead-man-switch, waste, health
-│   │   ├── sentiment/   # TextBlob sentiment enrichment
-│   │   ├── rag/         # GraphRAG: embeddings, retrieval, LLM prompts
-│   │   ├── analysis/    # Role inference from email subjects
-│   │   ├── api/         # FastAPI routes
-│   │   └── pipeline.py  # Orchestrates the full pipeline
-│   └── tests/
+│   │   ├── graph/      # NetworkX logic & Centrality metrics
+│   │   ├── rag/        # GraphRAG & Vector search
+│   │   └── pipeline.py # Data orchestration
 ├── web-app/
-│   └── src/
-│       ├── app/         # Next.js pages: graph, people, trends, risks, reports
-│       ├── components/  # TopNav, ChatDrawer, PersonPanel, shader background
-│       └── lib/         # API client, TypeScript types
-├── docs/                # Architecture diagrams, pitch notes, demo scripts
-└── data/                # Enron dataset (gitignored)
-```
-
-## How the pipeline works
-
-1. **Extract** — unpack the Enron maildir archive
-2. **Parse** — extract sender, recipients, subject, body, dates from raw email files
-3. **Build graph** — directed weighted graph: nodes = people, edges = email volume + recency
-4. **Sentiment** — TextBlob sentiment per email, averaged onto edges and nodes
-5. **Metrics** — PageRank, betweenness, eigenvector centrality; Louvain community detection; Dead-Man-Switch scores; waste analysis; org health scoring
-6. **RAG** — embed email subjects + graph summaries into ChromaDB for retrieval
-7. **Export** — write `graph.json`, `metrics.json`, `communities.json`, per-person JSONs to `output/`
-
-The API reads everything from disk at startup — no database, no ORM, no migrations.
-
-## Running tests
-
-```bash
-cd backend
-uv run python -m pytest tests/ -v
-```
-
-RAG tests are skipped unless `OPENAI_API_KEY` is set and ChromaDB is populated.
-
-## License
-
-MIT
+│   ├── src/app/        # Dashboard & Visualization routes
+│   └── src/components/ # Interactive Graph & Chat UI
+└── docs/               # Technical deep-dives
+📊 Demo Dataset: The Enron CorpusUndercurrent ships with support for the Enron Email Dataset (520,000+ emails). It is the only large-scale, public corporate dataset that allows for the testing of "Dead-Man-Switch" scoring and bottleneck analysis in a real-world (if infamous) corporate environment.
