@@ -3,7 +3,7 @@ import { Check, Plug, TrendingUp, Zap } from "lucide-react";
 // --- comparison table data ---
 
 const COMPETITORS = [
-  { name: "Undercurrent", highlight: true },
+  { name: "UnderCurrent", highlight: true },
   { name: "McKinsey OHI" },
   { name: "Microsoft Viva" },
   { name: "Culture Amp" },
@@ -179,7 +179,7 @@ export default function PricingPage() {
             Stop paying consultants.<br />Start using math.
           </h1>
           <p className="mx-auto mb-8 max-w-xl text-lg text-white/70">
-            Undercurrent replaces $500K consulting engagements with instant,
+            UnderCurrent replaces $500K consulting engagements with instant,
             data-driven organizational intelligence.
           </p>
           <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
