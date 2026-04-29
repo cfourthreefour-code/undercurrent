@@ -24,45 +24,107 @@ async function apiFetch<T>(path: string): Promise<T> {
   return res.json();
 }
 
-export const getGraph = () => apiFetch<GraphData>("/api/graph");
+async function loadFixture<T>(path: string): Promise<T> {
+  const res = await fetch(path);
+  if (!res.ok) throw new Error(`Failed to load fixture ${path}: ${res.status}`);
+  return res.json();
+}
 
-export const getGraphNode = (id: string) =>
-  apiFetch<{ node: GraphNode; connections: GraphEdge[] }>(`/api/graph/node/${encodeURIComponent(id)}`);
+let _graphPromise: Promise<GraphData> | null = null;
+let _peopleDetailPromise: Promise<Record<string, PersonDetail>> | null = null;
+let _panelsPromise: Promise<Record<string, PersonPanel>> | null = null;
 
-export const getMetricsOverview = () => apiFetch<MetricsOverview>("/api/metrics/overview");
+export function getGraph(): Promise<GraphData> {
+  if (!_graphPromise) {
+    _graphPromise = loadFixture<GraphData>("/data/graph.json").catch((err) => {
+      _graphPromise = null;
+      throw err;
+    });
+  }
+  return _graphPromise;
+}
+
+export async function getGraphNode(
+  id: string,
+): Promise<{ node: GraphNode; connections: GraphEdge[] }> {
+  const graph = await getGraph();
+  const node = graph.nodes.find((n) => n.id === id);
+  if (!node) throw new Error(`Node not found: ${id}`);
+  const connections = graph.edges.filter((e) => e.source === id || e.target === id);
+  return { node, connections };
+}
+
+export const getMetricsOverview = () =>
+  loadFixture<MetricsOverview>("/data/metrics/overview.json");
 
 export const getCentrality = (type = "pagerank") =>
-  apiFetch<CentralityResponse>(`/api/metrics/centrality?type=${type}`);
+  loadFixture<CentralityResponse>(`/data/metrics/centrality-${type}.json`);
 
-export const getCommunities = () => apiFetch<CommunitiesResponse>("/api/metrics/communities");
+export const getCommunities = () =>
+  loadFixture<CommunitiesResponse>("/data/metrics/communities.json");
 
-export const getDeadManSwitch = () => apiFetch<{ rankings: DMSEntry[] }>("/api/metrics/dead-man-switch");
+export const getDeadManSwitch = () =>
+  loadFixture<{ rankings: DMSEntry[] }>("/data/metrics/dead-man-switch.json");
 
-export const getWaste = () => apiFetch<{ people: WasteEntry[] }>("/api/metrics/waste");
+export const getWaste = () =>
+  loadFixture<{ people: WasteEntry[] }>("/data/metrics/waste.json");
 
-export const getPeople = () => apiFetch<{ people: PersonSummary[] }>("/api/people");
+export const getPeople = () =>
+  loadFixture<{ people: PersonSummary[] }>("/data/people.json");
 
-export const getPerson = (id: string) =>
-  apiFetch<PersonDetail>(`/api/people/${encodeURIComponent(id)}`);
+function getPeopleDetailMap(): Promise<Record<string, PersonDetail>> {
+  if (!_peopleDetailPromise) {
+    _peopleDetailPromise = loadFixture<Record<string, PersonDetail>>(
+      "/data/people-detail.json",
+    ).catch((err) => {
+      _peopleDetailPromise = null;
+      throw err;
+    });
+  }
+  return _peopleDetailPromise;
+}
+
+export async function getPerson(id: string): Promise<PersonDetail> {
+  const map = await getPeopleDetailMap();
+  const detail = map[id];
+  if (!detail) throw new Error(`Person not found: ${id}`);
+  return detail;
+}
+
+function getPanelsMap(): Promise<Record<string, PersonPanel>> {
+  if (!_panelsPromise) {
+    _panelsPromise = loadFixture<Record<string, PersonPanel>>("/data/panels.json").catch((err) => {
+      _panelsPromise = null;
+      throw err;
+    });
+  }
+  return _panelsPromise;
+}
+
+export async function fetchPersonPanel(id: string): Promise<PersonPanel> {
+  const map = await getPanelsMap();
+  const panel = map[id];
+  if (!panel) throw new Error(`Panel not found: ${id}`);
+  return panel;
+}
+
+export const fetchTrends = () => loadFixture<TrendsData>("/data/trends.json");
+
+export const fetchRisks = () => loadFixture<RisksData>("/data/risks.json");
 
 export const getHealthReport = () =>
-  apiFetch<{ report: ReportSection[] }>("/api/reports/health");
+  loadFixture<{ report: ReportSection[] }>("/data/reports/health.json");
 
-export const fetchPersonPanel = (id: string) =>
-  apiFetch<PersonPanel>(`/api/people/${encodeURIComponent(id)}/panel`);
-
-export const fetchTrends = () => apiFetch<TrendsData>("/api/trends");
-
-export const fetchRisks = () => apiFetch<RisksData>("/api/risks");
-
-export const simulateDeparture = (id: string) =>
-  apiFetch<SimulationResult>(`/api/simulate/${encodeURIComponent(id)}`);
+export const simulateDeparture = (id: string) => {
+  console.warn("[api] simulateDeparture requires backend — feature unavailable in production deployment");
+  return apiFetch<SimulationResult>(`/api/simulate/${encodeURIComponent(id)}`);
+};
 
 export async function* streamChat(
   message: string,
   history: Array<{ role: string; content: string }> = []
 ): AsyncGenerator<string> {
-  const res = await fetch(`${BASE}/api/chat`, {
+  const res = await fetch(`/api/chat`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ message, history }),
